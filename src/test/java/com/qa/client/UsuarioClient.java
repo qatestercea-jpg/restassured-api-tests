@@ -4,6 +4,7 @@ import com.qa.constants.Endpoints;
 import com.qa.dto.Usuario;
 import com.qa.dto.UsuarioLoginRequest;
 import com.qa.dto.UsuarioLoginResponse;
+import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
@@ -14,7 +15,8 @@ public class UsuarioClient {
     // 🔥 método base (evita repetição)
     private RequestSpecification request() {
         return given()
-                .contentType("application/json");
+                .contentType(ContentType.JSON)
+                .accept(ContentType.JSON);
     }
 
     public Response criarUsuario(Usuario usuario) {
@@ -35,20 +37,8 @@ public class UsuarioClient {
                 .get(Endpoints.USUARIOS);
     }
 
-    public Response listarUsuariosComToken(String token) {
-        return request()
-                .header("Authorization", token)
-                .get(Endpoints.USUARIOS);
-    }
-
     public Response deletarUsuario(String id) {
         return request()
-                .delete(Endpoints.USUARIOS + "/{id}", id);
-    }
-
-    public Response deletarUsuarioComToken(String id, String token) {
-        return request()
-                .header("Authorization", token)
                 .delete(Endpoints.USUARIOS + "/{id}", id);
     }
 }

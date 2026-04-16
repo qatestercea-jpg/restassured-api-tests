@@ -13,14 +13,6 @@ public class UsuarioBuilder {
         return new UsuarioBuilder();
     }
 
-    public static UsuarioBuilder umUsuarioPadrao() {
-        return umUsuario()
-                .comNome("Usuário Padrão")
-                .comEmail("teste" + System.currentTimeMillis() + "@qa.com")
-                .comPassword("123456")
-                .admin();
-    }
-
     public UsuarioBuilder comNome(String nome) {
         usuario.setNome(nome);
         return this;
@@ -51,41 +43,42 @@ public class UsuarioBuilder {
     }
 
     public static UsuarioBuilder usuarioValido() {
-    return umUsuario()
-            .comNome("Usuário Válido")
-            .comEmail("teste" + System.currentTimeMillis() + "@qa.com")
-            .comPassword("123456")
-            .admin();
-}
+        return umUsuario()
+                .comNome("Usuário Válido")
+                .comEmail("teste" + System.currentTimeMillis() + "@qa.com")
+                .comPassword("123456")
+                .admin();
+    }
 
-public static UsuarioBuilder usuarioSemEmail() {
-    return umUsuario()
-            .comNome("Usuário Sem Email")
-            // NÃO chama .comEmail()
-            .comPassword("123456")
-            .admin();
-}
+    public static UsuarioBuilder usuarioSemEmail() {
+        return umUsuario()
+                .comNome("Usuário Sem Email")
+                // NÃO chama .comEmail()
+                .comPassword("123456")
+                .admin();
+    }
 
-public static UsuarioBuilder usuarioEmailDuplicado(String email) {
-    return umUsuario()
-            .comNome("Usuário Duplicado")
-            .comEmail(email)
-            .comPassword("123456")
-            .admin();
-}
+    public static UsuarioBuilder usuarioEmailDuplicado(String email) {
+        return umUsuario()
+                .comNome("Usuário Duplicado")
+                .comEmail(email)
+                .comPassword("123456")
+                .admin();
+    }
 
-public static UsuarioBuilder usuarioComEmailInvalido() {
-    return umUsuario()
-            .comNome("Usuário Email Inválido")
-            .comEmail("email-invalido")
-            .comPassword("123456")
-            .admin();
-}
+    public static UsuarioBuilder usuarioComEmailInvalido(String email) {
+        return umUsuario()
+                .comNome("Usuário Email Inválido")
+                .comEmail(email)
+                .comPassword("123456")
+                .admin();
+    }
 
-public static UsuarioBuilder usuarioSemSenha() {
-    return umUsuario()
-            .comNome("Usuário Sem Senha")
-            .comEmail("teste" + System.currentTimeMillis() + "@qa.com")
-            .admin();
-}
+    public static UsuarioBuilder usuarioPersonalizado(String nome, String email) {
+        return umUsuario()
+                .comNome(nome)
+                .comEmail(email)
+                .comPassword("123456")
+                .admin();
+    }
 }

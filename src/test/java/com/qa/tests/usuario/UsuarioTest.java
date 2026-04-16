@@ -1,11 +1,13 @@
 package com.qa.tests.usuario;
 
+import com.qa.assertions.ApiAssertions;
 import com.qa.base.BaseTest;
 import com.qa.builder.UsuarioBuilder;
 import com.qa.client.UsuarioClient;
 import com.qa.dto.Usuario;
 import com.qa.dto.UsuarioLoginRequest;
 import com.qa.dto.UsuarioResponse;
+import com.qa.factory.UsuarioFactory;
 import com.qa.service.UsuarioService;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
@@ -18,10 +20,21 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 public class UsuarioTest extends BaseTest {
 
-    private static final UsuarioClient USUARIO_CLIENT = new UsuarioClient();
+    private final UsuarioService usuarioService = new UsuarioService(new UsuarioClient());
 
     private Usuario criarUsuarioValido() {
-        return UsuarioBuilder.usuarioValido().build();
+        return UsuarioFactory.usuarioValido();
+    }
+
+    private Response criarUsuarioComSucesso(Usuario usuario) {
+        Response response = usuarioService.criarUsuario(usuario);
+        ApiAssertions.validarStatus201(response);
+        return response;
+    }
+
+    private String obterTokenPara(Usuario usuario) {
+        UsuarioLoginRequest loginRequest = new UsuarioLoginRequest(usuario.getEmail(), usuario.getPassword());
+        return usuarioService.obterToken(loginRequest);
     }
 
     private void validarRespostaCriacaoUsuario(UsuarioResponse responseDto) {
@@ -33,12 +46,11 @@ public class UsuarioTest extends BaseTest {
     @Test
     public void deveCriarUsuarioValido() {
 
-        Usuario usuario = UsuarioBuilder.usuarioValido().build();
+        Usuario usuario = criarUsuarioValido();
 
-        Response createResponse = UsuarioService.criarUsuario(usuario);
+        Response createResponse = criarUsuarioComSucesso(usuario);
 
         createResponse.then()
-                .statusCode(201)
                 .body("message", equalTo("Cadastro realizado com sucesso"));
 
         UsuarioResponse responseDto = createResponse.as(UsuarioResponse.class);
@@ -48,11 +60,10 @@ public class UsuarioTest extends BaseTest {
     @Test
     public void deveRetornarTokenAoFazerLoginValido() {
 
-        Usuario usuario = UsuarioBuilder.usuarioValido().build();
-        UsuarioService.criarUsuario(usuario).then().statusCode(201);
+        Usuario usuario = criarUsuarioValido();
+        criarUsuarioComSucesso(usuario);
 
-        UsuarioLoginRequest loginRequest = new UsuarioLoginRequest(usuario.getEmail(), usuario.getPassword());
-        String token = UsuarioService.loginRetornandoToken(loginRequest);
+        String token = obterTokenPara(usuario);
 
         assertNotNull(token);
         assertThat(token, not(isEmptyString()));
@@ -61,54 +72,41 @@ public class UsuarioTest extends BaseTest {
     @Test
     public void deveListarUsuarios() {
 
-        UsuarioService.listarUsuarios()
-                .then()
-                .statusCode(200)
-                .body("usuarios.size()", greaterThan(0));
+        Usuario usuario = criarUsuarioValido();
+        criarUsuarioComSucesso(usuario);
+
+        ApiAssertions.validarStatus200(usuarioService.listarUsuarios())
+                .body("usuarios.email", hasItem(usuario.getEmail()));
     }
 
     @Test
     public void naoDeveCriarUsuarioSemEmail() {
 
-        Usuario usuario = UsuarioBuilder.usuarioSemEmail().build();
+        Usuario usuario = UsuarioFactory.usuarioSemEmail();
 
-        UsuarioService.criarUsuario(usuario)
-                .then()
-                .statusCode(400)
-                .body("email", containsString("deve ser uma string"));
+        ApiAssertions.validarErroCampo(usuarioService.criarUsuario(usuario), "email", "deve ser uma string");
     }
 
     @ParameterizedTest
     @ValueSource(strings = {"", "usuarioSemArroba", "usuario@"})
     public void naoDeveCriarUsuarioComEmailInvalido(String email) {
 
-        Usuario usuario = UsuarioBuilder.umUsuario()
-                .comNome("Usuário Email Inválido")
-                .comEmail(email)
-                .comPassword("123456")
-                .admin()
-                .build();
+        Usuario usuario = UsuarioBuilder.usuarioComEmailInvalido(email).build();
 
-        Response response = USUARIO_CLIENT.criarUsuario(usuario);
-
-        response.then()
-                .statusCode(400)
-                .body("email", containsString("email"));
+        ApiAssertions.validarErroCampo(usuarioService.criarUsuario(usuario), "email", "email");
     }
 
     @Test
     public void naoDeveCriarUsuarioDuplicado() {
 
-        Usuario usuario = UsuarioBuilder.usuarioValido().build();
+        Usuario usuario = criarUsuarioValido();
 
         // cria primeiro
-        UsuarioService.criarUsuario(usuario)
-                .then()
-                .statusCode(201);
+        criarUsuarioComSucesso(usuario);
 
         // tenta criar duplicado
-        UsuarioService.criarUsuario(
-                UsuarioBuilder.usuarioEmailDuplicado(usuario.getEmail()).build()
+        usuarioService.criarUsuario(
+                UsuarioFactory.usuarioComEmailDuplicado(usuario.getEmail())
         )
         .then()
         .statusCode(400);
@@ -118,45 +116,34 @@ public class UsuarioTest extends BaseTest {
     public void deveFazerFluxoCompletoUsuario() {
 
         // 1. Criar usuário
-        Usuario usuario = UsuarioBuilder.usuarioValido().build();
+        Usuario usuario = criarUsuarioValido();
 
-        Response createResponse = UsuarioService.criarUsuario(usuario);
-
-        createResponse.then()
-                .statusCode(201);
+        Response createResponse = criarUsuarioComSucesso(usuario);
 
         String userId = createResponse.jsonPath().getString("_id");
 
         // 2. Buscar usuário
-        UsuarioService.listarUsuarios()
-                .then()
-                .statusCode(200)
+        ApiAssertions.validarStatus200(usuarioService.listarUsuarios())
                 .body("usuarios.email", hasItem(usuario.getEmail()));
 
         // 3. Deletar usuário
-        UsuarioService.deletarUsuario(userId)
+        usuarioService.deletarUsuario(userId)
                 .then()
                 .statusCode(200);
 
         // 4. Validar que foi deletado
-        UsuarioService.listarUsuarios()
-                .then()
-                .statusCode(200)
+        ApiAssertions.validarStatus200(usuarioService.listarUsuarios())
                 .body("usuarios.email", not(hasItem(usuario.getEmail())));
     }
 
     @Test
     public void deveCriarUsuarioComBuilderCustomizado() {
 
-        Usuario usuario = UsuarioBuilder.umUsuario()
-                .comNome("Edson QA")
-                .comEmail("teste" + System.currentTimeMillis() + "@qa.com")
-                .comPassword("123456")
-                .admin()
-                .build();
+        Usuario usuario = UsuarioBuilder.usuarioPersonalizado(
+                "Edson QA",
+                "teste" + System.currentTimeMillis() + "@qa.com"
+        ).build();
 
-        UsuarioService.criarUsuario(usuario)
-                .then()
-                .statusCode(201);
+        criarUsuarioComSucesso(usuario);
     }
 }
