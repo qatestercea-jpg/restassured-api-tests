@@ -33,4 +33,8 @@ public class UsuarioService {
     public Response deletarUsuario(String id) {
         return usuarioClient.deletarUsuario(id);
     }
+
+    public Response deletarUsuarioComToken(String id, String token) {
+        return usuarioClient.deletarUsuarioComToken(id, token);
+    }
 }

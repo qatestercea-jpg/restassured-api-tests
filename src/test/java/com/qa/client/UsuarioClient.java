@@ -41,4 +41,13 @@ public class UsuarioClient {
         return request()
                 .delete(Endpoints.USUARIOS + "/{id}", id);
     }
+
+    private RequestSpecification requestWithAuth(String token) {
+        return request().header("Authorization", token);
+    }
+
+    public Response deletarUsuarioComToken(String id, String token) {
+        return requestWithAuth(token)
+                .delete(Endpoints.USUARIOS + "/{id}", id);
+    }
 }

@@ -4,6 +4,7 @@ import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 
 import static org.hamcrest.Matchers.containsString;
+import static org.hamcrest.Matchers.lessThan;
 
 public final class ApiAssertions {
 
@@ -16,6 +17,18 @@ public final class ApiAssertions {
 
     public static ValidatableResponse validarStatus201(Response response) {
         return response.then().statusCode(201);
+    }
+
+    public static ValidatableResponse validarStatus400(Response response) {
+        return response.then().statusCode(400);
+    }
+
+    public static ValidatableResponse validarStatus401(Response response) {
+        return response.then().statusCode(401);
+    }
+
+    public static ValidatableResponse validarTempoRespostaMaxima(Response response, long tempoMillis) {
+        return response.then().time(lessThan(tempoMillis));
     }
 
     public static ValidatableResponse validarErroCampo(Response response, String campo, String mensagem) {

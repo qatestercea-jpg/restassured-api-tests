@@ -97,19 +97,51 @@ public class UsuarioTest extends BaseTest {
     }
 
     @Test
-    public void naoDeveCriarUsuarioDuplicado() {
+    public void naoDeveCriarUsuarioComEmailDuplicado() {
 
         Usuario usuario = criarUsuarioValido();
 
-        // cria primeiro
         criarUsuarioComSucesso(usuario);
 
-        // tenta criar duplicado
-        usuarioService.criarUsuario(
+        ApiAssertions.validarStatus400(usuarioService.criarUsuario(
                 UsuarioFactory.usuarioComEmailDuplicado(usuario.getEmail())
-        )
-        .then()
-        .statusCode(400);
+        ));
+    }
+
+    @Test
+    public void apiPermiteDeletarUsuarioSemAutenticacao() {
+
+        // Observação: o endpoint DELETE /usuarios/{id} devolve 200 mesmo sem credenciais.
+        // Isso representa uma possível vulnerabilidade de autorização do serviço.
+        Usuario usuario = criarUsuarioValido();
+        Response createResponse = criarUsuarioComSucesso(usuario);
+        String userId = createResponse.jsonPath().getString("_id");
+
+        ApiAssertions.validarStatus200(usuarioService.deletarUsuario(userId));
+    }
+
+    @Test
+    public void apiPermiteDeletarUsuarioComTokenInvalido() {
+
+        // Observação: o endpoint aceita um token inválido e ainda assim realiza a deleção.
+        Usuario usuario = criarUsuarioValido();
+        Response createResponse = criarUsuarioComSucesso(usuario);
+        String userId = createResponse.jsonPath().getString("_id");
+        String invalidToken = "token-invalido-" + System.currentTimeMillis();
+
+        ApiAssertions.validarStatus200(usuarioService.deletarUsuarioComToken(userId, invalidToken));
+    }
+
+    @Test
+    public void deveRespeitarTempoDeRespostaAoListarUsuarios() {
+
+        Usuario usuario = criarUsuarioValido();
+        criarUsuarioComSucesso(usuario);
+
+        Response response = usuarioService.listarUsuarios();
+
+        ApiAssertions.validarStatus200(response);
+        ApiAssertions.validarTempoRespostaMaxima(response, 2000L);
     }
 
     @Test
