@@ -26,5 +26,17 @@ jobs:
           distribution: temurin
           java-version: ${{ matrix.java }}
 
-      - name: Build and test
-        run: mvn clean test
+      - name: Build, test and generate Allure report
+        run: mvn -Denv=qa clean test allure:report
+
+      - name: Upload Allure results
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: target/allure-results
+
+      - name: Upload Allure report
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-report
+          path: target/site/allure-maven-plugin

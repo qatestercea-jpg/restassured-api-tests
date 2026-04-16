@@ -4,10 +4,17 @@ C:\Users\User\restassured-project\src\test\java\com\qa\builder\UsuarioBuilder.ja
 C:\Users\User\restassured-project\src\test\java\com\qa\client\UsuarioClient.java
 C:\Users\User\restassured-project\src\test\java\com\qa\constants\Endpoints.java
 C:\Users\User\restassured-project\src\test\java\com\qa\dto\Usuario.java
+C:\Users\User\restassured-project\src\test\java\com\qa\dto\UsuarioDTOTest.java
 C:\Users\User\restassured-project\src\test\java\com\qa\dto\UsuarioLoginRequest.java
 C:\Users\User\restassured-project\src\test\java\com\qa\dto\UsuarioLoginResponse.java
 C:\Users\User\restassured-project\src\test\java\com\qa\dto\UsuarioResponse.java
 C:\Users\User\restassured-project\src\test\java\com\qa\factory\UsuarioFactory.java
 C:\Users\User\restassured-project\src\test\java\com\qa\service\UsuarioService.java
 C:\Users\User\restassured-project\src\test\java\com\qa\tests\login\LoginTest.java
+C:\Users\User\restassured-project\src\test\java\com\qa\tests\usuario\UsuarioContractTest.java
+C:\Users\User\restassured-project\src\test\java\com\qa\tests\usuario\UsuarioCreateTest.java
+C:\Users\User\restassured-project\src\test\java\com\qa\tests\usuario\UsuarioDeleteTest.java
+C:\Users\User\restassured-project\src\test\java\com\qa\tests\usuario\UsuarioListTest.java
+C:\Users\User\restassured-project\src\test\java\com\qa\tests\usuario\UsuarioSecurityTest.java
 C:\Users\User\restassured-project\src\test\java\com\qa\tests\usuario\UsuarioTest.java
+C:\Users\User\restassured-project\src\test\java\com\qa\tests\usuario\UsuarioTestBase.java

@@ -9,11 +9,20 @@ import com.qa.dto.UsuarioLoginRequest;
 import com.qa.dto.UsuarioLoginResponse;
 import com.qa.factory.UsuarioFactory;
 import com.qa.service.UsuarioService;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import io.restassured.response.Response;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
+@Epic("API Automation")
+@Feature("Autenticação")
+@Tag("login")
+@DisplayName("Login de usuário")
 public class LoginTest extends BaseTest {
 
     private final UsuarioService usuarioService = new UsuarioService(new UsuarioClient());
@@ -29,6 +38,8 @@ public class LoginTest extends BaseTest {
     }
 
     @Test
+    @Story("Fluxo de login com credenciais válidas")
+    @DisplayName("Deve realizar login com sucesso")
     public void deveFazerLoginComSucesso() {
         Usuario usuario = criarUsuarioValido();
         criarUsuarioComSucesso(usuario);
