@@ -6,105 +6,88 @@
 
 ## Descrição do projeto
 
-Este projeto é uma suíte de automação de testes de API desenvolvida em Java para validar endpoints REST usando o framework RestAssured. O objetivo é fornecer testes confiáveis de validação funcional e de integração para APIs, com relatórios automatizados e integração contínua no GitHub Actions.
+Este repositório contém uma suíte de automação de testes de API em Java, projetada para validar endpoints REST de forma confiável e escalável. A suite usa RestAssured com JUnit 5, gera relatórios Allure e integra execução contínua com GitHub Actions.
+
+A arquitetura do projeto foca em clareza e manutenção, com camadas separadas para:
+
+- `client` — chamadas HTTP e mapeamento de endpoint
+- `service` — lógica de negócio de testes e orquestração de fluxos
+- `dto` — objetos de transferência de dados para payloads de requisição e resposta
+- `factory` — geração de dados de teste dinâmicos e independentes
+- `assertions` — validações de API reutilizáveis e padronizadas
 
 ## Tecnologias utilizadas
 
-- Java
+- Java 8
 - Maven
 - RestAssured
 - JUnit 5
 - Allure Report
 - GitHub Actions
 
-## Estrutura de pastas
+## Arquitetura em camadas
+
+O projeto utiliza a seguinte estrutura de pastas:
 
 ```text
-restassured-project/
-├── pom.xml
-├── README.md
-├── src/
-│   ├── main/
-│   │   └── java/
-│   │       └── com/qa/
-│   │           ├── App.java
-│   │           ├── client/
-│   │           └── constants/
-│   └── test/
-│       └── java/
-│           └── com/qa/
-│               ├── base/
-│               ├── builder/
-│               ├── client/
-│               ├── constants/
-│               ├── dto/
-│               ├── service/
-│               ├── tests/
-│               │   ├── login/
-│               │   └── usuario/
-│               └── utils/
-├── .github/
-│   └── workflows/
-│       └── ci.yml
-└── target/
+src/test/java/com/qa/
+├── assertions/      # validações de API reutilizáveis
+├── base/            # configuração global de testes RestAssured
+├── builder/         # construtores de objetos de teste
+├── client/          # implementação das requisições HTTP
+├── dto/             # modelos de dados para requisição/resposta
+├── factory/         # geração de dados dinâmicos para teste
+├── service/         # orquestração de fluxos de API
+└── tests/           # classes de teste JUnit 5
+    ├── login/
+    └── usuario/
 ```
+
+## Características da suite
+
+- Testes parametrizados via JUnit 5 para cobrir múltiplos cenários com menos código
+- Independência entre testes: cada cenário cria seus próprios dados e não depende do estado existente da API
+- Validações centralizadas em `ApiAssertions` para facilitar manutenção e legibilidade
+- Geração de dados de teste dinâmica com `UsuarioFactory`
+- Relatórios técnicos e visuais via Allure
+- Pipeline de CI pronta para GitHub Actions
 
 ## Como executar os testes
 
-Para rodar os testes localmente, execute o comando abaixo no diretório do projeto:
+Execute os testes localmente a partir do diretório do projeto:
 
 ```bash
 mvn clean test
 ```
 
-## Como gerar relatório Allure
+## Allure Report
 
-1. Execute os testes com o comando padrão:
-
-```bash
-mvn clean test
-```
-
-2. Gere o relatório Allure:
+Para gerar e visualizar o relatório Allure:
 
 ```bash
 mvn allure:serve
 ```
 
-3. O comando abrirá um servidor local com o relatório gerado.
+Isso abre um servidor local com o relatório gerado a partir de `target/allure-results`.
 
-> Observação: certifique-se de que o plugin Allure esteja configurado no `pom.xml` para gerar os resultados corretamente.
+## GitHub Actions / Pipeline CI
 
-## Relatório Allure
-
-Abaixo está um exemplo visual do relatório Allure gerado pela suíte de testes:
-
-![Relatório Allure](docs/images/allure-report.png)
-
-> Substitua a imagem pelo screenshot do relatório gerado localmente após executar `mvn allure:serve`.
-
-## CI/CD
-
-A pipeline de integração contínua está configurada em `.github/workflows/ci.yml` e executa os testes automaticamente em eventos de:
+A integração contínua é configurada em `.github/workflows/ci.yml` e executa a suíte em eventos de:
 
 - `push` na branch `main`
-- Pull request direcionado para a branch `main`
+- `pull_request` direcionado para `main`
 
-A workflow usa Java 17 e roda o comando:
+A pipeline garante que a validação de API seja executada automaticamente e que o repositório permaneça com qualidade confiável.
 
-```bash
-mvn clean test
-```
+## Destaques para recrutadores
 
-## Tipos de testes
+- Arquitetura em camadas com separação clara de responsabilidades
+- Uso de padrões de teste automatizados e validações reutilizáveis
+- Foco em estabilidade e independência de cenário
+- Relatórios Allure para comunicação de resultados
+- Pipeline de CI pronta para integração contínua
 
-O projeto contém os seguintes tipos de testes:
+## Observações
 
-- Testes de API de autenticação e login
-- Testes de API de usuário
-- Testes de integração de endpoints REST
-
-## Autor
-
-- Desenvolvedor: QA Tester
-- Projeto: Automação de testes de API com RestAssured
+- O projeto é ideal para demonstrar habilidades em automação de API, design de testes e integração contínua.
+- Caso queira rodar localmente, basta ter Java e Maven instalados.

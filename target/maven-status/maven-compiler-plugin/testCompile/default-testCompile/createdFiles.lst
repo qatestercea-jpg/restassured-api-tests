@@ -2,6 +2,8 @@ com\qa\base\BaseTest.class
 com\qa\builder\UsuarioBuilder.class
 com\qa\dto\UsuarioResponse.class
 com\qa\tests\usuario\UsuarioTest.class
+com\qa\assertions\ApiAssertions.class
+com\qa\factory\UsuarioFactory.class
 com\qa\constants\Endpoints.class
 com\qa\dto\Usuario.class
 com\qa\dto\UsuarioLoginRequest.class
