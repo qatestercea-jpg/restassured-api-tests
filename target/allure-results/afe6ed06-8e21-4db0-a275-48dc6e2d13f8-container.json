@@ -1,0 +1,1 @@
+{"uuid":"afe6ed06-8e21-4db0-a275-48dc6e2d13f8","name":"Listagem de usuários","children":["57b2ef89-d1e9-4e3f-b521-08e2f68b07b9","ac5f1a0e-2010-4967-a129-215b2763b43d"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1776380037812,"stop":1776380037815}],"afters":[],"start":1776380037811,"stop":1776380039892}

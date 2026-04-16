@@ -1,0 +1,1 @@
+{"uuid":"0ef02584-b519-484b-b518-92f5cba1e4a5","name":"Segurança de usuário","children":["32cab950-0dfc-4c8d-93d2-b280496575b5","b15a3f95-170f-4780-bb27-65eb3cd79ab4"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1776380039894,"stop":1776380039896}],"afters":[],"start":1776380039893,"stop":1776380041460}

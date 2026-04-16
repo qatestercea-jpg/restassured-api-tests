@@ -1,0 +1,1 @@
+{"uuid":"d0f40a2b-5f32-44fb-9c60-4265bc79222e","name":"Exclusão de usuário","children":["8a758c33-ee92-4aa9-9246-3bae25edfcdc"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1776380035751,"stop":1776380035752}],"afters":[],"start":1776380035750,"stop":1776380037806}

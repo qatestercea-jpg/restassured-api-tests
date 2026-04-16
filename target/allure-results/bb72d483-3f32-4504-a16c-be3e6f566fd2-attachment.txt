@@ -1,0 +1,280 @@
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Usuário Email Inválido",
+    "email": "usuarioSemArroba",
+    "password": "123456",
+    "administrador": "true"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Usuário Email Inválido",
+    "email": "usuarioSemArroba",
+    "password": "123456",
+    "administrador": "true"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Usuário Email Inválido",
+    "email": "usuarioSemArroba",
+    "password": "123456",
+    "administrador": "true"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Usuário Email Inválido",
+    "email": "usuarioSemArroba",
+    "password": "123456",
+    "administrador": "true"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Usuário Email Inválido",
+    "email": "usuarioSemArroba",
+    "password": "123456",
+    "administrador": "true"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Usuário Email Inválido",
+    "email": "usuarioSemArroba",
+    "password": "123456",
+    "administrador": "true"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Usuário Email Inválido",
+    "email": "usuarioSemArroba",
+    "password": "123456",
+    "administrador": "true"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Usuário Email Inválido",
+    "email": "usuarioSemArroba",
+    "password": "123456",
+    "administrador": "true"
+}
+HTTP/1.1 400 Bad Request
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 75241b01b2545f87e1b2b6cfafbb85fe;o=1
+date: Thu, 16 Apr 2026 22:54:10 GMT
+server: Google Frontend
+Content-Length: 50
+
+{
+    "email": "email deve ser um email válido"
+}
+HTTP/1.1 400 Bad Request
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 75241b01b2545f87e1b2b6cfafbb85fe;o=1
+date: Thu, 16 Apr 2026 22:54:10 GMT
+server: Google Frontend
+Content-Length: 50
+
+{
+    "email": "email deve ser um email válido"
+}
+HTTP/1.1 400 Bad Request
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 75241b01b2545f87e1b2b6cfafbb85fe;o=1
+date: Thu, 16 Apr 2026 22:54:10 GMT
+server: Google Frontend
+Content-Length: 50
+
+{
+    "email": "email deve ser um email válido"
+}
+HTTP/1.1 400 Bad Request
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 75241b01b2545f87e1b2b6cfafbb85fe;o=1
+date: Thu, 16 Apr 2026 22:54:10 GMT
+server: Google Frontend
+Content-Length: 50
+
+{
+    "email": "email deve ser um email válido"
+}
+HTTP/1.1 400 Bad Request
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 75241b01b2545f87e1b2b6cfafbb85fe;o=1
+date: Thu, 16 Apr 2026 22:54:10 GMT
+server: Google Frontend
+Content-Length: 50
+
+{
+    "email": "email deve ser um email válido"
+}
+HTTP/1.1 400 Bad Request
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 75241b01b2545f87e1b2b6cfafbb85fe;o=1
+date: Thu, 16 Apr 2026 22:54:10 GMT
+server: Google Frontend
+Content-Length: 50
+
+{
+    "email": "email deve ser um email válido"
+}
+HTTP/1.1 400 Bad Request
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 75241b01b2545f87e1b2b6cfafbb85fe;o=1
+date: Thu, 16 Apr 2026 22:54:10 GMT
+server: Google Frontend
+Content-Length: 50
+
+{
+    "email": "email deve ser um email válido"
+}
+HTTP/1.1 400 Bad Request
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 75241b01b2545f87e1b2b6cfafbb85fe;o=1
+date: Thu, 16 Apr 2026 22:54:10 GMT
+server: Google Frontend
+Content-Length: 50
+
+{
+    "email": "email deve ser um email válido"
+}

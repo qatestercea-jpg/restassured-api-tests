@@ -8,6 +8,7 @@ com\qa\tests\usuario\UsuarioSecurityTest.class
 com\qa\tests\usuario\UsuarioCreateTest.class
 com\qa\tests\usuario\UsuarioContractTest.class
 com\qa\assertions\ApiAssertions.class
+com\qa\config\EnvironmentConfig.class
 com\qa\factory\UsuarioFactory.class
 com\qa\tests\usuario\UsuarioListTest.class
 com\qa\constants\Endpoints.class

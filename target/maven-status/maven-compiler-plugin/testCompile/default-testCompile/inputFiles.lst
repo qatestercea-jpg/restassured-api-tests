@@ -2,6 +2,7 @@ C:\Users\User\restassured-project\src\test\java\com\qa\assertions\ApiAssertions.
 C:\Users\User\restassured-project\src\test\java\com\qa\base\BaseTest.java
 C:\Users\User\restassured-project\src\test\java\com\qa\builder\UsuarioBuilder.java
 C:\Users\User\restassured-project\src\test\java\com\qa\client\UsuarioClient.java
+C:\Users\User\restassured-project\src\test\java\com\qa\config\EnvironmentConfig.java
 C:\Users\User\restassured-project\src\test\java\com\qa\constants\Endpoints.java
 C:\Users\User\restassured-project\src\test\java\com\qa\dto\Usuario.java
 C:\Users\User\restassured-project\src\test\java\com\qa\dto\UsuarioDTOTest.java
