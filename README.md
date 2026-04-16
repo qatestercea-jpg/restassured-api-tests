@@ -1,20 +1,23 @@
-![CI](https://github.com/qatestercea-jpg/restassured-api-tests/actions/workflows/ci.yml/badge.svg)
-
-# API Automation Test Suite
-
 [![CI](https://github.com/qatestercea-jpg/restassured-api-tests/actions/workflows/ci.yml/badge.svg)](https://github.com/qatestercea-jpg/restassured-api-tests/actions/workflows/ci.yml)
+
+# API Test Automation Framework (RestAssured + JUnit 5 + Allure)
 
 ## Descrição do projeto
 
-Este repositório contém uma suíte de automação de testes de API em Java, projetada para validar endpoints REST de forma confiável e escalável. A suite usa RestAssured com JUnit 5, gera relatórios Allure e integra execução contínua com GitHub Actions.
+Suíte de automação de API em Java que executa validação de endpoints REST com RestAssured e JUnit 5. O projeto produz relatórios Allure e integra execução contínua via GitHub Actions.
 
-A arquitetura do projeto foca em clareza e manutenção, com camadas separadas para:
+Os testes verificam comportamento funcional de endpoints de usuário, incluindo payloads, autenticação e resposta de contrato.
 
-- `client` — chamadas HTTP e mapeamento de endpoint
-- `service` — lógica de negócio de testes e orquestração de fluxos
-- `dto` — objetos de transferência de dados para payloads de requisição e resposta
-- `factory` — geração de dados de teste dinâmicos e independentes
-- `assertions` — validações de API reutilizáveis e padronizadas
+## O que é validado
+
+- criação, listagem e deleção de usuários
+- cenários positivos e negativos
+- validação de DTOs (serialização e desserialização)
+- testes de autenticação
+
+## Comportamento observado
+
+A automação identifica que a API permite deleção de usuários sem autenticação e também aceita token inválido para operação de exclusão.
 
 ## Tecnologias utilizadas
 
@@ -27,67 +30,40 @@ A arquitetura do projeto foca em clareza e manutenção, com camadas separadas p
 
 ## Arquitetura em camadas
 
-O projeto utiliza a seguinte estrutura de pastas:
+- `client`: implementação das chamadas HTTP e configuração de endpoints
+- `service`: orquestração dos fluxos de teste e montagem de cenários
+- `dto`: modelos de requisição e resposta para serialização e desserialização
+- `factory`: geração dinâmica de dados de teste
+- `assertions`: validações reutilizáveis de resposta e contrato de API
+- `tests`: casos de teste organizados por área funcional
 
-```text
-src/test/java/com/qa/
-├── assertions/      # validações de API reutilizáveis
-├── base/            # configuração global de testes RestAssured
-├── builder/         # construtores de objetos de teste
-├── client/          # implementação das requisições HTTP
-├── dto/             # modelos de dados para requisição/resposta
-├── factory/         # geração de dados dinâmicos para teste
-├── service/         # orquestração de fluxos de API
-└── tests/           # classes de teste JUnit 5
-    ├── login/
-    └── usuario/
-```
+## Características da suíte
 
-## Características da suite
+- testes independentes: cada caso de teste executa sem dependência de estado de outros testes
+- dados dinâmicos: payloads gerados em tempo de execução para reduzir acoplamento
+- reutilização: componentes de cliente e assertions compartilhados entre cenários
+- cobertura de cenários: inclui casos positivos, negativos, autenticação e validação de DTOs
 
-- Testes parametrizados via JUnit 5 para cobrir múltiplos cenários com menos código
-- Independência entre testes: cada cenário cria seus próprios dados e não depende do estado existente da API
-- Validações centralizadas em `ApiAssertions` para facilitar manutenção e legibilidade
-- Geração de dados de teste dinâmica com `UsuarioFactory`
-- Relatórios técnicos e visuais via Allure
-- Pipeline de CI pronta para GitHub Actions
-
-## Como executar os testes
-
-Execute os testes localmente a partir do diretório do projeto:
+## Como executar
 
 ```bash
+git clone https://github.com/qatestercea-jpg/restassured-api-tests.git
+cd restassured-api-tests
 mvn clean test
 ```
 
-## Allure Report
+## Allure
 
-Para gerar e visualizar o relatório Allure:
+Após a execução dos testes, gere o relatório local com:
 
 ```bash
-mvn allure:serve
+allure serve target/allure-results
 ```
 
-Isso abre um servidor local com o relatório gerado a partir de `target/allure-results`.
+## CI
 
-## GitHub Actions / Pipeline CI
+O repositório utiliza GitHub Actions para executar `mvn clean test` em cada push. Os resultados do Allure são configurados como artifacts do workflow, permitindo download e análise do conjunto de resultados após a execução.
 
-A integração contínua é configurada em `.github/workflows/ci.yml` e executa a suíte em eventos de:
+## Sobre este projeto
 
-- `push` na branch `main`
-- `pull_request` direcionado para `main`
-
-A pipeline garante que a validação de API seja executada automaticamente e que o repositório permaneça com qualidade confiável.
-
-## Destaques para recrutadores
-
-- Arquitetura em camadas com separação clara de responsabilidades
-- Uso de padrões de teste automatizados e validações reutilizáveis
-- Foco em estabilidade e independência de cenário
-- Relatórios Allure para comunicação de resultados
-- Pipeline de CI pronta para integração contínua
-
-## Observações
-
-- O projeto é ideal para demonstrar habilidades em automação de API, design de testes e integração contínua.
-- Caso queira rodar localmente, basta ter Java e Maven instalados.
+Projeto de automação de testes de API focado em verificação técnica de endpoints REST, com validação de comportamento, autenticação e estrutura de dados.
