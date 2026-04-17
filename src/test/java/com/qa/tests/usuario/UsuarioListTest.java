@@ -1,6 +1,7 @@
 package com.qa.tests.usuario;
 
 import com.qa.assertions.ApiAssertions;
+import com.qa.assertions.UsuarioAssertions;
 import com.qa.dto.Usuario;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -26,8 +27,7 @@ public class UsuarioListTest extends UsuarioTestBase {
         Usuario usuario = criarUsuarioValido();
         criarUsuarioComSucesso(usuario);
 
-        ApiAssertions.validarStatus200(usuarioService.listarUsuarios())
-                .body("usuarios.email", hasItem(usuario.getEmail()));
+        UsuarioAssertions.validarListagemContemEmail(usuarioService.listarUsuarios(), usuario.getEmail());
     }
 
     @Test
@@ -39,7 +39,7 @@ public class UsuarioListTest extends UsuarioTestBase {
 
         Response response = usuarioService.listarUsuarios();
 
-        ApiAssertions.validarStatus200(response);
+        UsuarioAssertions.validarRequisicaoComSucesso(response);
         ApiAssertions.validarTempoRespostaMaxima(response, 2000L);
     }
 }

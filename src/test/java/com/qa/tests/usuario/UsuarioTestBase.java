@@ -22,6 +22,11 @@ public abstract class UsuarioTestBase extends BaseTest {
         return response;
     }
 
+    protected String criarUsuarioERetornarId(Usuario usuario) {
+        Response response = criarUsuarioComSucesso(usuario);
+        return response.jsonPath().getString("_id");
+    }
+
     protected String obterTokenPara(Usuario usuario) {
         UsuarioLoginRequest loginRequest = new UsuarioLoginRequest(usuario.getEmail(), usuario.getPassword());
         return usuarioService.obterToken(loginRequest);

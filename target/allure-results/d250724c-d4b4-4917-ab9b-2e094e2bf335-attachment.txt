@@ -1,0 +1,4240 @@
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Usuário Válido",
+    "email": "teste1776469816804@qa.com",
+    "password": "123456",
+    "administrador": "true"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Usuário Válido",
+    "email": "teste1776469816804@qa.com",
+    "password": "123456",
+    "administrador": "true"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Usuário Válido",
+    "email": "teste1776469816804@qa.com",
+    "password": "123456",
+    "administrador": "true"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Usuário Válido",
+    "email": "teste1776469816804@qa.com",
+    "password": "123456",
+    "administrador": "true"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Usuário Válido",
+    "email": "teste1776469816804@qa.com",
+    "password": "123456",
+    "administrador": "true"
+}
+HTTP/1.1 201 Created
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 3cba5a2d33be6c5a14783ecf489a16a3
+date: Fri, 17 Apr 2026 23:50:17 GMT
+server: Google Frontend
+Content-Length: 82
+
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "98o5ol1598IAHyGJ"
+}
+HTTP/1.1 201 Created
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 3cba5a2d33be6c5a14783ecf489a16a3
+date: Fri, 17 Apr 2026 23:50:17 GMT
+server: Google Frontend
+Content-Length: 82
+
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "98o5ol1598IAHyGJ"
+}
+HTTP/1.1 201 Created
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 3cba5a2d33be6c5a14783ecf489a16a3
+date: Fri, 17 Apr 2026 23:50:17 GMT
+server: Google Frontend
+Content-Length: 82
+
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "98o5ol1598IAHyGJ"
+}
+HTTP/1.1 201 Created
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 3cba5a2d33be6c5a14783ecf489a16a3
+date: Fri, 17 Apr 2026 23:50:17 GMT
+server: Google Frontend
+Content-Length: 82
+
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "98o5ol1598IAHyGJ"
+}
+HTTP/1.1 201 Created
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 3cba5a2d33be6c5a14783ecf489a16a3
+date: Fri, 17 Apr 2026 23:50:17 GMT
+server: Google Frontend
+Content-Length: 82
+
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "98o5ol1598IAHyGJ"
+}
+Request method:	GET
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 094f5be8655a95e716091d11d25e09de
+date: Fri, 17 Apr 2026 23:50:17 GMT
+server: Google Frontend
+Content-Length: 11367
+
+{
+    "quantidade": 52,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469068323@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "101h13DqMFCn3CWZ"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469040780@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "2MuVAFTwWV7wWH6L"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776468349497@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "4Mm4G15fWfgClme5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469099622@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "79EKGDNYDxhgu7Tj"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469095565@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "7RZjtv5M6nReWFc6"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469816804@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "98o5ol1598IAHyGJ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469810880@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AD49tBAyumE2MM0X"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468352768@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AjyPHwoqWusED9q7"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468348570@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "BijsZgML3rj4yeI5"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469816432@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Dpc3RFGKycO4tZLZ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468344252@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "DwANXCn2nE7mLeN2"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469550495@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "E9nxeIhi0wqgz6GX"
+        },
+        {
+            "nome": "TESTE",
+            "email": "leonel.ifcs@outlook.com",
+            "password": "leonel",
+            "administrador": "false",
+            "_id": "Fse4TmRlV65mkVrI"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469013208@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GCDZBuJPv60BBVeS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469069100@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GdNpTymVbaTBurDz"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "rateste@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "HcuEkUe1bArMoFB3"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468444666@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IAk9IWmIsdo171AW"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469546205@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IulwHYKsJVawr8kr"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468441277@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "J98BoKgPtJYbEr6V"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468447589@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "KD2Vt7u7FYhDIFf4"
+        },
+        {
+            "nome": "Arnulfo",
+            "email": "israel.fritsch@yahoo.com",
+            "password": "v7f83ad851",
+            "administrador": "true",
+            "_id": "NyQRP1DykKPM9Fq9"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469553102@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "OJmVcP1ZqEHXaE71"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468448489@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "P1kVErBtcyIRWos7"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469100977@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "PWQjH1nlfwTou1Q0"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469554787@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "R0bdxgtIq3aPI0ia"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469039202@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TCoJDnCG8R3dSpji"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469036000@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TEXDbZlVNfqRbaNx"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468347595@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Vdlq6a2aIFEsnRge"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468438870@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "YN4Ax560BnVbB7U5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469012374@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "YNmYhaItVOunzIPC"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468443888@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Zgn9W3t7w6JyylFm"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469011516@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "bIzxcl0c0ZPXGxx1"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469812860@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "dBSyy8tRWlbOqhdX"
+        },
+        {
+            "nome": "Earl Garcia",
+            "email": "qbrown@example.org",
+            "password": "admin",
+            "administrador": "true",
+            "_id": "fQL2clJIp17xBsPJ"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776468445449@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "fsOgQNwER77JtkmD"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469815641@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "g2H63jnqPqSkrBPg"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468338949@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "gOmYDyB118Umjit8"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469552228@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "iY1Dm0gZ3gEWdtJt"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469814894@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "jWhzhAQmaHAtjSyS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469065305@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "krLz8TC2XDNeGfLA"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469549127@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mWmeRBAU1fCBzqTo"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469544247@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mhqgHRbLI0aWM0lj"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano Testes Tres",
+            "email": "fulanoteste3@qa.com.br",
+            "_id": "pDOIU1Eaqz35OktU"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469069895@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "qwAssKhnv7DOn1kH"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469098841@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ue1FoIpp8lMcnGwU"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469553903@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ujtx4X1PYR4rIetv"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469039977@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yML7DmvaYreNn7Rf"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469006999@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yjcGhlZsJQv70Tad"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469550889@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ypQc53t0rbBJsqEZ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468351872@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yz8oxCMjTZagVKk5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469548228@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "z3OSx8447rUhpX4H"
+        }
+    ]
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 094f5be8655a95e716091d11d25e09de
+date: Fri, 17 Apr 2026 23:50:17 GMT
+server: Google Frontend
+Content-Length: 11367
+
+{
+    "quantidade": 52,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469068323@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "101h13DqMFCn3CWZ"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469040780@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "2MuVAFTwWV7wWH6L"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776468349497@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "4Mm4G15fWfgClme5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469099622@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "79EKGDNYDxhgu7Tj"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469095565@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "7RZjtv5M6nReWFc6"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469816804@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "98o5ol1598IAHyGJ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469810880@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AD49tBAyumE2MM0X"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468352768@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AjyPHwoqWusED9q7"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468348570@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "BijsZgML3rj4yeI5"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469816432@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Dpc3RFGKycO4tZLZ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468344252@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "DwANXCn2nE7mLeN2"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469550495@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "E9nxeIhi0wqgz6GX"
+        },
+        {
+            "nome": "TESTE",
+            "email": "leonel.ifcs@outlook.com",
+            "password": "leonel",
+            "administrador": "false",
+            "_id": "Fse4TmRlV65mkVrI"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469013208@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GCDZBuJPv60BBVeS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469069100@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GdNpTymVbaTBurDz"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "rateste@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "HcuEkUe1bArMoFB3"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468444666@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IAk9IWmIsdo171AW"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469546205@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IulwHYKsJVawr8kr"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468441277@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "J98BoKgPtJYbEr6V"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468447589@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "KD2Vt7u7FYhDIFf4"
+        },
+        {
+            "nome": "Arnulfo",
+            "email": "israel.fritsch@yahoo.com",
+            "password": "v7f83ad851",
+            "administrador": "true",
+            "_id": "NyQRP1DykKPM9Fq9"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469553102@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "OJmVcP1ZqEHXaE71"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468448489@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "P1kVErBtcyIRWos7"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469100977@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "PWQjH1nlfwTou1Q0"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469554787@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "R0bdxgtIq3aPI0ia"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469039202@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TCoJDnCG8R3dSpji"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469036000@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TEXDbZlVNfqRbaNx"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468347595@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Vdlq6a2aIFEsnRge"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468438870@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "YN4Ax560BnVbB7U5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469012374@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "YNmYhaItVOunzIPC"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468443888@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Zgn9W3t7w6JyylFm"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469011516@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "bIzxcl0c0ZPXGxx1"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469812860@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "dBSyy8tRWlbOqhdX"
+        },
+        {
+            "nome": "Earl Garcia",
+            "email": "qbrown@example.org",
+            "password": "admin",
+            "administrador": "true",
+            "_id": "fQL2clJIp17xBsPJ"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776468445449@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "fsOgQNwER77JtkmD"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469815641@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "g2H63jnqPqSkrBPg"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468338949@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "gOmYDyB118Umjit8"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469552228@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "iY1Dm0gZ3gEWdtJt"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469814894@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "jWhzhAQmaHAtjSyS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469065305@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "krLz8TC2XDNeGfLA"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469549127@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mWmeRBAU1fCBzqTo"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469544247@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mhqgHRbLI0aWM0lj"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano Testes Tres",
+            "email": "fulanoteste3@qa.com.br",
+            "_id": "pDOIU1Eaqz35OktU"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469069895@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "qwAssKhnv7DOn1kH"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469098841@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ue1FoIpp8lMcnGwU"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469553903@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ujtx4X1PYR4rIetv"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469039977@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yML7DmvaYreNn7Rf"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469006999@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yjcGhlZsJQv70Tad"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469550889@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ypQc53t0rbBJsqEZ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468351872@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yz8oxCMjTZagVKk5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469548228@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "z3OSx8447rUhpX4H"
+        }
+    ]
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 094f5be8655a95e716091d11d25e09de
+date: Fri, 17 Apr 2026 23:50:17 GMT
+server: Google Frontend
+Content-Length: 11367
+
+{
+    "quantidade": 52,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469068323@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "101h13DqMFCn3CWZ"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469040780@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "2MuVAFTwWV7wWH6L"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776468349497@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "4Mm4G15fWfgClme5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469099622@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "79EKGDNYDxhgu7Tj"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469095565@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "7RZjtv5M6nReWFc6"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469816804@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "98o5ol1598IAHyGJ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469810880@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AD49tBAyumE2MM0X"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468352768@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AjyPHwoqWusED9q7"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468348570@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "BijsZgML3rj4yeI5"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469816432@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Dpc3RFGKycO4tZLZ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468344252@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "DwANXCn2nE7mLeN2"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469550495@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "E9nxeIhi0wqgz6GX"
+        },
+        {
+            "nome": "TESTE",
+            "email": "leonel.ifcs@outlook.com",
+            "password": "leonel",
+            "administrador": "false",
+            "_id": "Fse4TmRlV65mkVrI"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469013208@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GCDZBuJPv60BBVeS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469069100@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GdNpTymVbaTBurDz"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "rateste@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "HcuEkUe1bArMoFB3"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468444666@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IAk9IWmIsdo171AW"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469546205@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IulwHYKsJVawr8kr"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468441277@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "J98BoKgPtJYbEr6V"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468447589@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "KD2Vt7u7FYhDIFf4"
+        },
+        {
+            "nome": "Arnulfo",
+            "email": "israel.fritsch@yahoo.com",
+            "password": "v7f83ad851",
+            "administrador": "true",
+            "_id": "NyQRP1DykKPM9Fq9"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469553102@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "OJmVcP1ZqEHXaE71"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468448489@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "P1kVErBtcyIRWos7"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469100977@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "PWQjH1nlfwTou1Q0"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469554787@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "R0bdxgtIq3aPI0ia"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469039202@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TCoJDnCG8R3dSpji"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469036000@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TEXDbZlVNfqRbaNx"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468347595@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Vdlq6a2aIFEsnRge"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468438870@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "YN4Ax560BnVbB7U5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469012374@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "YNmYhaItVOunzIPC"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468443888@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Zgn9W3t7w6JyylFm"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469011516@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "bIzxcl0c0ZPXGxx1"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469812860@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "dBSyy8tRWlbOqhdX"
+        },
+        {
+            "nome": "Earl Garcia",
+            "email": "qbrown@example.org",
+            "password": "admin",
+            "administrador": "true",
+            "_id": "fQL2clJIp17xBsPJ"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776468445449@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "fsOgQNwER77JtkmD"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469815641@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "g2H63jnqPqSkrBPg"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468338949@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "gOmYDyB118Umjit8"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469552228@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "iY1Dm0gZ3gEWdtJt"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469814894@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "jWhzhAQmaHAtjSyS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469065305@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "krLz8TC2XDNeGfLA"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469549127@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mWmeRBAU1fCBzqTo"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469544247@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mhqgHRbLI0aWM0lj"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano Testes Tres",
+            "email": "fulanoteste3@qa.com.br",
+            "_id": "pDOIU1Eaqz35OktU"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469069895@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "qwAssKhnv7DOn1kH"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469098841@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ue1FoIpp8lMcnGwU"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469553903@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ujtx4X1PYR4rIetv"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469039977@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yML7DmvaYreNn7Rf"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469006999@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yjcGhlZsJQv70Tad"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469550889@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ypQc53t0rbBJsqEZ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468351872@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yz8oxCMjTZagVKk5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469548228@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "z3OSx8447rUhpX4H"
+        }
+    ]
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 094f5be8655a95e716091d11d25e09de
+date: Fri, 17 Apr 2026 23:50:17 GMT
+server: Google Frontend
+Content-Length: 11367
+
+{
+    "quantidade": 52,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469068323@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "101h13DqMFCn3CWZ"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469040780@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "2MuVAFTwWV7wWH6L"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776468349497@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "4Mm4G15fWfgClme5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469099622@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "79EKGDNYDxhgu7Tj"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469095565@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "7RZjtv5M6nReWFc6"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469816804@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "98o5ol1598IAHyGJ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469810880@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AD49tBAyumE2MM0X"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468352768@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AjyPHwoqWusED9q7"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468348570@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "BijsZgML3rj4yeI5"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469816432@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Dpc3RFGKycO4tZLZ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468344252@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "DwANXCn2nE7mLeN2"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469550495@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "E9nxeIhi0wqgz6GX"
+        },
+        {
+            "nome": "TESTE",
+            "email": "leonel.ifcs@outlook.com",
+            "password": "leonel",
+            "administrador": "false",
+            "_id": "Fse4TmRlV65mkVrI"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469013208@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GCDZBuJPv60BBVeS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469069100@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GdNpTymVbaTBurDz"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "rateste@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "HcuEkUe1bArMoFB3"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468444666@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IAk9IWmIsdo171AW"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469546205@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IulwHYKsJVawr8kr"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468441277@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "J98BoKgPtJYbEr6V"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468447589@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "KD2Vt7u7FYhDIFf4"
+        },
+        {
+            "nome": "Arnulfo",
+            "email": "israel.fritsch@yahoo.com",
+            "password": "v7f83ad851",
+            "administrador": "true",
+            "_id": "NyQRP1DykKPM9Fq9"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469553102@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "OJmVcP1ZqEHXaE71"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468448489@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "P1kVErBtcyIRWos7"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469100977@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "PWQjH1nlfwTou1Q0"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469554787@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "R0bdxgtIq3aPI0ia"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469039202@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TCoJDnCG8R3dSpji"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469036000@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TEXDbZlVNfqRbaNx"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468347595@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Vdlq6a2aIFEsnRge"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468438870@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "YN4Ax560BnVbB7U5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469012374@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "YNmYhaItVOunzIPC"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468443888@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Zgn9W3t7w6JyylFm"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469011516@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "bIzxcl0c0ZPXGxx1"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469812860@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "dBSyy8tRWlbOqhdX"
+        },
+        {
+            "nome": "Earl Garcia",
+            "email": "qbrown@example.org",
+            "password": "admin",
+            "administrador": "true",
+            "_id": "fQL2clJIp17xBsPJ"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776468445449@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "fsOgQNwER77JtkmD"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469815641@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "g2H63jnqPqSkrBPg"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468338949@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "gOmYDyB118Umjit8"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469552228@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "iY1Dm0gZ3gEWdtJt"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469814894@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "jWhzhAQmaHAtjSyS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469065305@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "krLz8TC2XDNeGfLA"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469549127@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mWmeRBAU1fCBzqTo"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469544247@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mhqgHRbLI0aWM0lj"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano Testes Tres",
+            "email": "fulanoteste3@qa.com.br",
+            "_id": "pDOIU1Eaqz35OktU"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469069895@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "qwAssKhnv7DOn1kH"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469098841@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ue1FoIpp8lMcnGwU"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469553903@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ujtx4X1PYR4rIetv"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469039977@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yML7DmvaYreNn7Rf"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469006999@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yjcGhlZsJQv70Tad"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469550889@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ypQc53t0rbBJsqEZ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468351872@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yz8oxCMjTZagVKk5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469548228@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "z3OSx8447rUhpX4H"
+        }
+    ]
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 094f5be8655a95e716091d11d25e09de
+date: Fri, 17 Apr 2026 23:50:17 GMT
+server: Google Frontend
+Content-Length: 11367
+
+{
+    "quantidade": 52,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469068323@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "101h13DqMFCn3CWZ"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469040780@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "2MuVAFTwWV7wWH6L"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776468349497@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "4Mm4G15fWfgClme5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469099622@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "79EKGDNYDxhgu7Tj"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469095565@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "7RZjtv5M6nReWFc6"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469816804@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "98o5ol1598IAHyGJ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469810880@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AD49tBAyumE2MM0X"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468352768@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AjyPHwoqWusED9q7"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468348570@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "BijsZgML3rj4yeI5"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469816432@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Dpc3RFGKycO4tZLZ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468344252@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "DwANXCn2nE7mLeN2"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469550495@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "E9nxeIhi0wqgz6GX"
+        },
+        {
+            "nome": "TESTE",
+            "email": "leonel.ifcs@outlook.com",
+            "password": "leonel",
+            "administrador": "false",
+            "_id": "Fse4TmRlV65mkVrI"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469013208@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GCDZBuJPv60BBVeS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469069100@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GdNpTymVbaTBurDz"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "rateste@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "HcuEkUe1bArMoFB3"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468444666@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IAk9IWmIsdo171AW"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469546205@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IulwHYKsJVawr8kr"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468441277@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "J98BoKgPtJYbEr6V"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468447589@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "KD2Vt7u7FYhDIFf4"
+        },
+        {
+            "nome": "Arnulfo",
+            "email": "israel.fritsch@yahoo.com",
+            "password": "v7f83ad851",
+            "administrador": "true",
+            "_id": "NyQRP1DykKPM9Fq9"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469553102@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "OJmVcP1ZqEHXaE71"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468448489@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "P1kVErBtcyIRWos7"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469100977@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "PWQjH1nlfwTou1Q0"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469554787@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "R0bdxgtIq3aPI0ia"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469039202@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TCoJDnCG8R3dSpji"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469036000@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TEXDbZlVNfqRbaNx"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468347595@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Vdlq6a2aIFEsnRge"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468438870@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "YN4Ax560BnVbB7U5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469012374@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "YNmYhaItVOunzIPC"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468443888@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Zgn9W3t7w6JyylFm"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469011516@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "bIzxcl0c0ZPXGxx1"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469812860@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "dBSyy8tRWlbOqhdX"
+        },
+        {
+            "nome": "Earl Garcia",
+            "email": "qbrown@example.org",
+            "password": "admin",
+            "administrador": "true",
+            "_id": "fQL2clJIp17xBsPJ"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776468445449@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "fsOgQNwER77JtkmD"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469815641@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "g2H63jnqPqSkrBPg"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468338949@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "gOmYDyB118Umjit8"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469552228@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "iY1Dm0gZ3gEWdtJt"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469814894@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "jWhzhAQmaHAtjSyS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469065305@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "krLz8TC2XDNeGfLA"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469549127@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mWmeRBAU1fCBzqTo"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469544247@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mhqgHRbLI0aWM0lj"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano Testes Tres",
+            "email": "fulanoteste3@qa.com.br",
+            "_id": "pDOIU1Eaqz35OktU"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469069895@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "qwAssKhnv7DOn1kH"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469098841@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ue1FoIpp8lMcnGwU"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469553903@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ujtx4X1PYR4rIetv"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469039977@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yML7DmvaYreNn7Rf"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469006999@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yjcGhlZsJQv70Tad"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469550889@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ypQc53t0rbBJsqEZ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468351872@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yz8oxCMjTZagVKk5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469548228@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "z3OSx8447rUhpX4H"
+        }
+    ]
+}
+Request method:	DELETE
+Request URI:	https://serverest.dev/usuarios/98o5ol1598IAHyGJ
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://serverest.dev/usuarios/98o5ol1598IAHyGJ
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://serverest.dev/usuarios/98o5ol1598IAHyGJ
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://serverest.dev/usuarios/98o5ol1598IAHyGJ
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://serverest.dev/usuarios/98o5ol1598IAHyGJ
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 476ffe6b1bed5fe38d3d3ebf541c7940
+date: Fri, 17 Apr 2026 23:50:18 GMT
+server: Google Frontend
+Content-Length: 51
+
+{
+    "message": "Registro excluído com sucesso"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 476ffe6b1bed5fe38d3d3ebf541c7940
+date: Fri, 17 Apr 2026 23:50:18 GMT
+server: Google Frontend
+Content-Length: 51
+
+{
+    "message": "Registro excluído com sucesso"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 476ffe6b1bed5fe38d3d3ebf541c7940
+date: Fri, 17 Apr 2026 23:50:18 GMT
+server: Google Frontend
+Content-Length: 51
+
+{
+    "message": "Registro excluído com sucesso"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 476ffe6b1bed5fe38d3d3ebf541c7940
+date: Fri, 17 Apr 2026 23:50:18 GMT
+server: Google Frontend
+Content-Length: 51
+
+{
+    "message": "Registro excluído com sucesso"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 476ffe6b1bed5fe38d3d3ebf541c7940
+date: Fri, 17 Apr 2026 23:50:18 GMT
+server: Google Frontend
+Content-Length: 51
+
+{
+    "message": "Registro excluído com sucesso"
+}
+Request method:	GET
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: cf16328337128636f6dca924ebe18a3d
+date: Fri, 17 Apr 2026 23:50:19 GMT
+server: Google Frontend
+Content-Length: 11147
+
+{
+    "quantidade": 51,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469068323@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "101h13DqMFCn3CWZ"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469040780@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "2MuVAFTwWV7wWH6L"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776468349497@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "4Mm4G15fWfgClme5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469099622@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "79EKGDNYDxhgu7Tj"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469095565@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "7RZjtv5M6nReWFc6"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469810880@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AD49tBAyumE2MM0X"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468352768@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AjyPHwoqWusED9q7"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468348570@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "BijsZgML3rj4yeI5"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469816432@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Dpc3RFGKycO4tZLZ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468344252@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "DwANXCn2nE7mLeN2"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469550495@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "E9nxeIhi0wqgz6GX"
+        },
+        {
+            "nome": "TESTE",
+            "email": "leonel.ifcs@outlook.com",
+            "password": "leonel",
+            "administrador": "false",
+            "_id": "Fse4TmRlV65mkVrI"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469013208@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GCDZBuJPv60BBVeS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469069100@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GdNpTymVbaTBurDz"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "rateste@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "HcuEkUe1bArMoFB3"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468444666@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IAk9IWmIsdo171AW"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469546205@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IulwHYKsJVawr8kr"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468441277@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "J98BoKgPtJYbEr6V"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468447589@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "KD2Vt7u7FYhDIFf4"
+        },
+        {
+            "nome": "Arnulfo",
+            "email": "israel.fritsch@yahoo.com",
+            "password": "v7f83ad851",
+            "administrador": "true",
+            "_id": "NyQRP1DykKPM9Fq9"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469553102@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "OJmVcP1ZqEHXaE71"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468448489@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "P1kVErBtcyIRWos7"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469100977@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "PWQjH1nlfwTou1Q0"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469554787@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "R0bdxgtIq3aPI0ia"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469039202@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TCoJDnCG8R3dSpji"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469036000@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TEXDbZlVNfqRbaNx"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468347595@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Vdlq6a2aIFEsnRge"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468438870@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "YN4Ax560BnVbB7U5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469012374@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "YNmYhaItVOunzIPC"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468443888@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Zgn9W3t7w6JyylFm"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469011516@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "bIzxcl0c0ZPXGxx1"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469812860@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "dBSyy8tRWlbOqhdX"
+        },
+        {
+            "nome": "Earl Garcia",
+            "email": "qbrown@example.org",
+            "password": "admin",
+            "administrador": "true",
+            "_id": "fQL2clJIp17xBsPJ"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776468445449@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "fsOgQNwER77JtkmD"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469815641@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "g2H63jnqPqSkrBPg"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468338949@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "gOmYDyB118Umjit8"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469552228@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "iY1Dm0gZ3gEWdtJt"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469814894@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "jWhzhAQmaHAtjSyS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469065305@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "krLz8TC2XDNeGfLA"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469549127@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mWmeRBAU1fCBzqTo"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469544247@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mhqgHRbLI0aWM0lj"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano Testes Tres",
+            "email": "fulanoteste3@qa.com.br",
+            "_id": "pDOIU1Eaqz35OktU"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469069895@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "qwAssKhnv7DOn1kH"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469098841@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ue1FoIpp8lMcnGwU"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469553903@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ujtx4X1PYR4rIetv"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469039977@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yML7DmvaYreNn7Rf"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469006999@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yjcGhlZsJQv70Tad"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469550889@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ypQc53t0rbBJsqEZ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468351872@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yz8oxCMjTZagVKk5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469548228@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "z3OSx8447rUhpX4H"
+        }
+    ]
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: cf16328337128636f6dca924ebe18a3d
+date: Fri, 17 Apr 2026 23:50:19 GMT
+server: Google Frontend
+Content-Length: 11147
+
+{
+    "quantidade": 51,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469068323@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "101h13DqMFCn3CWZ"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469040780@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "2MuVAFTwWV7wWH6L"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776468349497@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "4Mm4G15fWfgClme5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469099622@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "79EKGDNYDxhgu7Tj"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469095565@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "7RZjtv5M6nReWFc6"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469810880@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AD49tBAyumE2MM0X"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468352768@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AjyPHwoqWusED9q7"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468348570@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "BijsZgML3rj4yeI5"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469816432@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Dpc3RFGKycO4tZLZ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468344252@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "DwANXCn2nE7mLeN2"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469550495@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "E9nxeIhi0wqgz6GX"
+        },
+        {
+            "nome": "TESTE",
+            "email": "leonel.ifcs@outlook.com",
+            "password": "leonel",
+            "administrador": "false",
+            "_id": "Fse4TmRlV65mkVrI"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469013208@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GCDZBuJPv60BBVeS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469069100@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GdNpTymVbaTBurDz"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "rateste@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "HcuEkUe1bArMoFB3"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468444666@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IAk9IWmIsdo171AW"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469546205@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IulwHYKsJVawr8kr"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468441277@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "J98BoKgPtJYbEr6V"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468447589@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "KD2Vt7u7FYhDIFf4"
+        },
+        {
+            "nome": "Arnulfo",
+            "email": "israel.fritsch@yahoo.com",
+            "password": "v7f83ad851",
+            "administrador": "true",
+            "_id": "NyQRP1DykKPM9Fq9"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469553102@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "OJmVcP1ZqEHXaE71"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468448489@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "P1kVErBtcyIRWos7"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469100977@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "PWQjH1nlfwTou1Q0"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469554787@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "R0bdxgtIq3aPI0ia"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469039202@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TCoJDnCG8R3dSpji"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469036000@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TEXDbZlVNfqRbaNx"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468347595@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Vdlq6a2aIFEsnRge"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468438870@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "YN4Ax560BnVbB7U5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469012374@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "YNmYhaItVOunzIPC"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468443888@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Zgn9W3t7w6JyylFm"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469011516@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "bIzxcl0c0ZPXGxx1"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469812860@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "dBSyy8tRWlbOqhdX"
+        },
+        {
+            "nome": "Earl Garcia",
+            "email": "qbrown@example.org",
+            "password": "admin",
+            "administrador": "true",
+            "_id": "fQL2clJIp17xBsPJ"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776468445449@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "fsOgQNwER77JtkmD"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469815641@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "g2H63jnqPqSkrBPg"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468338949@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "gOmYDyB118Umjit8"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469552228@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "iY1Dm0gZ3gEWdtJt"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469814894@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "jWhzhAQmaHAtjSyS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469065305@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "krLz8TC2XDNeGfLA"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469549127@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mWmeRBAU1fCBzqTo"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469544247@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mhqgHRbLI0aWM0lj"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano Testes Tres",
+            "email": "fulanoteste3@qa.com.br",
+            "_id": "pDOIU1Eaqz35OktU"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469069895@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "qwAssKhnv7DOn1kH"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469098841@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ue1FoIpp8lMcnGwU"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469553903@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ujtx4X1PYR4rIetv"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469039977@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yML7DmvaYreNn7Rf"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469006999@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yjcGhlZsJQv70Tad"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469550889@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ypQc53t0rbBJsqEZ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468351872@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yz8oxCMjTZagVKk5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469548228@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "z3OSx8447rUhpX4H"
+        }
+    ]
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: cf16328337128636f6dca924ebe18a3d
+date: Fri, 17 Apr 2026 23:50:19 GMT
+server: Google Frontend
+Content-Length: 11147
+
+{
+    "quantidade": 51,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469068323@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "101h13DqMFCn3CWZ"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469040780@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "2MuVAFTwWV7wWH6L"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776468349497@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "4Mm4G15fWfgClme5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469099622@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "79EKGDNYDxhgu7Tj"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469095565@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "7RZjtv5M6nReWFc6"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469810880@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AD49tBAyumE2MM0X"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468352768@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AjyPHwoqWusED9q7"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468348570@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "BijsZgML3rj4yeI5"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469816432@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Dpc3RFGKycO4tZLZ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468344252@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "DwANXCn2nE7mLeN2"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469550495@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "E9nxeIhi0wqgz6GX"
+        },
+        {
+            "nome": "TESTE",
+            "email": "leonel.ifcs@outlook.com",
+            "password": "leonel",
+            "administrador": "false",
+            "_id": "Fse4TmRlV65mkVrI"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469013208@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GCDZBuJPv60BBVeS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469069100@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GdNpTymVbaTBurDz"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "rateste@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "HcuEkUe1bArMoFB3"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468444666@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IAk9IWmIsdo171AW"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469546205@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IulwHYKsJVawr8kr"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468441277@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "J98BoKgPtJYbEr6V"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468447589@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "KD2Vt7u7FYhDIFf4"
+        },
+        {
+            "nome": "Arnulfo",
+            "email": "israel.fritsch@yahoo.com",
+            "password": "v7f83ad851",
+            "administrador": "true",
+            "_id": "NyQRP1DykKPM9Fq9"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469553102@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "OJmVcP1ZqEHXaE71"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468448489@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "P1kVErBtcyIRWos7"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469100977@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "PWQjH1nlfwTou1Q0"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469554787@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "R0bdxgtIq3aPI0ia"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469039202@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TCoJDnCG8R3dSpji"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469036000@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TEXDbZlVNfqRbaNx"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468347595@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Vdlq6a2aIFEsnRge"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468438870@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "YN4Ax560BnVbB7U5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469012374@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "YNmYhaItVOunzIPC"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468443888@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Zgn9W3t7w6JyylFm"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469011516@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "bIzxcl0c0ZPXGxx1"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469812860@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "dBSyy8tRWlbOqhdX"
+        },
+        {
+            "nome": "Earl Garcia",
+            "email": "qbrown@example.org",
+            "password": "admin",
+            "administrador": "true",
+            "_id": "fQL2clJIp17xBsPJ"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776468445449@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "fsOgQNwER77JtkmD"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469815641@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "g2H63jnqPqSkrBPg"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468338949@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "gOmYDyB118Umjit8"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469552228@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "iY1Dm0gZ3gEWdtJt"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469814894@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "jWhzhAQmaHAtjSyS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469065305@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "krLz8TC2XDNeGfLA"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469549127@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mWmeRBAU1fCBzqTo"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469544247@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mhqgHRbLI0aWM0lj"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano Testes Tres",
+            "email": "fulanoteste3@qa.com.br",
+            "_id": "pDOIU1Eaqz35OktU"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469069895@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "qwAssKhnv7DOn1kH"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469098841@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ue1FoIpp8lMcnGwU"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469553903@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ujtx4X1PYR4rIetv"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469039977@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yML7DmvaYreNn7Rf"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469006999@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yjcGhlZsJQv70Tad"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469550889@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ypQc53t0rbBJsqEZ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468351872@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yz8oxCMjTZagVKk5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469548228@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "z3OSx8447rUhpX4H"
+        }
+    ]
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: cf16328337128636f6dca924ebe18a3d
+date: Fri, 17 Apr 2026 23:50:19 GMT
+server: Google Frontend
+Content-Length: 11147
+
+{
+    "quantidade": 51,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469068323@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "101h13DqMFCn3CWZ"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469040780@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "2MuVAFTwWV7wWH6L"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776468349497@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "4Mm4G15fWfgClme5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469099622@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "79EKGDNYDxhgu7Tj"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469095565@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "7RZjtv5M6nReWFc6"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469810880@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AD49tBAyumE2MM0X"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468352768@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AjyPHwoqWusED9q7"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468348570@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "BijsZgML3rj4yeI5"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469816432@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Dpc3RFGKycO4tZLZ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468344252@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "DwANXCn2nE7mLeN2"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469550495@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "E9nxeIhi0wqgz6GX"
+        },
+        {
+            "nome": "TESTE",
+            "email": "leonel.ifcs@outlook.com",
+            "password": "leonel",
+            "administrador": "false",
+            "_id": "Fse4TmRlV65mkVrI"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469013208@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GCDZBuJPv60BBVeS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469069100@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GdNpTymVbaTBurDz"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "rateste@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "HcuEkUe1bArMoFB3"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468444666@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IAk9IWmIsdo171AW"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469546205@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IulwHYKsJVawr8kr"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468441277@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "J98BoKgPtJYbEr6V"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468447589@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "KD2Vt7u7FYhDIFf4"
+        },
+        {
+            "nome": "Arnulfo",
+            "email": "israel.fritsch@yahoo.com",
+            "password": "v7f83ad851",
+            "administrador": "true",
+            "_id": "NyQRP1DykKPM9Fq9"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469553102@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "OJmVcP1ZqEHXaE71"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468448489@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "P1kVErBtcyIRWos7"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469100977@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "PWQjH1nlfwTou1Q0"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469554787@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "R0bdxgtIq3aPI0ia"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469039202@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TCoJDnCG8R3dSpji"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469036000@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TEXDbZlVNfqRbaNx"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468347595@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Vdlq6a2aIFEsnRge"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468438870@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "YN4Ax560BnVbB7U5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469012374@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "YNmYhaItVOunzIPC"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468443888@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Zgn9W3t7w6JyylFm"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469011516@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "bIzxcl0c0ZPXGxx1"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469812860@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "dBSyy8tRWlbOqhdX"
+        },
+        {
+            "nome": "Earl Garcia",
+            "email": "qbrown@example.org",
+            "password": "admin",
+            "administrador": "true",
+            "_id": "fQL2clJIp17xBsPJ"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776468445449@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "fsOgQNwER77JtkmD"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469815641@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "g2H63jnqPqSkrBPg"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468338949@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "gOmYDyB118Umjit8"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469552228@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "iY1Dm0gZ3gEWdtJt"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469814894@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "jWhzhAQmaHAtjSyS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469065305@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "krLz8TC2XDNeGfLA"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469549127@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mWmeRBAU1fCBzqTo"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469544247@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mhqgHRbLI0aWM0lj"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano Testes Tres",
+            "email": "fulanoteste3@qa.com.br",
+            "_id": "pDOIU1Eaqz35OktU"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469069895@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "qwAssKhnv7DOn1kH"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469098841@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ue1FoIpp8lMcnGwU"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469553903@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ujtx4X1PYR4rIetv"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469039977@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yML7DmvaYreNn7Rf"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469006999@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yjcGhlZsJQv70Tad"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469550889@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ypQc53t0rbBJsqEZ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468351872@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yz8oxCMjTZagVKk5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469548228@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "z3OSx8447rUhpX4H"
+        }
+    ]
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: cf16328337128636f6dca924ebe18a3d
+date: Fri, 17 Apr 2026 23:50:19 GMT
+server: Google Frontend
+Content-Length: 11147
+
+{
+    "quantidade": 51,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469068323@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "101h13DqMFCn3CWZ"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469040780@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "2MuVAFTwWV7wWH6L"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776468349497@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "4Mm4G15fWfgClme5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469099622@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "79EKGDNYDxhgu7Tj"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469095565@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "7RZjtv5M6nReWFc6"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469810880@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AD49tBAyumE2MM0X"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468352768@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AjyPHwoqWusED9q7"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468348570@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "BijsZgML3rj4yeI5"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469816432@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Dpc3RFGKycO4tZLZ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468344252@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "DwANXCn2nE7mLeN2"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469550495@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "E9nxeIhi0wqgz6GX"
+        },
+        {
+            "nome": "TESTE",
+            "email": "leonel.ifcs@outlook.com",
+            "password": "leonel",
+            "administrador": "false",
+            "_id": "Fse4TmRlV65mkVrI"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469013208@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GCDZBuJPv60BBVeS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469069100@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GdNpTymVbaTBurDz"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "rateste@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "HcuEkUe1bArMoFB3"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468444666@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IAk9IWmIsdo171AW"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469546205@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IulwHYKsJVawr8kr"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468441277@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "J98BoKgPtJYbEr6V"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468447589@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "KD2Vt7u7FYhDIFf4"
+        },
+        {
+            "nome": "Arnulfo",
+            "email": "israel.fritsch@yahoo.com",
+            "password": "v7f83ad851",
+            "administrador": "true",
+            "_id": "NyQRP1DykKPM9Fq9"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469553102@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "OJmVcP1ZqEHXaE71"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468448489@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "P1kVErBtcyIRWos7"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469100977@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "PWQjH1nlfwTou1Q0"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469554787@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "R0bdxgtIq3aPI0ia"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469039202@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TCoJDnCG8R3dSpji"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469036000@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TEXDbZlVNfqRbaNx"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468347595@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Vdlq6a2aIFEsnRge"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468438870@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "YN4Ax560BnVbB7U5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469012374@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "YNmYhaItVOunzIPC"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468443888@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Zgn9W3t7w6JyylFm"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469011516@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "bIzxcl0c0ZPXGxx1"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469812860@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "dBSyy8tRWlbOqhdX"
+        },
+        {
+            "nome": "Earl Garcia",
+            "email": "qbrown@example.org",
+            "password": "admin",
+            "administrador": "true",
+            "_id": "fQL2clJIp17xBsPJ"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776468445449@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "fsOgQNwER77JtkmD"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469815641@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "g2H63jnqPqSkrBPg"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468338949@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "gOmYDyB118Umjit8"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469552228@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "iY1Dm0gZ3gEWdtJt"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469814894@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "jWhzhAQmaHAtjSyS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469065305@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "krLz8TC2XDNeGfLA"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469549127@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mWmeRBAU1fCBzqTo"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469544247@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mhqgHRbLI0aWM0lj"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano Testes Tres",
+            "email": "fulanoteste3@qa.com.br",
+            "_id": "pDOIU1Eaqz35OktU"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776469069895@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "qwAssKhnv7DOn1kH"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469098841@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ue1FoIpp8lMcnGwU"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469553903@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ujtx4X1PYR4rIetv"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469039977@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yML7DmvaYreNn7Rf"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469006999@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yjcGhlZsJQv70Tad"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469550889@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ypQc53t0rbBJsqEZ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776468351872@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yz8oxCMjTZagVKk5"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776469548228@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "z3OSx8447rUhpX4H"
+        }
+    ]
+}

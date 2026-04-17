@@ -1,6 +1,6 @@
 package com.qa.tests.usuario;
 
-import com.qa.assertions.ApiAssertions;
+import com.qa.assertions.UsuarioAssertions;
 import com.qa.dto.Usuario;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -21,25 +21,25 @@ public class UsuarioSecurityTest extends UsuarioTestBase {
     @Story("Validação de autorização de exclusão de usuário")
     @DisplayName("Endpoint aceita exclusão de usuário sem autenticação")
     public void devePermitirDeletarUsuarioSemAutenticacao() {
-        // Observação: o endpoint DELETE /usuarios/{id} devolve 200 mesmo sem credenciais.
+        // Observação: o endpoint DELETE /usuarios/{id} devolve 200 mesmo sem
+        // credenciais.
         // Isso representa uma possível vulnerabilidade de autorização do serviço.
         Usuario usuario = criarUsuarioValido();
-        Response createResponse = criarUsuarioComSucesso(usuario);
-        String userId = createResponse.jsonPath().getString("_id");
+        String userId = criarUsuarioERetornarId(usuario);
 
-        ApiAssertions.validarStatus200(usuarioService.deletarUsuario(userId));
+        UsuarioAssertions.validarDelecaoComSucesso(usuarioService.deletarUsuario(userId));
     }
 
     @Test
     @Story("Validação de token inválido na exclusão")
     @DisplayName("Endpoint aceita exclusão com token inválido")
     public void devePermitirDeletarUsuarioComTokenInvalido() {
-        // Observação: o endpoint aceita um token inválido e ainda assim realiza a deleção.
+        // Observação: o endpoint aceita um token inválido e ainda assim realiza a
+        // deleção.
         Usuario usuario = criarUsuarioValido();
-        Response createResponse = criarUsuarioComSucesso(usuario);
-        String userId = createResponse.jsonPath().getString("_id");
+        String userId = criarUsuarioERetornarId(usuario);
         String invalidToken = "token-invalido-" + System.currentTimeMillis();
 
-        ApiAssertions.validarStatus200(usuarioService.deletarUsuarioComToken(userId, invalidToken));
+        UsuarioAssertions.validarDelecaoComSucesso(usuarioService.deletarUsuarioComToken(userId, invalidToken));
     }
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.qa.tests.login.LoginTest" time="3.117" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.qa.tests.login.LoginTest" time="2.035" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.2.10-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire952223233712300908\surefirebooter-20260416195346566_3.jar C:\Users\User\AppData\Local\Temp\surefire952223233712300908 2026-04-16T19-53-46_443-jvmRun1 surefire-20260416195346566_1tmp surefire_0-20260416195346566_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire14681030382324235612\surefirebooter-20260417205009527_3.jar C:\Users\User\AppData\Local\Temp\surefire14681030382324235612 2026-04-17T20-50-09_406-jvmRun1 surefire-20260417205009527_1tmp surefire_0-20260417205009527_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\User\restassured-project\target\test-classes;C:\Users\User\restassured-project\target\classes;C:\Users\User\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\User\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\User\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\User\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\User\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\User\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\User\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\User\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\User\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\User\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\User\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\User\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-junit5\2.21.0\allure-junit5-2.21.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-junit-platform\2.21.0\allure-junit-platform-2.21.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-java-commons\2.21.0\allure-java-commons-2.21.0.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-model\2.21.0\allure-model-2.21.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-test-filter\2.21.0\allure-test-filter-2.21.0.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-rest-assured\2.21.0\allure-rest-assured-2.21.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-attachments\2.21.0\allure-attachments-2.21.0.jar;C:\Users\User\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\User\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;"/>
     <property name="allure.results.directory" value="C:\Users\User\restassured-project\target/allure-results"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire952223233712300908\surefirebooter-20260416195346566_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire14681030382324235612\surefirebooter-20260417205009527_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.2+10-LTS"/>
@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="deveFazerLoginComSucesso" classname="com.qa.tests.login.LoginTest" time="2.989">
+  <testcase name="deveFazerLoginComSucesso" classname="com.qa.tests.login.LoginTest" time="1.961">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://serverest.dev/usuarios
 Proxy:			<none>
@@ -76,7 +76,7 @@ Multiparts:		<none>
 Body:
 {
     "nome": "Usuário Válido",
-    "email": "teste1776380028059@qa.com",
+    "email": "teste1776469810880@qa.com",
     "password": "123456",
     "administrador": "true"
 }
@@ -94,7 +94,7 @@ Multiparts:		<none>
 Body:
 {
     "nome": "Usuário Válido",
-    "email": "teste1776380028059@qa.com",
+    "email": "teste1776469810880@qa.com",
     "password": "123456",
     "administrador": "true"
 }
@@ -107,14 +107,14 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 4754a4efa46ba1f4cbd420db36ba26a6;o=1
-date: Thu, 16 Apr 2026 22:53:50 GMT
+x-cloud-trace-context: a15197afeead0d8e7feff1c7e9222bc5;o=1
+date: Fri, 17 Apr 2026 23:50:12 GMT
 server: Google Frontend
 Content-Length: 82
 
 {
     "message": "Cadastro realizado com sucesso",
-    "_id": "3sUuVaBTflFIE0Ce"
+    "_id": "AD49tBAyumE2MM0X"
 }
 HTTP/1.1 201 Created
 access-control-allow-origin: *
@@ -125,14 +125,14 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 4754a4efa46ba1f4cbd420db36ba26a6;o=1
-date: Thu, 16 Apr 2026 22:53:50 GMT
+x-cloud-trace-context: a15197afeead0d8e7feff1c7e9222bc5;o=1
+date: Fri, 17 Apr 2026 23:50:12 GMT
 server: Google Frontend
 Content-Length: 82
 
 {
     "message": "Cadastro realizado com sucesso",
-    "_id": "3sUuVaBTflFIE0Ce"
+    "_id": "AD49tBAyumE2MM0X"
 }
 Request method:	POST
 Request URI:	https://serverest.dev/login
@@ -147,7 +147,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "teste1776380028059@qa.com",
+    "email": "teste1776469810880@qa.com",
     "password": "123456"
 }
 Request method:	POST
@@ -163,7 +163,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "teste1776380028059@qa.com",
+    "email": "teste1776469810880@qa.com",
     "password": "123456"
 }
 HTTP/1.1 200 OK
@@ -175,14 +175,14 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: c613742016021e68779e3172107945ab
-date: Thu, 16 Apr 2026 22:53:51 GMT
+x-cloud-trace-context: db30740291ef69370728a7215d06a53c
+date: Fri, 17 Apr 2026 23:50:12 GMT
 server: Google Frontend
 Content-Length: 283
 
 {
     "message": "Login realizado com sucesso",
-    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RlMTc3NjM4MDAyODA1OUBxYS5jb20iLCJwYXNzd29yZCI6IjEyMzQ1NiIsImlhdCI6MTc3NjM4MDAzMSwiZXhwIjoxNzc2MzgwNjMxfQ.suZg4rU4FP3X7i30dAPZ34tPep3JDWgMOihlyXeBU1s"
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RlMTc3NjQ2OTgxMDg4MEBxYS5jb20iLCJwYXNzd29yZCI6IjEyMzQ1NiIsImlhdCI6MTc3NjQ2OTgxMiwiZXhwIjoxNzc2NDcwNDEyfQ.14kCotQ3-ypWd4VJMewb29IpL3Gh_WaKjb6Fyz00CVY"
 }
 HTTP/1.1 200 OK
 access-control-allow-origin: *
@@ -193,14 +193,14 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: c613742016021e68779e3172107945ab
-date: Thu, 16 Apr 2026 22:53:51 GMT
+x-cloud-trace-context: db30740291ef69370728a7215d06a53c
+date: Fri, 17 Apr 2026 23:50:12 GMT
 server: Google Frontend
 Content-Length: 283
 
 {
     "message": "Login realizado com sucesso",
-    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RlMTc3NjM4MDAyODA1OUBxYS5jb20iLCJwYXNzd29yZCI6IjEyMzQ1NiIsImlhdCI6MTc3NjM4MDAzMSwiZXhwIjoxNzc2MzgwNjMxfQ.suZg4rU4FP3X7i30dAPZ34tPep3JDWgMOihlyXeBU1s"
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RlMTc3NjQ2OTgxMDg4MEBxYS5jb20iLCJwYXNzd29yZCI6IjEyMzQ1NiIsImlhdCI6MTc3NjQ2OTgxMiwiZXhwIjoxNzc2NDcwNDEyfQ.14kCotQ3-ypWd4VJMewb29IpL3Gh_WaKjb6Fyz00CVY"
 }
 ]]></system-out>
   </testcase>

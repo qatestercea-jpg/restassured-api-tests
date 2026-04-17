@@ -1,7 +1,6 @@
 package com.qa.tests.usuario;
 
-import com.qa.assertions.ApiAssertions;
-import com.qa.builder.UsuarioBuilder;
+import com.qa.assertions.UsuarioAssertions;
 import com.qa.dto.Usuario;
 import com.qa.factory.UsuarioFactory;
 import io.qameta.allure.Epic;
@@ -31,7 +30,7 @@ public class UsuarioCreateTest extends UsuarioTestBase {
 
         Response createResponse = criarUsuarioComSucesso(usuario);
 
-        createResponse.then()
+        UsuarioAssertions.validarUsuarioCriadoComSucesso(createResponse)
                 .body("message", equalTo("Cadastro realizado com sucesso"));
     }
 
@@ -40,16 +39,16 @@ public class UsuarioCreateTest extends UsuarioTestBase {
     public void deveRetornarErroAoCriarUsuarioSemEmail() {
         Usuario usuario = UsuarioFactory.usuarioSemEmail();
 
-        ApiAssertions.validarErroCampo(usuarioService.criarUsuario(usuario), "email", "deve ser uma string");
+        UsuarioAssertions.validarErroCampo(usuarioService.criarUsuario(usuario), "email", "deve ser uma string");
     }
 
     @ParameterizedTest
-    @ValueSource(strings = {"", "usuarioSemArroba", "usuario@"})
+    @ValueSource(strings = { "", "usuarioSemArroba", "usuario@" })
     @DisplayName("Deve rejeitar emails inválidos no cadastro")
     public void deveRetornarErroAoCriarUsuarioComEmailInvalido(String email) {
-        Usuario usuario = UsuarioBuilder.usuarioComEmailInvalido(email).build();
+        Usuario usuario = UsuarioFactory.usuarioComEmailInvalido(email);
 
-        ApiAssertions.validarErroCampo(usuarioService.criarUsuario(usuario), "email", "email");
+        UsuarioAssertions.validarErroCampo(usuarioService.criarUsuario(usuario), "email", "email");
     }
 
     @Test
@@ -58,18 +57,16 @@ public class UsuarioCreateTest extends UsuarioTestBase {
         Usuario usuario = criarUsuarioValido();
         criarUsuarioComSucesso(usuario);
 
-        ApiAssertions.validarStatus400(usuarioService.criarUsuario(
-                UsuarioFactory.usuarioComEmailDuplicado(usuario.getEmail())
-        ));
+        UsuarioAssertions.validarStatus400(usuarioService.criarUsuario(
+                UsuarioFactory.usuarioComEmailDuplicado(usuario.getEmail())));
     }
 
     @Test
-    @DisplayName("Deve criar usuário usando builder customizado")
+    @DisplayName("Deve criar usuário com dados personalizados")
     public void deveCriarUsuarioComDadosPersonalizados() {
-        Usuario usuario = UsuarioBuilder.usuarioPersonalizado(
+        Usuario usuario = UsuarioFactory.usuarioPersonalizado(
                 "Edson QA",
-                "teste" + System.currentTimeMillis() + "@qa.com"
-        ).build();
+                "teste" + System.currentTimeMillis() + "@qa.com");
 
         criarUsuarioComSucesso(usuario);
     }

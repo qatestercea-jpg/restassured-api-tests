@@ -1,6 +1,5 @@
 package com.qa.client;
 
-import com.qa.constants.Endpoints;
 import com.qa.dto.Usuario;
 import com.qa.dto.UsuarioLoginRequest;
 import com.qa.dto.UsuarioLoginResponse;
@@ -12,6 +11,9 @@ import static io.restassured.RestAssured.given;
 
 public class UsuarioClient {
 
+    private static final String USUARIOS = "/usuarios";
+    private static final String LOGIN = "/login";
+
     // 🔥 método base (evita repetição)
     private RequestSpecification request() {
         return given()
@@ -22,24 +24,24 @@ public class UsuarioClient {
     public Response criarUsuario(Usuario usuario) {
         return request()
                 .body(usuario)
-                .post(Endpoints.USUARIOS);
+                .post(USUARIOS);
     }
 
     public UsuarioLoginResponse login(UsuarioLoginRequest loginRequest) {
         return request()
                 .body(loginRequest)
-                .post(Endpoints.LOGIN)
+                .post(LOGIN)
                 .as(UsuarioLoginResponse.class);
     }
 
     public Response listarUsuarios() {
         return request()
-                .get(Endpoints.USUARIOS);
+                .get(USUARIOS);
     }
 
     public Response deletarUsuario(String id) {
         return request()
-                .delete(Endpoints.USUARIOS + "/{id}", id);
+                .delete(USUARIOS + "/{id}", id);
     }
 
     private RequestSpecification requestWithAuth(String token) {
@@ -48,6 +50,6 @@ public class UsuarioClient {
 
     public Response deletarUsuarioComToken(String id, String token) {
         return requestWithAuth(token)
-                .delete(Endpoints.USUARIOS + "/{id}", id);
+                .delete(USUARIOS + "/{id}", id);
     }
 }

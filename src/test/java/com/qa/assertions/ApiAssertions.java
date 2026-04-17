@@ -11,20 +11,24 @@ public final class ApiAssertions {
     private ApiAssertions() {
     }
 
+    public static ValidatableResponse validarStatus(Response response, int statusCode) {
+        return response.then().statusCode(statusCode);
+    }
+
     public static ValidatableResponse validarStatus200(Response response) {
-        return response.then().statusCode(200);
+        return validarStatus(response, 200);
     }
 
     public static ValidatableResponse validarStatus201(Response response) {
-        return response.then().statusCode(201);
+        return validarStatus(response, 201);
     }
 
     public static ValidatableResponse validarStatus400(Response response) {
-        return response.then().statusCode(400);
+        return validarStatus(response, 400);
     }
 
     public static ValidatableResponse validarStatus401(Response response) {
-        return response.then().statusCode(401);
+        return validarStatus(response, 401);
     }
 
     public static ValidatableResponse validarTempoRespostaMaxima(Response response, long tempoMillis) {
@@ -32,8 +36,7 @@ public final class ApiAssertions {
     }
 
     public static ValidatableResponse validarErroCampo(Response response, String campo, String mensagem) {
-        return response.then()
-                .statusCode(400)
+        return validarStatus(response, 400)
                 .body(campo, containsString(mensagem));
     }
 }

@@ -1,0 +1,1 @@
+{"uuid":"0710171d-27a4-4d0b-8994-5687e43fa38d","name":"Login de usuário","children":["346d4f98-f867-4fd0-bba7-92dea541c8cb"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1776469810811,"stop":1776469810876}],"afters":[],"start":1776469810810,"stop":1776469812842}

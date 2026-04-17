@@ -10,20 +10,11 @@ public final class UsuarioFactory {
     }
 
     public static Usuario usuarioValido() {
-        Usuario usuario = new Usuario();
-        usuario.setNome("Usuário Válido");
-        usuario.setEmail("teste" + System.currentTimeMillis() + "@qa.com");
-        usuario.setPassword("123456");
-        usuario.setAdministrador("true");
-        return usuario;
+        return novoUsuario("Usuário Válido", "teste" + System.currentTimeMillis() + "@qa.com", "true");
     }
 
     public static Usuario usuarioSemEmail() {
-        Usuario usuario = new Usuario();
-        usuario.setNome("Usuário Sem Email");
-        usuario.setPassword("123456");
-        usuario.setAdministrador("true");
-        return usuario;
+        return novoUsuario("Usuário Sem Email", null, "true");
     }
 
     public static Usuario usuarioComEmailDuplicado() {
@@ -31,11 +22,25 @@ public final class UsuarioFactory {
     }
 
     public static Usuario usuarioComEmailDuplicado(String email) {
+        return novoUsuario("Usuário Duplicado", email, "true");
+    }
+
+    public static Usuario usuarioComEmailInvalido(String email) {
+        return novoUsuario("Usuário Email Inválido", email, "true");
+    }
+
+    public static Usuario usuarioPersonalizado(String nome, String email) {
+        return novoUsuario(nome, email, "true");
+    }
+
+    private static Usuario novoUsuario(String nome, String email, String administrador) {
         Usuario usuario = new Usuario();
-        usuario.setNome("Usuário Duplicado");
-        usuario.setEmail(email);
+        usuario.setNome(nome);
+        if (email != null) {
+            usuario.setEmail(email);
+        }
         usuario.setPassword("123456");
-        usuario.setAdministrador("true");
+        usuario.setAdministrador(administrador);
         return usuario;
     }
 }

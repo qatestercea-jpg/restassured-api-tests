@@ -1,6 +1,6 @@
 package com.qa.tests.usuario;
 
-import com.qa.assertions.ApiAssertions;
+import com.qa.assertions.UsuarioAssertions;
 import com.qa.dto.Usuario;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -25,17 +25,12 @@ public class UsuarioDeleteTest extends UsuarioTestBase {
     @DisplayName("Deve excluir usuário criado com sucesso")
     public void deveExcluirUsuarioCriadoComSucesso() {
         Usuario usuario = criarUsuarioValido();
-        Response createResponse = criarUsuarioComSucesso(usuario);
-        String userId = createResponse.jsonPath().getString("_id");
+        String userId = criarUsuarioERetornarId(usuario);
 
-        ApiAssertions.validarStatus200(usuarioService.listarUsuarios())
-                .body("usuarios.email", hasItem(usuario.getEmail()));
+        UsuarioAssertions.validarListagemContemEmail(usuarioService.listarUsuarios(), usuario.getEmail());
 
-        usuarioService.deletarUsuario(userId)
-                .then()
-                .statusCode(200);
+        UsuarioAssertions.validarDelecaoComSucesso(usuarioService.deletarUsuario(userId));
 
-        ApiAssertions.validarStatus200(usuarioService.listarUsuarios())
-                .body("usuarios.email", not(hasItem(usuario.getEmail())));
+        UsuarioAssertions.validarListagemNaoContemEmail(usuarioService.listarUsuarios(), usuario.getEmail());
     }
 }
