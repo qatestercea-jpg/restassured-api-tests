@@ -1,0 +1,462 @@
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Usuário Válido",
+    "email": "teste1776472593377@qa.com",
+    "password": "123456",
+    "administrador": "true"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Usuário Válido",
+    "email": "teste1776472593377@qa.com",
+    "password": "123456",
+    "administrador": "true"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Usuário Válido",
+    "email": "teste1776472593377@qa.com",
+    "password": "123456",
+    "administrador": "true"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Usuário Válido",
+    "email": "teste1776472593377@qa.com",
+    "password": "123456",
+    "administrador": "true"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Usuário Válido",
+    "email": "teste1776472593377@qa.com",
+    "password": "123456",
+    "administrador": "true"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Usuário Válido",
+    "email": "teste1776472593377@qa.com",
+    "password": "123456",
+    "administrador": "true"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Usuário Válido",
+    "email": "teste1776472593377@qa.com",
+    "password": "123456",
+    "administrador": "true"
+}
+HTTP/1.1 201 Created
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: bc9ac13f37a4cdce47c335434b04b1dd
+date: Sat, 18 Apr 2026 00:36:33 GMT
+server: Google Frontend
+Content-Length: 82
+
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "DIaNPx855do4P1eA"
+}
+HTTP/1.1 201 Created
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: bc9ac13f37a4cdce47c335434b04b1dd
+date: Sat, 18 Apr 2026 00:36:33 GMT
+server: Google Frontend
+Content-Length: 82
+
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "DIaNPx855do4P1eA"
+}
+HTTP/1.1 201 Created
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: bc9ac13f37a4cdce47c335434b04b1dd
+date: Sat, 18 Apr 2026 00:36:33 GMT
+server: Google Frontend
+Content-Length: 82
+
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "DIaNPx855do4P1eA"
+}
+HTTP/1.1 201 Created
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: bc9ac13f37a4cdce47c335434b04b1dd
+date: Sat, 18 Apr 2026 00:36:33 GMT
+server: Google Frontend
+Content-Length: 82
+
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "DIaNPx855do4P1eA"
+}
+HTTP/1.1 201 Created
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: bc9ac13f37a4cdce47c335434b04b1dd
+date: Sat, 18 Apr 2026 00:36:33 GMT
+server: Google Frontend
+Content-Length: 82
+
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "DIaNPx855do4P1eA"
+}
+HTTP/1.1 201 Created
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: bc9ac13f37a4cdce47c335434b04b1dd
+date: Sat, 18 Apr 2026 00:36:33 GMT
+server: Google Frontend
+Content-Length: 82
+
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "DIaNPx855do4P1eA"
+}
+HTTP/1.1 201 Created
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: bc9ac13f37a4cdce47c335434b04b1dd
+date: Sat, 18 Apr 2026 00:36:33 GMT
+server: Google Frontend
+Content-Length: 82
+
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "DIaNPx855do4P1eA"
+}
+Request method:	DELETE
+Request URI:	https://serverest.dev/usuarios/DIaNPx855do4P1eA
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Authorization=token-invalido-1776472593771
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://serverest.dev/usuarios/DIaNPx855do4P1eA
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Authorization=token-invalido-1776472593771
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://serverest.dev/usuarios/DIaNPx855do4P1eA
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Authorization=token-invalido-1776472593771
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://serverest.dev/usuarios/DIaNPx855do4P1eA
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Authorization=token-invalido-1776472593771
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://serverest.dev/usuarios/DIaNPx855do4P1eA
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Authorization=token-invalido-1776472593771
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://serverest.dev/usuarios/DIaNPx855do4P1eA
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Authorization=token-invalido-1776472593771
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://serverest.dev/usuarios/DIaNPx855do4P1eA
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Authorization=token-invalido-1776472593771
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 56644e56e1d01d76d7aca6183cd016c5
+date: Sat, 18 Apr 2026 00:36:34 GMT
+server: Google Frontend
+Content-Length: 51
+
+{
+    "message": "Registro excluído com sucesso"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 56644e56e1d01d76d7aca6183cd016c5
+date: Sat, 18 Apr 2026 00:36:34 GMT
+server: Google Frontend
+Content-Length: 51
+
+{
+    "message": "Registro excluído com sucesso"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 56644e56e1d01d76d7aca6183cd016c5
+date: Sat, 18 Apr 2026 00:36:34 GMT
+server: Google Frontend
+Content-Length: 51
+
+{
+    "message": "Registro excluído com sucesso"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 56644e56e1d01d76d7aca6183cd016c5
+date: Sat, 18 Apr 2026 00:36:34 GMT
+server: Google Frontend
+Content-Length: 51
+
+{
+    "message": "Registro excluído com sucesso"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 56644e56e1d01d76d7aca6183cd016c5
+date: Sat, 18 Apr 2026 00:36:34 GMT
+server: Google Frontend
+Content-Length: 51
+
+{
+    "message": "Registro excluído com sucesso"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 56644e56e1d01d76d7aca6183cd016c5
+date: Sat, 18 Apr 2026 00:36:34 GMT
+server: Google Frontend
+Content-Length: 51
+
+{
+    "message": "Registro excluído com sucesso"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 56644e56e1d01d76d7aca6183cd016c5
+date: Sat, 18 Apr 2026 00:36:34 GMT
+server: Google Frontend
+Content-Length: 51
+
+{
+    "message": "Registro excluído com sucesso"
+}

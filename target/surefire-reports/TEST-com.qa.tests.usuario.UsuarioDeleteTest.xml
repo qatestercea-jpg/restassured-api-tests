@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.qa.tests.usuario.UsuarioDeleteTest" time="3.527" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.qa.tests.usuario.UsuarioDeleteTest" time="3.225" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\User\restassured-project\target\test-classes;C:\Users\User\restassured-project\target\classes;C:\Users\User\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\User\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\User\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\User\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\User\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\User\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\User\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\User\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\User\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\User\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\User\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\User\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-junit5\2.21.0\allure-junit5-2.21.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-junit-platform\2.21.0\allure-junit-platform-2.21.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-java-commons\2.21.0\allure-java-commons-2.21.0.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-model\2.21.0\allure-model-2.21.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-test-filter\2.21.0\allure-test-filter-2.21.0.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-rest-assured\2.21.0\allure-rest-assured-2.21.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-attachments\2.21.0\allure-attachments-2.21.0.jar;C:\Users\User\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\User\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;"/>
+    <property name="java.class.path" value="C:\Users\User\restassured-project\target\test-classes;C:\Users\User\restassured-project\target\classes;C:\Users\User\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\User\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\User\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\User\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\User\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\User\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\User\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\User\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\User\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\User\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\User\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\User\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\User\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\User\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\User\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\User\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\User\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\User\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\User\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\User\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\User\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\User\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\User\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\User\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\User\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-junit5\2.21.0\allure-junit5-2.21.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-junit-platform\2.21.0\allure-junit-platform-2.21.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-java-commons\2.21.0\allure-java-commons-2.21.0.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-model\2.21.0\allure-model-2.21.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-test-filter\2.21.0\allure-test-filter-2.21.0.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-rest-assured\2.21.0\allure-rest-assured-2.21.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-attachments\2.21.0\allure-attachments-2.21.0.jar;C:\Users\User\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\User\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.2.10-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire17724717565723151141\surefirebooter-20260417211410401_3.jar C:\Users\User\AppData\Local\Temp\surefire17724717565723151141 2026-04-17T21-14-10_277-jvmRun1 surefire-20260417211410401_1tmp surefire_0-20260417211410401_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire13439017269626668734\surefirebooter-20260417213618620_3.jar C:\Users\User\AppData\Local\Temp\surefire13439017269626668734 2026-04-17T21-36-18_374-jvmRun1 surefire-20260417213618620_1tmp surefire_0-20260417213618620_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\User\restassured-project\target\test-classes;C:\Users\User\restassured-project\target\classes;C:\Users\User\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\User\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\User\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\User\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\User\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\User\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\User\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\User\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\User\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\User\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\User\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\User\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-junit5\2.21.0\allure-junit5-2.21.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-junit-platform\2.21.0\allure-junit-platform-2.21.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-java-commons\2.21.0\allure-java-commons-2.21.0.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-model\2.21.0\allure-model-2.21.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-test-filter\2.21.0\allure-test-filter-2.21.0.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-rest-assured\2.21.0\allure-rest-assured-2.21.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-attachments\2.21.0\allure-attachments-2.21.0.jar;C:\Users\User\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\User\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\User\restassured-project\target\test-classes;C:\Users\User\restassured-project\target\classes;C:\Users\User\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\User\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\User\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\User\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\User\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\User\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\User\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\User\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\User\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\User\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\User\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\User\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\User\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\User\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\User\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\User\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\User\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\User\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\User\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\User\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\User\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\User\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\User\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\User\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\User\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-junit5\2.21.0\allure-junit5-2.21.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-junit-platform\2.21.0\allure-junit-platform-2.21.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-java-commons\2.21.0\allure-java-commons-2.21.0.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-model\2.21.0\allure-model-2.21.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-test-filter\2.21.0\allure-test-filter-2.21.0.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-rest-assured\2.21.0\allure-rest-assured-2.21.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-attachments\2.21.0\allure-attachments-2.21.0.jar;C:\Users\User\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\User\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;"/>
     <property name="allure.results.directory" value="C:\Users\User\restassured-project\target/allure-results"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\User"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire17724717565723151141\surefirebooter-20260417211410401_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire13439017269626668734\surefirebooter-20260417213618620_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.2+10-LTS"/>
@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="devePermitirExcluirMesmoUsuarioDuasVezes" classname="com.qa.tests.usuario.UsuarioDeleteTest" time="1.72">
+  <testcase name="devePermitirExcluirMesmoUsuarioDuasVezes" classname="com.qa.tests.usuario.UsuarioDeleteTest" time="1.151">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://serverest.dev/usuarios
 Proxy:			<none>
@@ -76,7 +76,7 @@ Multiparts:		<none>
 Body:
 {
     "nome": "Usuário Válido",
-    "email": "teste1776471258887@qa.com",
+    "email": "teste1776472586123@qa.com",
     "password": "123456",
     "administrador": "true"
 }
@@ -94,7 +94,7 @@ Multiparts:		<none>
 Body:
 {
     "nome": "Usuário Válido",
-    "email": "teste1776471258887@qa.com",
+    "email": "teste1776472586123@qa.com",
     "password": "123456",
     "administrador": "true"
 }
@@ -112,7 +112,7 @@ Multiparts:		<none>
 Body:
 {
     "nome": "Usuário Válido",
-    "email": "teste1776471258887@qa.com",
+    "email": "teste1776472586123@qa.com",
     "password": "123456",
     "administrador": "true"
 }
@@ -130,7 +130,7 @@ Multiparts:		<none>
 Body:
 {
     "nome": "Usuário Válido",
-    "email": "teste1776471258887@qa.com",
+    "email": "teste1776472586123@qa.com",
     "password": "123456",
     "administrador": "true"
 }
@@ -148,7 +148,7 @@ Multiparts:		<none>
 Body:
 {
     "nome": "Usuário Válido",
-    "email": "teste1776471258887@qa.com",
+    "email": "teste1776472586123@qa.com",
     "password": "123456",
     "administrador": "true"
 }
@@ -161,14 +161,14 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 4c41897cb5e498837ac5c599110e89f7
-date: Sat, 18 Apr 2026 00:14:19 GMT
+x-cloud-trace-context: c26d0233790afa8f81cbfa4497f5f420
+date: Sat, 18 Apr 2026 00:36:26 GMT
 server: Google Frontend
 Content-Length: 82
 
 {
     "message": "Cadastro realizado com sucesso",
-    "_id": "gKnEdRuIUXiCXxSi"
+    "_id": "i1FiinDa0ztfsq6Z"
 }
 HTTP/1.1 201 Created
 access-control-allow-origin: *
@@ -179,14 +179,14 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 4c41897cb5e498837ac5c599110e89f7
-date: Sat, 18 Apr 2026 00:14:19 GMT
+x-cloud-trace-context: c26d0233790afa8f81cbfa4497f5f420
+date: Sat, 18 Apr 2026 00:36:26 GMT
 server: Google Frontend
 Content-Length: 82
 
 {
     "message": "Cadastro realizado com sucesso",
-    "_id": "gKnEdRuIUXiCXxSi"
+    "_id": "i1FiinDa0ztfsq6Z"
 }
 HTTP/1.1 201 Created
 access-control-allow-origin: *
@@ -197,14 +197,14 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 4c41897cb5e498837ac5c599110e89f7
-date: Sat, 18 Apr 2026 00:14:19 GMT
+x-cloud-trace-context: c26d0233790afa8f81cbfa4497f5f420
+date: Sat, 18 Apr 2026 00:36:26 GMT
 server: Google Frontend
 Content-Length: 82
 
 {
     "message": "Cadastro realizado com sucesso",
-    "_id": "gKnEdRuIUXiCXxSi"
+    "_id": "i1FiinDa0ztfsq6Z"
 }
 HTTP/1.1 201 Created
 access-control-allow-origin: *
@@ -215,14 +215,14 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 4c41897cb5e498837ac5c599110e89f7
-date: Sat, 18 Apr 2026 00:14:19 GMT
+x-cloud-trace-context: c26d0233790afa8f81cbfa4497f5f420
+date: Sat, 18 Apr 2026 00:36:26 GMT
 server: Google Frontend
 Content-Length: 82
 
 {
     "message": "Cadastro realizado com sucesso",
-    "_id": "gKnEdRuIUXiCXxSi"
+    "_id": "i1FiinDa0ztfsq6Z"
 }
 HTTP/1.1 201 Created
 access-control-allow-origin: *
@@ -233,21 +233,21 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 4c41897cb5e498837ac5c599110e89f7
-date: Sat, 18 Apr 2026 00:14:19 GMT
+x-cloud-trace-context: c26d0233790afa8f81cbfa4497f5f420
+date: Sat, 18 Apr 2026 00:36:26 GMT
 server: Google Frontend
 Content-Length: 82
 
 {
     "message": "Cadastro realizado com sucesso",
-    "_id": "gKnEdRuIUXiCXxSi"
+    "_id": "i1FiinDa0ztfsq6Z"
 }
 DEBUG criarUsuarioERetornarId response body: {
     "message": "Cadastro realizado com sucesso",
-    "_id": "gKnEdRuIUXiCXxSi"
+    "_id": "i1FiinDa0ztfsq6Z"
 }
 Request method:	DELETE
-Request URI:	https://serverest.dev/usuarios/gKnEdRuIUXiCXxSi
+Request URI:	https://serverest.dev/usuarios/i1FiinDa0ztfsq6Z
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -259,7 +259,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 Request method:	DELETE
-Request URI:	https://serverest.dev/usuarios/gKnEdRuIUXiCXxSi
+Request URI:	https://serverest.dev/usuarios/i1FiinDa0ztfsq6Z
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -271,7 +271,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 Request method:	DELETE
-Request URI:	https://serverest.dev/usuarios/gKnEdRuIUXiCXxSi
+Request URI:	https://serverest.dev/usuarios/i1FiinDa0ztfsq6Z
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -283,7 +283,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 Request method:	DELETE
-Request URI:	https://serverest.dev/usuarios/gKnEdRuIUXiCXxSi
+Request URI:	https://serverest.dev/usuarios/i1FiinDa0ztfsq6Z
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -295,7 +295,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 Request method:	DELETE
-Request URI:	https://serverest.dev/usuarios/gKnEdRuIUXiCXxSi
+Request URI:	https://serverest.dev/usuarios/i1FiinDa0ztfsq6Z
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -315,8 +315,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: f4cb172e030aa392d394eb14815cc399
-date: Sat, 18 Apr 2026 00:14:20 GMT
+x-cloud-trace-context: baeecce2a571616d64d746e03d17e7e8
+date: Sat, 18 Apr 2026 00:36:26 GMT
 server: Google Frontend
 Content-Length: 51
 
@@ -332,8 +332,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: f4cb172e030aa392d394eb14815cc399
-date: Sat, 18 Apr 2026 00:14:20 GMT
+x-cloud-trace-context: baeecce2a571616d64d746e03d17e7e8
+date: Sat, 18 Apr 2026 00:36:26 GMT
 server: Google Frontend
 Content-Length: 51
 
@@ -349,8 +349,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: f4cb172e030aa392d394eb14815cc399
-date: Sat, 18 Apr 2026 00:14:20 GMT
+x-cloud-trace-context: baeecce2a571616d64d746e03d17e7e8
+date: Sat, 18 Apr 2026 00:36:26 GMT
 server: Google Frontend
 Content-Length: 51
 
@@ -366,8 +366,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: f4cb172e030aa392d394eb14815cc399
-date: Sat, 18 Apr 2026 00:14:20 GMT
+x-cloud-trace-context: baeecce2a571616d64d746e03d17e7e8
+date: Sat, 18 Apr 2026 00:36:26 GMT
 server: Google Frontend
 Content-Length: 51
 
@@ -383,8 +383,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: f4cb172e030aa392d394eb14815cc399
-date: Sat, 18 Apr 2026 00:14:20 GMT
+x-cloud-trace-context: baeecce2a571616d64d746e03d17e7e8
+date: Sat, 18 Apr 2026 00:36:26 GMT
 server: Google Frontend
 Content-Length: 51
 
@@ -392,7 +392,7 @@ Content-Length: 51
     "message": "Registro excluído com sucesso"
 }
 Request method:	DELETE
-Request URI:	https://serverest.dev/usuarios/gKnEdRuIUXiCXxSi
+Request URI:	https://serverest.dev/usuarios/i1FiinDa0ztfsq6Z
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -404,7 +404,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 Request method:	DELETE
-Request URI:	https://serverest.dev/usuarios/gKnEdRuIUXiCXxSi
+Request URI:	https://serverest.dev/usuarios/i1FiinDa0ztfsq6Z
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -416,7 +416,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 Request method:	DELETE
-Request URI:	https://serverest.dev/usuarios/gKnEdRuIUXiCXxSi
+Request URI:	https://serverest.dev/usuarios/i1FiinDa0ztfsq6Z
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -428,7 +428,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 Request method:	DELETE
-Request URI:	https://serverest.dev/usuarios/gKnEdRuIUXiCXxSi
+Request URI:	https://serverest.dev/usuarios/i1FiinDa0ztfsq6Z
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -440,7 +440,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 Request method:	DELETE
-Request URI:	https://serverest.dev/usuarios/gKnEdRuIUXiCXxSi
+Request URI:	https://serverest.dev/usuarios/i1FiinDa0ztfsq6Z
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -460,8 +460,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: c9a5533f08df127cebde48e3dc35674d
-date: Sat, 18 Apr 2026 00:14:20 GMT
+x-cloud-trace-context: f18506685efaf2428c7e989d1b45e0af
+date: Sat, 18 Apr 2026 00:36:27 GMT
 server: Google Frontend
 Content-Length: 46
 
@@ -477,8 +477,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: c9a5533f08df127cebde48e3dc35674d
-date: Sat, 18 Apr 2026 00:14:20 GMT
+x-cloud-trace-context: f18506685efaf2428c7e989d1b45e0af
+date: Sat, 18 Apr 2026 00:36:27 GMT
 server: Google Frontend
 Content-Length: 46
 
@@ -494,8 +494,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: c9a5533f08df127cebde48e3dc35674d
-date: Sat, 18 Apr 2026 00:14:20 GMT
+x-cloud-trace-context: f18506685efaf2428c7e989d1b45e0af
+date: Sat, 18 Apr 2026 00:36:27 GMT
 server: Google Frontend
 Content-Length: 46
 
@@ -511,8 +511,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: c9a5533f08df127cebde48e3dc35674d
-date: Sat, 18 Apr 2026 00:14:20 GMT
+x-cloud-trace-context: f18506685efaf2428c7e989d1b45e0af
+date: Sat, 18 Apr 2026 00:36:27 GMT
 server: Google Frontend
 Content-Length: 46
 
@@ -528,8 +528,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: c9a5533f08df127cebde48e3dc35674d
-date: Sat, 18 Apr 2026 00:14:20 GMT
+x-cloud-trace-context: f18506685efaf2428c7e989d1b45e0af
+date: Sat, 18 Apr 2026 00:36:27 GMT
 server: Google Frontend
 Content-Length: 46
 
@@ -538,7 +538,7 @@ Content-Length: 46
 }
 ]]></system-out>
   </testcase>
-  <testcase name="deveExcluirUsuarioCriadoComSucesso" classname="com.qa.tests.usuario.UsuarioDeleteTest" time="1.8">
+  <testcase name="deveExcluirUsuarioCriadoComSucesso" classname="com.qa.tests.usuario.UsuarioDeleteTest" time="2.063">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://serverest.dev/usuarios
 Proxy:			<none>
@@ -553,7 +553,7 @@ Multiparts:		<none>
 Body:
 {
     "nome": "Usuário Válido",
-    "email": "teste1776471260608@qa.com",
+    "email": "teste1776472587276@qa.com",
     "password": "123456",
     "administrador": "true"
 }
@@ -571,7 +571,7 @@ Multiparts:		<none>
 Body:
 {
     "nome": "Usuário Válido",
-    "email": "teste1776471260608@qa.com",
+    "email": "teste1776472587276@qa.com",
     "password": "123456",
     "administrador": "true"
 }
@@ -589,7 +589,7 @@ Multiparts:		<none>
 Body:
 {
     "nome": "Usuário Válido",
-    "email": "teste1776471260608@qa.com",
+    "email": "teste1776472587276@qa.com",
     "password": "123456",
     "administrador": "true"
 }
@@ -607,7 +607,7 @@ Multiparts:		<none>
 Body:
 {
     "nome": "Usuário Válido",
-    "email": "teste1776471260608@qa.com",
+    "email": "teste1776472587276@qa.com",
     "password": "123456",
     "administrador": "true"
 }
@@ -625,7 +625,7 @@ Multiparts:		<none>
 Body:
 {
     "nome": "Usuário Válido",
-    "email": "teste1776471260608@qa.com",
+    "email": "teste1776472587276@qa.com",
     "password": "123456",
     "administrador": "true"
 }
@@ -638,14 +638,14 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 37e998f7fee088c258903ecef9113c1d
-date: Sat, 18 Apr 2026 00:14:21 GMT
+x-cloud-trace-context: c1a6970de64824b0dcd27d3e2c29435a
+date: Sat, 18 Apr 2026 00:36:27 GMT
 server: Google Frontend
 Content-Length: 82
 
 {
     "message": "Cadastro realizado com sucesso",
-    "_id": "J0NWXYemK5cq8mZR"
+    "_id": "LtVs8LoGitnvrVRe"
 }
 HTTP/1.1 201 Created
 access-control-allow-origin: *
@@ -656,14 +656,14 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 37e998f7fee088c258903ecef9113c1d
-date: Sat, 18 Apr 2026 00:14:21 GMT
+x-cloud-trace-context: c1a6970de64824b0dcd27d3e2c29435a
+date: Sat, 18 Apr 2026 00:36:27 GMT
 server: Google Frontend
 Content-Length: 82
 
 {
     "message": "Cadastro realizado com sucesso",
-    "_id": "J0NWXYemK5cq8mZR"
+    "_id": "LtVs8LoGitnvrVRe"
 }
 HTTP/1.1 201 Created
 access-control-allow-origin: *
@@ -674,14 +674,14 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 37e998f7fee088c258903ecef9113c1d
-date: Sat, 18 Apr 2026 00:14:21 GMT
+x-cloud-trace-context: c1a6970de64824b0dcd27d3e2c29435a
+date: Sat, 18 Apr 2026 00:36:27 GMT
 server: Google Frontend
 Content-Length: 82
 
 {
     "message": "Cadastro realizado com sucesso",
-    "_id": "J0NWXYemK5cq8mZR"
+    "_id": "LtVs8LoGitnvrVRe"
 }
 HTTP/1.1 201 Created
 access-control-allow-origin: *
@@ -692,14 +692,14 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 37e998f7fee088c258903ecef9113c1d
-date: Sat, 18 Apr 2026 00:14:21 GMT
+x-cloud-trace-context: c1a6970de64824b0dcd27d3e2c29435a
+date: Sat, 18 Apr 2026 00:36:27 GMT
 server: Google Frontend
 Content-Length: 82
 
 {
     "message": "Cadastro realizado com sucesso",
-    "_id": "J0NWXYemK5cq8mZR"
+    "_id": "LtVs8LoGitnvrVRe"
 }
 HTTP/1.1 201 Created
 access-control-allow-origin: *
@@ -710,18 +710,18 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 37e998f7fee088c258903ecef9113c1d
-date: Sat, 18 Apr 2026 00:14:21 GMT
+x-cloud-trace-context: c1a6970de64824b0dcd27d3e2c29435a
+date: Sat, 18 Apr 2026 00:36:27 GMT
 server: Google Frontend
 Content-Length: 82
 
 {
     "message": "Cadastro realizado com sucesso",
-    "_id": "J0NWXYemK5cq8mZR"
+    "_id": "LtVs8LoGitnvrVRe"
 }
 DEBUG criarUsuarioERetornarId response body: {
     "message": "Cadastro realizado com sucesso",
-    "_id": "J0NWXYemK5cq8mZR"
+    "_id": "LtVs8LoGitnvrVRe"
 }
 Request method:	GET
 Request URI:	https://serverest.dev/usuarios
@@ -792,14 +792,28 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: d2bf55570c7d1a6c2dc067303ea95250
-date: Sat, 18 Apr 2026 00:14:21 GMT
+x-cloud-trace-context: f2eecb53bbb084a145bf57449af5e7b6
+date: Sat, 18 Apr 2026 00:36:28 GMT
 server: Google Frontend
-Content-Length: 15301
+Content-Length: 22298
 
 {
-    "quantidade": 70,
+    "quantidade": 102,
     "usuarios": [
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471422780@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "0Q9DwOMlisfKGBg7"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471423040@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "0u4Wck6tPUErpbW7"
+        },
         {
             "nome": "Fulano da Silva",
             "email": "fulano@qa.com",
@@ -815,11 +829,32 @@ Content-Length: 15301
             "_id": "101h13DqMFCn3CWZ"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776471419967@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "1BSn7bX7bVfL0DO8"
+        },
+        {
             "nome": "Edson QA",
             "email": "teste1776469040780@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "2MuVAFTwWV7wWH6L"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472163355@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "3U47SJeD5yOAb7Kj"
+        },
+        {
+            "nome": "Lucas",
+            "email": "lucas@email.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "3i7Pb33T7zMi0RZD"
         },
         {
             "nome": "Edson QA",
@@ -858,6 +893,13 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472584854@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "89mr5NundJMFpXmB"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469810880@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -892,6 +934,13 @@ Content-Length: 15301
             "_id": "BijsZgML3rj4yeI5"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472584072@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "CoTqwyWQejo6lcu6"
+        },
+        {
             "nome": "Edson QA",
             "email": "teste1776469816432@qa.com",
             "password": "123456",
@@ -920,6 +969,13 @@ Content-Length: 15301
             "_id": "ExlvzNCP1jKYrMCU"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472582005@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "FeworkQ571CXIRJX"
+        },
+        {
             "administrador": "true",
             "email": "levi.runte@hotmail.com",
             "nome": "Kassie Crist",
@@ -942,17 +998,17 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776471423325@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GYmThuHDplHKsv7A"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469069100@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "GdNpTymVbaTBurDz"
-        },
-        {
-            "nome": "Fulano da Silva",
-            "email": "rateste@qa.com.br",
-            "password": "teste",
-            "administrador": "true",
-            "_id": "HcuEkUe1bArMoFB3"
         },
         {
             "nome": "Usuário Válido",
@@ -976,11 +1032,11 @@ Content-Length: 15301
             "_id": "IulwHYKsJVawr8kr"
         },
         {
-            "nome": "Usuário Válido",
-            "email": "teste1776471260608@qa.com",
+            "nome": "Edson QA",
+            "email": "teste1776471422644@qa.com",
             "password": "123456",
             "administrador": "true",
-            "_id": "J0NWXYemK5cq8mZR"
+            "_id": "IupIcuJ2fM3SD9YL"
         },
         {
             "nome": "Usuário Válido",
@@ -988,6 +1044,13 @@ Content-Length: 15301
             "password": "123456",
             "administrador": "true",
             "_id": "J98BoKgPtJYbEr6V"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472161989@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "JwsFjwypMZbFMZno"
         },
         {
             "nome": "Usuário Válido",
@@ -1004,6 +1067,13 @@ Content-Length: 15301
             "_id": "LhtCl04lbyveeudi"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472587276@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "LtVs8LoGitnvrVRe"
+        },
+        {
             "nome": "Arnulfo",
             "email": "israel.fritsch@yahoo.com",
             "password": "v7f83ad851",
@@ -1016,6 +1086,13 @@ Content-Length: 15301
             "password": "123456",
             "administrador": "true",
             "_id": "OJmVcP1ZqEHXaE71"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472170490@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "OWsImsGrboOkfqGL"
         },
         {
             "nome": "Usuário Válido",
@@ -1054,10 +1131,45 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472157241@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UWp69M0yH697TO6y"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471418413@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UYWf8ZSlwhUTu1Nk"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472423150@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UbcK8dvSHkzAy6Zq"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776468347595@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "Vdlq6a2aIFEsnRge"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472412264@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "VrHkJV7R9Lc2FScE"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472417007@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "X3WeIBuVqi2uGwfi"
         },
         {
             "nome": "Usuário Válido",
@@ -1075,10 +1187,31 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776471422393@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Z59ujzAueClXf6SJ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472580035@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Z8b1zxFSD8lLdApe"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776468443888@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "Zgn9W3t7w6JyylFm"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472159755@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "anV109luOD4UZT9M"
         },
         {
             "nome": "Usuário Válido",
@@ -1100,6 +1233,13 @@ Content-Length: 15301
             "password": "123456",
             "administrador": "true",
             "_id": "dBSyy8tRWlbOqhdX"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472424025@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "dDV0ZLUXWiIxh21Y"
         },
         {
             "nome": "Earl Garcia",
@@ -1137,6 +1277,20 @@ Content-Length: 15301
             "_id": "gOmYDyB118Umjit8"
         },
         {
+            "nome": "Edson QA",
+            "email": "teste1776472418003@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "hnHTPHONcyiiEeKK"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472169027@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "i4FuxOfNsyxgZfQT"
+        },
+        {
             "nome": "Usuário Válido",
             "email": "teste1776470195323@qa.com",
             "password": "123456",
@@ -1156,6 +1310,13 @@ Content-Length: 15301
             "password": "123456",
             "administrador": "true",
             "_id": "jWhzhAQmaHAtjSyS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472416201@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "jnqgxYraOYs4acwK"
         },
         {
             "nome": "Usuário Válido",
@@ -1214,6 +1375,13 @@ Content-Length: 15301
             "_id": "pDOIU1Eaqz35OktU"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472168104@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "pR5cVnzkRlfP5fhT"
+        },
+        {
             "administrador": "true",
             "email": "carl.simonis@gmail.com",
             "nome": "Mrs. Donovan Robel",
@@ -1236,6 +1404,41 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472414151@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "rg0JIdoCxKv6NNiv"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776472164143@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "t1KkUKnloos6Bm9B"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471263253@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "thVX9JFQwxbqUC8H"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471262418@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "uA1fxYPbaNUlmVRN"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471422160@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "uITR5KWwNa8yRMKb"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469098841@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -1250,6 +1453,20 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472422194@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "vRV0sdTSj1Y0H6Ud"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471264663@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "xzARo8Vh168XAAPo"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469039977@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -1261,6 +1478,13 @@ Content-Length: 15301
             "nome": "full_name",
             "password": "password",
             "_id": "yRAhUTVhUshpQogo"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776472585760@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ygoIzkS22M7wch7C"
         },
         {
             "nome": "Usuário Válido",
@@ -1301,14 +1525,28 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: d2bf55570c7d1a6c2dc067303ea95250
-date: Sat, 18 Apr 2026 00:14:21 GMT
+x-cloud-trace-context: f2eecb53bbb084a145bf57449af5e7b6
+date: Sat, 18 Apr 2026 00:36:28 GMT
 server: Google Frontend
-Content-Length: 15301
+Content-Length: 22298
 
 {
-    "quantidade": 70,
+    "quantidade": 102,
     "usuarios": [
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471422780@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "0Q9DwOMlisfKGBg7"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471423040@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "0u4Wck6tPUErpbW7"
+        },
         {
             "nome": "Fulano da Silva",
             "email": "fulano@qa.com",
@@ -1324,11 +1562,32 @@ Content-Length: 15301
             "_id": "101h13DqMFCn3CWZ"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776471419967@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "1BSn7bX7bVfL0DO8"
+        },
+        {
             "nome": "Edson QA",
             "email": "teste1776469040780@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "2MuVAFTwWV7wWH6L"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472163355@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "3U47SJeD5yOAb7Kj"
+        },
+        {
+            "nome": "Lucas",
+            "email": "lucas@email.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "3i7Pb33T7zMi0RZD"
         },
         {
             "nome": "Edson QA",
@@ -1367,6 +1626,13 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472584854@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "89mr5NundJMFpXmB"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469810880@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -1401,6 +1667,13 @@ Content-Length: 15301
             "_id": "BijsZgML3rj4yeI5"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472584072@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "CoTqwyWQejo6lcu6"
+        },
+        {
             "nome": "Edson QA",
             "email": "teste1776469816432@qa.com",
             "password": "123456",
@@ -1429,6 +1702,13 @@ Content-Length: 15301
             "_id": "ExlvzNCP1jKYrMCU"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472582005@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "FeworkQ571CXIRJX"
+        },
+        {
             "administrador": "true",
             "email": "levi.runte@hotmail.com",
             "nome": "Kassie Crist",
@@ -1451,17 +1731,17 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776471423325@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GYmThuHDplHKsv7A"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469069100@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "GdNpTymVbaTBurDz"
-        },
-        {
-            "nome": "Fulano da Silva",
-            "email": "rateste@qa.com.br",
-            "password": "teste",
-            "administrador": "true",
-            "_id": "HcuEkUe1bArMoFB3"
         },
         {
             "nome": "Usuário Válido",
@@ -1485,11 +1765,11 @@ Content-Length: 15301
             "_id": "IulwHYKsJVawr8kr"
         },
         {
-            "nome": "Usuário Válido",
-            "email": "teste1776471260608@qa.com",
+            "nome": "Edson QA",
+            "email": "teste1776471422644@qa.com",
             "password": "123456",
             "administrador": "true",
-            "_id": "J0NWXYemK5cq8mZR"
+            "_id": "IupIcuJ2fM3SD9YL"
         },
         {
             "nome": "Usuário Válido",
@@ -1497,6 +1777,13 @@ Content-Length: 15301
             "password": "123456",
             "administrador": "true",
             "_id": "J98BoKgPtJYbEr6V"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472161989@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "JwsFjwypMZbFMZno"
         },
         {
             "nome": "Usuário Válido",
@@ -1513,6 +1800,13 @@ Content-Length: 15301
             "_id": "LhtCl04lbyveeudi"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472587276@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "LtVs8LoGitnvrVRe"
+        },
+        {
             "nome": "Arnulfo",
             "email": "israel.fritsch@yahoo.com",
             "password": "v7f83ad851",
@@ -1525,6 +1819,13 @@ Content-Length: 15301
             "password": "123456",
             "administrador": "true",
             "_id": "OJmVcP1ZqEHXaE71"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472170490@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "OWsImsGrboOkfqGL"
         },
         {
             "nome": "Usuário Válido",
@@ -1563,10 +1864,45 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472157241@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UWp69M0yH697TO6y"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471418413@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UYWf8ZSlwhUTu1Nk"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472423150@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UbcK8dvSHkzAy6Zq"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776468347595@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "Vdlq6a2aIFEsnRge"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472412264@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "VrHkJV7R9Lc2FScE"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472417007@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "X3WeIBuVqi2uGwfi"
         },
         {
             "nome": "Usuário Válido",
@@ -1584,10 +1920,31 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776471422393@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Z59ujzAueClXf6SJ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472580035@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Z8b1zxFSD8lLdApe"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776468443888@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "Zgn9W3t7w6JyylFm"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472159755@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "anV109luOD4UZT9M"
         },
         {
             "nome": "Usuário Válido",
@@ -1609,6 +1966,13 @@ Content-Length: 15301
             "password": "123456",
             "administrador": "true",
             "_id": "dBSyy8tRWlbOqhdX"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472424025@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "dDV0ZLUXWiIxh21Y"
         },
         {
             "nome": "Earl Garcia",
@@ -1646,6 +2010,20 @@ Content-Length: 15301
             "_id": "gOmYDyB118Umjit8"
         },
         {
+            "nome": "Edson QA",
+            "email": "teste1776472418003@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "hnHTPHONcyiiEeKK"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472169027@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "i4FuxOfNsyxgZfQT"
+        },
+        {
             "nome": "Usuário Válido",
             "email": "teste1776470195323@qa.com",
             "password": "123456",
@@ -1665,6 +2043,13 @@ Content-Length: 15301
             "password": "123456",
             "administrador": "true",
             "_id": "jWhzhAQmaHAtjSyS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472416201@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "jnqgxYraOYs4acwK"
         },
         {
             "nome": "Usuário Válido",
@@ -1723,6 +2108,13 @@ Content-Length: 15301
             "_id": "pDOIU1Eaqz35OktU"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472168104@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "pR5cVnzkRlfP5fhT"
+        },
+        {
             "administrador": "true",
             "email": "carl.simonis@gmail.com",
             "nome": "Mrs. Donovan Robel",
@@ -1745,6 +2137,41 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472414151@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "rg0JIdoCxKv6NNiv"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776472164143@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "t1KkUKnloos6Bm9B"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471263253@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "thVX9JFQwxbqUC8H"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471262418@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "uA1fxYPbaNUlmVRN"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471422160@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "uITR5KWwNa8yRMKb"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469098841@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -1759,6 +2186,20 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472422194@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "vRV0sdTSj1Y0H6Ud"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471264663@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "xzARo8Vh168XAAPo"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469039977@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -1770,6 +2211,13 @@ Content-Length: 15301
             "nome": "full_name",
             "password": "password",
             "_id": "yRAhUTVhUshpQogo"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776472585760@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ygoIzkS22M7wch7C"
         },
         {
             "nome": "Usuário Válido",
@@ -1810,14 +2258,28 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: d2bf55570c7d1a6c2dc067303ea95250
-date: Sat, 18 Apr 2026 00:14:21 GMT
+x-cloud-trace-context: f2eecb53bbb084a145bf57449af5e7b6
+date: Sat, 18 Apr 2026 00:36:28 GMT
 server: Google Frontend
-Content-Length: 15301
+Content-Length: 22298
 
 {
-    "quantidade": 70,
+    "quantidade": 102,
     "usuarios": [
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471422780@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "0Q9DwOMlisfKGBg7"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471423040@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "0u4Wck6tPUErpbW7"
+        },
         {
             "nome": "Fulano da Silva",
             "email": "fulano@qa.com",
@@ -1833,11 +2295,32 @@ Content-Length: 15301
             "_id": "101h13DqMFCn3CWZ"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776471419967@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "1BSn7bX7bVfL0DO8"
+        },
+        {
             "nome": "Edson QA",
             "email": "teste1776469040780@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "2MuVAFTwWV7wWH6L"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472163355@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "3U47SJeD5yOAb7Kj"
+        },
+        {
+            "nome": "Lucas",
+            "email": "lucas@email.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "3i7Pb33T7zMi0RZD"
         },
         {
             "nome": "Edson QA",
@@ -1876,6 +2359,13 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472584854@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "89mr5NundJMFpXmB"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469810880@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -1910,6 +2400,13 @@ Content-Length: 15301
             "_id": "BijsZgML3rj4yeI5"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472584072@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "CoTqwyWQejo6lcu6"
+        },
+        {
             "nome": "Edson QA",
             "email": "teste1776469816432@qa.com",
             "password": "123456",
@@ -1938,6 +2435,13 @@ Content-Length: 15301
             "_id": "ExlvzNCP1jKYrMCU"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472582005@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "FeworkQ571CXIRJX"
+        },
+        {
             "administrador": "true",
             "email": "levi.runte@hotmail.com",
             "nome": "Kassie Crist",
@@ -1960,17 +2464,17 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776471423325@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GYmThuHDplHKsv7A"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469069100@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "GdNpTymVbaTBurDz"
-        },
-        {
-            "nome": "Fulano da Silva",
-            "email": "rateste@qa.com.br",
-            "password": "teste",
-            "administrador": "true",
-            "_id": "HcuEkUe1bArMoFB3"
         },
         {
             "nome": "Usuário Válido",
@@ -1994,11 +2498,11 @@ Content-Length: 15301
             "_id": "IulwHYKsJVawr8kr"
         },
         {
-            "nome": "Usuário Válido",
-            "email": "teste1776471260608@qa.com",
+            "nome": "Edson QA",
+            "email": "teste1776471422644@qa.com",
             "password": "123456",
             "administrador": "true",
-            "_id": "J0NWXYemK5cq8mZR"
+            "_id": "IupIcuJ2fM3SD9YL"
         },
         {
             "nome": "Usuário Válido",
@@ -2006,6 +2510,13 @@ Content-Length: 15301
             "password": "123456",
             "administrador": "true",
             "_id": "J98BoKgPtJYbEr6V"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472161989@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "JwsFjwypMZbFMZno"
         },
         {
             "nome": "Usuário Válido",
@@ -2022,6 +2533,13 @@ Content-Length: 15301
             "_id": "LhtCl04lbyveeudi"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472587276@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "LtVs8LoGitnvrVRe"
+        },
+        {
             "nome": "Arnulfo",
             "email": "israel.fritsch@yahoo.com",
             "password": "v7f83ad851",
@@ -2034,6 +2552,13 @@ Content-Length: 15301
             "password": "123456",
             "administrador": "true",
             "_id": "OJmVcP1ZqEHXaE71"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472170490@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "OWsImsGrboOkfqGL"
         },
         {
             "nome": "Usuário Válido",
@@ -2072,10 +2597,45 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472157241@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UWp69M0yH697TO6y"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471418413@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UYWf8ZSlwhUTu1Nk"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472423150@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UbcK8dvSHkzAy6Zq"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776468347595@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "Vdlq6a2aIFEsnRge"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472412264@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "VrHkJV7R9Lc2FScE"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472417007@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "X3WeIBuVqi2uGwfi"
         },
         {
             "nome": "Usuário Válido",
@@ -2093,10 +2653,31 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776471422393@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Z59ujzAueClXf6SJ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472580035@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Z8b1zxFSD8lLdApe"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776468443888@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "Zgn9W3t7w6JyylFm"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472159755@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "anV109luOD4UZT9M"
         },
         {
             "nome": "Usuário Válido",
@@ -2118,6 +2699,13 @@ Content-Length: 15301
             "password": "123456",
             "administrador": "true",
             "_id": "dBSyy8tRWlbOqhdX"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472424025@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "dDV0ZLUXWiIxh21Y"
         },
         {
             "nome": "Earl Garcia",
@@ -2155,6 +2743,20 @@ Content-Length: 15301
             "_id": "gOmYDyB118Umjit8"
         },
         {
+            "nome": "Edson QA",
+            "email": "teste1776472418003@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "hnHTPHONcyiiEeKK"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472169027@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "i4FuxOfNsyxgZfQT"
+        },
+        {
             "nome": "Usuário Válido",
             "email": "teste1776470195323@qa.com",
             "password": "123456",
@@ -2174,6 +2776,13 @@ Content-Length: 15301
             "password": "123456",
             "administrador": "true",
             "_id": "jWhzhAQmaHAtjSyS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472416201@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "jnqgxYraOYs4acwK"
         },
         {
             "nome": "Usuário Válido",
@@ -2232,6 +2841,13 @@ Content-Length: 15301
             "_id": "pDOIU1Eaqz35OktU"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472168104@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "pR5cVnzkRlfP5fhT"
+        },
+        {
             "administrador": "true",
             "email": "carl.simonis@gmail.com",
             "nome": "Mrs. Donovan Robel",
@@ -2254,6 +2870,41 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472414151@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "rg0JIdoCxKv6NNiv"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776472164143@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "t1KkUKnloos6Bm9B"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471263253@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "thVX9JFQwxbqUC8H"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471262418@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "uA1fxYPbaNUlmVRN"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471422160@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "uITR5KWwNa8yRMKb"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469098841@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -2268,6 +2919,20 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472422194@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "vRV0sdTSj1Y0H6Ud"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471264663@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "xzARo8Vh168XAAPo"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469039977@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -2279,6 +2944,13 @@ Content-Length: 15301
             "nome": "full_name",
             "password": "password",
             "_id": "yRAhUTVhUshpQogo"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776472585760@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ygoIzkS22M7wch7C"
         },
         {
             "nome": "Usuário Válido",
@@ -2319,14 +2991,28 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: d2bf55570c7d1a6c2dc067303ea95250
-date: Sat, 18 Apr 2026 00:14:21 GMT
+x-cloud-trace-context: f2eecb53bbb084a145bf57449af5e7b6
+date: Sat, 18 Apr 2026 00:36:28 GMT
 server: Google Frontend
-Content-Length: 15301
+Content-Length: 22298
 
 {
-    "quantidade": 70,
+    "quantidade": 102,
     "usuarios": [
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471422780@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "0Q9DwOMlisfKGBg7"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471423040@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "0u4Wck6tPUErpbW7"
+        },
         {
             "nome": "Fulano da Silva",
             "email": "fulano@qa.com",
@@ -2342,11 +3028,32 @@ Content-Length: 15301
             "_id": "101h13DqMFCn3CWZ"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776471419967@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "1BSn7bX7bVfL0DO8"
+        },
+        {
             "nome": "Edson QA",
             "email": "teste1776469040780@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "2MuVAFTwWV7wWH6L"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472163355@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "3U47SJeD5yOAb7Kj"
+        },
+        {
+            "nome": "Lucas",
+            "email": "lucas@email.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "3i7Pb33T7zMi0RZD"
         },
         {
             "nome": "Edson QA",
@@ -2385,6 +3092,13 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472584854@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "89mr5NundJMFpXmB"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469810880@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -2419,6 +3133,13 @@ Content-Length: 15301
             "_id": "BijsZgML3rj4yeI5"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472584072@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "CoTqwyWQejo6lcu6"
+        },
+        {
             "nome": "Edson QA",
             "email": "teste1776469816432@qa.com",
             "password": "123456",
@@ -2447,6 +3168,13 @@ Content-Length: 15301
             "_id": "ExlvzNCP1jKYrMCU"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472582005@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "FeworkQ571CXIRJX"
+        },
+        {
             "administrador": "true",
             "email": "levi.runte@hotmail.com",
             "nome": "Kassie Crist",
@@ -2469,17 +3197,17 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776471423325@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GYmThuHDplHKsv7A"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469069100@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "GdNpTymVbaTBurDz"
-        },
-        {
-            "nome": "Fulano da Silva",
-            "email": "rateste@qa.com.br",
-            "password": "teste",
-            "administrador": "true",
-            "_id": "HcuEkUe1bArMoFB3"
         },
         {
             "nome": "Usuário Válido",
@@ -2503,11 +3231,11 @@ Content-Length: 15301
             "_id": "IulwHYKsJVawr8kr"
         },
         {
-            "nome": "Usuário Válido",
-            "email": "teste1776471260608@qa.com",
+            "nome": "Edson QA",
+            "email": "teste1776471422644@qa.com",
             "password": "123456",
             "administrador": "true",
-            "_id": "J0NWXYemK5cq8mZR"
+            "_id": "IupIcuJ2fM3SD9YL"
         },
         {
             "nome": "Usuário Válido",
@@ -2515,6 +3243,13 @@ Content-Length: 15301
             "password": "123456",
             "administrador": "true",
             "_id": "J98BoKgPtJYbEr6V"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472161989@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "JwsFjwypMZbFMZno"
         },
         {
             "nome": "Usuário Válido",
@@ -2531,6 +3266,13 @@ Content-Length: 15301
             "_id": "LhtCl04lbyveeudi"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472587276@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "LtVs8LoGitnvrVRe"
+        },
+        {
             "nome": "Arnulfo",
             "email": "israel.fritsch@yahoo.com",
             "password": "v7f83ad851",
@@ -2543,6 +3285,13 @@ Content-Length: 15301
             "password": "123456",
             "administrador": "true",
             "_id": "OJmVcP1ZqEHXaE71"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472170490@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "OWsImsGrboOkfqGL"
         },
         {
             "nome": "Usuário Válido",
@@ -2581,10 +3330,45 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472157241@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UWp69M0yH697TO6y"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471418413@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UYWf8ZSlwhUTu1Nk"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472423150@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UbcK8dvSHkzAy6Zq"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776468347595@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "Vdlq6a2aIFEsnRge"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472412264@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "VrHkJV7R9Lc2FScE"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472417007@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "X3WeIBuVqi2uGwfi"
         },
         {
             "nome": "Usuário Válido",
@@ -2602,10 +3386,31 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776471422393@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Z59ujzAueClXf6SJ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472580035@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Z8b1zxFSD8lLdApe"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776468443888@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "Zgn9W3t7w6JyylFm"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472159755@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "anV109luOD4UZT9M"
         },
         {
             "nome": "Usuário Válido",
@@ -2627,6 +3432,13 @@ Content-Length: 15301
             "password": "123456",
             "administrador": "true",
             "_id": "dBSyy8tRWlbOqhdX"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472424025@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "dDV0ZLUXWiIxh21Y"
         },
         {
             "nome": "Earl Garcia",
@@ -2664,6 +3476,20 @@ Content-Length: 15301
             "_id": "gOmYDyB118Umjit8"
         },
         {
+            "nome": "Edson QA",
+            "email": "teste1776472418003@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "hnHTPHONcyiiEeKK"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472169027@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "i4FuxOfNsyxgZfQT"
+        },
+        {
             "nome": "Usuário Válido",
             "email": "teste1776470195323@qa.com",
             "password": "123456",
@@ -2683,6 +3509,13 @@ Content-Length: 15301
             "password": "123456",
             "administrador": "true",
             "_id": "jWhzhAQmaHAtjSyS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472416201@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "jnqgxYraOYs4acwK"
         },
         {
             "nome": "Usuário Válido",
@@ -2741,6 +3574,13 @@ Content-Length: 15301
             "_id": "pDOIU1Eaqz35OktU"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472168104@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "pR5cVnzkRlfP5fhT"
+        },
+        {
             "administrador": "true",
             "email": "carl.simonis@gmail.com",
             "nome": "Mrs. Donovan Robel",
@@ -2763,6 +3603,41 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472414151@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "rg0JIdoCxKv6NNiv"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776472164143@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "t1KkUKnloos6Bm9B"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471263253@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "thVX9JFQwxbqUC8H"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471262418@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "uA1fxYPbaNUlmVRN"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471422160@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "uITR5KWwNa8yRMKb"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469098841@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -2777,6 +3652,20 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472422194@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "vRV0sdTSj1Y0H6Ud"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471264663@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "xzARo8Vh168XAAPo"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469039977@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -2788,6 +3677,13 @@ Content-Length: 15301
             "nome": "full_name",
             "password": "password",
             "_id": "yRAhUTVhUshpQogo"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776472585760@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ygoIzkS22M7wch7C"
         },
         {
             "nome": "Usuário Válido",
@@ -2828,14 +3724,28 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: d2bf55570c7d1a6c2dc067303ea95250
-date: Sat, 18 Apr 2026 00:14:21 GMT
+x-cloud-trace-context: f2eecb53bbb084a145bf57449af5e7b6
+date: Sat, 18 Apr 2026 00:36:28 GMT
 server: Google Frontend
-Content-Length: 15301
+Content-Length: 22298
 
 {
-    "quantidade": 70,
+    "quantidade": 102,
     "usuarios": [
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471422780@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "0Q9DwOMlisfKGBg7"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471423040@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "0u4Wck6tPUErpbW7"
+        },
         {
             "nome": "Fulano da Silva",
             "email": "fulano@qa.com",
@@ -2851,11 +3761,32 @@ Content-Length: 15301
             "_id": "101h13DqMFCn3CWZ"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776471419967@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "1BSn7bX7bVfL0DO8"
+        },
+        {
             "nome": "Edson QA",
             "email": "teste1776469040780@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "2MuVAFTwWV7wWH6L"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472163355@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "3U47SJeD5yOAb7Kj"
+        },
+        {
+            "nome": "Lucas",
+            "email": "lucas@email.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "3i7Pb33T7zMi0RZD"
         },
         {
             "nome": "Edson QA",
@@ -2894,6 +3825,13 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472584854@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "89mr5NundJMFpXmB"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469810880@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -2928,6 +3866,13 @@ Content-Length: 15301
             "_id": "BijsZgML3rj4yeI5"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472584072@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "CoTqwyWQejo6lcu6"
+        },
+        {
             "nome": "Edson QA",
             "email": "teste1776469816432@qa.com",
             "password": "123456",
@@ -2956,6 +3901,13 @@ Content-Length: 15301
             "_id": "ExlvzNCP1jKYrMCU"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472582005@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "FeworkQ571CXIRJX"
+        },
+        {
             "administrador": "true",
             "email": "levi.runte@hotmail.com",
             "nome": "Kassie Crist",
@@ -2978,17 +3930,17 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776471423325@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GYmThuHDplHKsv7A"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469069100@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "GdNpTymVbaTBurDz"
-        },
-        {
-            "nome": "Fulano da Silva",
-            "email": "rateste@qa.com.br",
-            "password": "teste",
-            "administrador": "true",
-            "_id": "HcuEkUe1bArMoFB3"
         },
         {
             "nome": "Usuário Válido",
@@ -3012,11 +3964,11 @@ Content-Length: 15301
             "_id": "IulwHYKsJVawr8kr"
         },
         {
-            "nome": "Usuário Válido",
-            "email": "teste1776471260608@qa.com",
+            "nome": "Edson QA",
+            "email": "teste1776471422644@qa.com",
             "password": "123456",
             "administrador": "true",
-            "_id": "J0NWXYemK5cq8mZR"
+            "_id": "IupIcuJ2fM3SD9YL"
         },
         {
             "nome": "Usuário Válido",
@@ -3024,6 +3976,13 @@ Content-Length: 15301
             "password": "123456",
             "administrador": "true",
             "_id": "J98BoKgPtJYbEr6V"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472161989@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "JwsFjwypMZbFMZno"
         },
         {
             "nome": "Usuário Válido",
@@ -3040,6 +3999,13 @@ Content-Length: 15301
             "_id": "LhtCl04lbyveeudi"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472587276@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "LtVs8LoGitnvrVRe"
+        },
+        {
             "nome": "Arnulfo",
             "email": "israel.fritsch@yahoo.com",
             "password": "v7f83ad851",
@@ -3052,6 +4018,13 @@ Content-Length: 15301
             "password": "123456",
             "administrador": "true",
             "_id": "OJmVcP1ZqEHXaE71"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472170490@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "OWsImsGrboOkfqGL"
         },
         {
             "nome": "Usuário Válido",
@@ -3090,10 +4063,45 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472157241@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UWp69M0yH697TO6y"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471418413@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UYWf8ZSlwhUTu1Nk"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472423150@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UbcK8dvSHkzAy6Zq"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776468347595@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "Vdlq6a2aIFEsnRge"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472412264@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "VrHkJV7R9Lc2FScE"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472417007@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "X3WeIBuVqi2uGwfi"
         },
         {
             "nome": "Usuário Válido",
@@ -3111,10 +4119,31 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776471422393@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Z59ujzAueClXf6SJ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472580035@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Z8b1zxFSD8lLdApe"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776468443888@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "Zgn9W3t7w6JyylFm"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472159755@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "anV109luOD4UZT9M"
         },
         {
             "nome": "Usuário Válido",
@@ -3136,6 +4165,13 @@ Content-Length: 15301
             "password": "123456",
             "administrador": "true",
             "_id": "dBSyy8tRWlbOqhdX"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472424025@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "dDV0ZLUXWiIxh21Y"
         },
         {
             "nome": "Earl Garcia",
@@ -3173,6 +4209,20 @@ Content-Length: 15301
             "_id": "gOmYDyB118Umjit8"
         },
         {
+            "nome": "Edson QA",
+            "email": "teste1776472418003@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "hnHTPHONcyiiEeKK"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472169027@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "i4FuxOfNsyxgZfQT"
+        },
+        {
             "nome": "Usuário Válido",
             "email": "teste1776470195323@qa.com",
             "password": "123456",
@@ -3192,6 +4242,13 @@ Content-Length: 15301
             "password": "123456",
             "administrador": "true",
             "_id": "jWhzhAQmaHAtjSyS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472416201@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "jnqgxYraOYs4acwK"
         },
         {
             "nome": "Usuário Válido",
@@ -3250,6 +4307,13 @@ Content-Length: 15301
             "_id": "pDOIU1Eaqz35OktU"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472168104@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "pR5cVnzkRlfP5fhT"
+        },
+        {
             "administrador": "true",
             "email": "carl.simonis@gmail.com",
             "nome": "Mrs. Donovan Robel",
@@ -3272,6 +4336,41 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472414151@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "rg0JIdoCxKv6NNiv"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776472164143@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "t1KkUKnloos6Bm9B"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471263253@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "thVX9JFQwxbqUC8H"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471262418@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "uA1fxYPbaNUlmVRN"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471422160@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "uITR5KWwNa8yRMKb"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469098841@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -3286,6 +4385,20 @@ Content-Length: 15301
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472422194@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "vRV0sdTSj1Y0H6Ud"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471264663@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "xzARo8Vh168XAAPo"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469039977@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -3297,6 +4410,13 @@ Content-Length: 15301
             "nome": "full_name",
             "password": "password",
             "_id": "yRAhUTVhUshpQogo"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776472585760@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ygoIzkS22M7wch7C"
         },
         {
             "nome": "Usuário Válido",
@@ -3329,7 +4449,7 @@ Content-Length: 15301
     ]
 }
 Request method:	DELETE
-Request URI:	https://serverest.dev/usuarios/J0NWXYemK5cq8mZR
+Request URI:	https://serverest.dev/usuarios/LtVs8LoGitnvrVRe
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -3341,7 +4461,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 Request method:	DELETE
-Request URI:	https://serverest.dev/usuarios/J0NWXYemK5cq8mZR
+Request URI:	https://serverest.dev/usuarios/LtVs8LoGitnvrVRe
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -3353,7 +4473,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 Request method:	DELETE
-Request URI:	https://serverest.dev/usuarios/J0NWXYemK5cq8mZR
+Request URI:	https://serverest.dev/usuarios/LtVs8LoGitnvrVRe
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -3365,7 +4485,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 Request method:	DELETE
-Request URI:	https://serverest.dev/usuarios/J0NWXYemK5cq8mZR
+Request URI:	https://serverest.dev/usuarios/LtVs8LoGitnvrVRe
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -3377,7 +4497,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 Request method:	DELETE
-Request URI:	https://serverest.dev/usuarios/J0NWXYemK5cq8mZR
+Request URI:	https://serverest.dev/usuarios/LtVs8LoGitnvrVRe
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -3397,8 +4517,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: de3c7542dc8daa92e12832ca2ea1fa2e
-date: Sat, 18 Apr 2026 00:14:22 GMT
+x-cloud-trace-context: e71ae48efce0f239d4816222ede5edb4
+date: Sat, 18 Apr 2026 00:36:28 GMT
 server: Google Frontend
 Content-Length: 51
 
@@ -3414,8 +4534,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: de3c7542dc8daa92e12832ca2ea1fa2e
-date: Sat, 18 Apr 2026 00:14:22 GMT
+x-cloud-trace-context: e71ae48efce0f239d4816222ede5edb4
+date: Sat, 18 Apr 2026 00:36:28 GMT
 server: Google Frontend
 Content-Length: 51
 
@@ -3431,8 +4551,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: de3c7542dc8daa92e12832ca2ea1fa2e
-date: Sat, 18 Apr 2026 00:14:22 GMT
+x-cloud-trace-context: e71ae48efce0f239d4816222ede5edb4
+date: Sat, 18 Apr 2026 00:36:28 GMT
 server: Google Frontend
 Content-Length: 51
 
@@ -3448,8 +4568,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: de3c7542dc8daa92e12832ca2ea1fa2e
-date: Sat, 18 Apr 2026 00:14:22 GMT
+x-cloud-trace-context: e71ae48efce0f239d4816222ede5edb4
+date: Sat, 18 Apr 2026 00:36:28 GMT
 server: Google Frontend
 Content-Length: 51
 
@@ -3465,8 +4585,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: de3c7542dc8daa92e12832ca2ea1fa2e
-date: Sat, 18 Apr 2026 00:14:22 GMT
+x-cloud-trace-context: e71ae48efce0f239d4816222ede5edb4
+date: Sat, 18 Apr 2026 00:36:28 GMT
 server: Google Frontend
 Content-Length: 51
 
@@ -3542,14 +4662,28 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 41b30c057ab438e534da689dc518f3cf
-date: Sat, 18 Apr 2026 00:14:22 GMT
+x-cloud-trace-context: 6f2e7c940362c7394ea07bfd0bde8248
+date: Sat, 18 Apr 2026 00:36:29 GMT
 server: Google Frontend
-Content-Length: 15081
+Content-Length: 22078
 
 {
-    "quantidade": 69,
+    "quantidade": 101,
     "usuarios": [
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471422780@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "0Q9DwOMlisfKGBg7"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471423040@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "0u4Wck6tPUErpbW7"
+        },
         {
             "nome": "Fulano da Silva",
             "email": "fulano@qa.com",
@@ -3565,11 +4699,32 @@ Content-Length: 15081
             "_id": "101h13DqMFCn3CWZ"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776471419967@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "1BSn7bX7bVfL0DO8"
+        },
+        {
             "nome": "Edson QA",
             "email": "teste1776469040780@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "2MuVAFTwWV7wWH6L"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472163355@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "3U47SJeD5yOAb7Kj"
+        },
+        {
+            "nome": "Lucas",
+            "email": "lucas@email.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "3i7Pb33T7zMi0RZD"
         },
         {
             "nome": "Edson QA",
@@ -3608,6 +4763,13 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472584854@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "89mr5NundJMFpXmB"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469810880@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -3642,6 +4804,13 @@ Content-Length: 15081
             "_id": "BijsZgML3rj4yeI5"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472584072@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "CoTqwyWQejo6lcu6"
+        },
+        {
             "nome": "Edson QA",
             "email": "teste1776469816432@qa.com",
             "password": "123456",
@@ -3670,6 +4839,13 @@ Content-Length: 15081
             "_id": "ExlvzNCP1jKYrMCU"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472582005@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "FeworkQ571CXIRJX"
+        },
+        {
             "administrador": "true",
             "email": "levi.runte@hotmail.com",
             "nome": "Kassie Crist",
@@ -3692,17 +4868,17 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776471423325@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GYmThuHDplHKsv7A"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469069100@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "GdNpTymVbaTBurDz"
-        },
-        {
-            "nome": "Fulano da Silva",
-            "email": "rateste@qa.com.br",
-            "password": "teste",
-            "administrador": "true",
-            "_id": "HcuEkUe1bArMoFB3"
         },
         {
             "nome": "Usuário Válido",
@@ -3726,11 +4902,25 @@ Content-Length: 15081
             "_id": "IulwHYKsJVawr8kr"
         },
         {
+            "nome": "Edson QA",
+            "email": "teste1776471422644@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IupIcuJ2fM3SD9YL"
+        },
+        {
             "nome": "Usuário Válido",
             "email": "teste1776468441277@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "J98BoKgPtJYbEr6V"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472161989@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "JwsFjwypMZbFMZno"
         },
         {
             "nome": "Usuário Válido",
@@ -3759,6 +4949,13 @@ Content-Length: 15081
             "password": "123456",
             "administrador": "true",
             "_id": "OJmVcP1ZqEHXaE71"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472170490@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "OWsImsGrboOkfqGL"
         },
         {
             "nome": "Usuário Válido",
@@ -3797,10 +4994,45 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472157241@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UWp69M0yH697TO6y"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471418413@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UYWf8ZSlwhUTu1Nk"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472423150@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UbcK8dvSHkzAy6Zq"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776468347595@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "Vdlq6a2aIFEsnRge"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472412264@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "VrHkJV7R9Lc2FScE"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472417007@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "X3WeIBuVqi2uGwfi"
         },
         {
             "nome": "Usuário Válido",
@@ -3818,10 +5050,31 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776471422393@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Z59ujzAueClXf6SJ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472580035@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Z8b1zxFSD8lLdApe"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776468443888@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "Zgn9W3t7w6JyylFm"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472159755@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "anV109luOD4UZT9M"
         },
         {
             "nome": "Usuário Válido",
@@ -3843,6 +5096,13 @@ Content-Length: 15081
             "password": "123456",
             "administrador": "true",
             "_id": "dBSyy8tRWlbOqhdX"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472424025@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "dDV0ZLUXWiIxh21Y"
         },
         {
             "nome": "Earl Garcia",
@@ -3880,6 +5140,20 @@ Content-Length: 15081
             "_id": "gOmYDyB118Umjit8"
         },
         {
+            "nome": "Edson QA",
+            "email": "teste1776472418003@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "hnHTPHONcyiiEeKK"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472169027@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "i4FuxOfNsyxgZfQT"
+        },
+        {
             "nome": "Usuário Válido",
             "email": "teste1776470195323@qa.com",
             "password": "123456",
@@ -3899,6 +5173,13 @@ Content-Length: 15081
             "password": "123456",
             "administrador": "true",
             "_id": "jWhzhAQmaHAtjSyS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472416201@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "jnqgxYraOYs4acwK"
         },
         {
             "nome": "Usuário Válido",
@@ -3957,6 +5238,13 @@ Content-Length: 15081
             "_id": "pDOIU1Eaqz35OktU"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472168104@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "pR5cVnzkRlfP5fhT"
+        },
+        {
             "administrador": "true",
             "email": "carl.simonis@gmail.com",
             "nome": "Mrs. Donovan Robel",
@@ -3979,6 +5267,41 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472414151@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "rg0JIdoCxKv6NNiv"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776472164143@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "t1KkUKnloos6Bm9B"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471263253@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "thVX9JFQwxbqUC8H"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471262418@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "uA1fxYPbaNUlmVRN"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471422160@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "uITR5KWwNa8yRMKb"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469098841@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -3993,6 +5316,20 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472422194@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "vRV0sdTSj1Y0H6Ud"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471264663@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "xzARo8Vh168XAAPo"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469039977@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -4004,6 +5341,13 @@ Content-Length: 15081
             "nome": "full_name",
             "password": "password",
             "_id": "yRAhUTVhUshpQogo"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776472585760@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ygoIzkS22M7wch7C"
         },
         {
             "nome": "Usuário Válido",
@@ -4044,14 +5388,28 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 41b30c057ab438e534da689dc518f3cf
-date: Sat, 18 Apr 2026 00:14:22 GMT
+x-cloud-trace-context: 6f2e7c940362c7394ea07bfd0bde8248
+date: Sat, 18 Apr 2026 00:36:29 GMT
 server: Google Frontend
-Content-Length: 15081
+Content-Length: 22078
 
 {
-    "quantidade": 69,
+    "quantidade": 101,
     "usuarios": [
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471422780@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "0Q9DwOMlisfKGBg7"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471423040@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "0u4Wck6tPUErpbW7"
+        },
         {
             "nome": "Fulano da Silva",
             "email": "fulano@qa.com",
@@ -4067,11 +5425,32 @@ Content-Length: 15081
             "_id": "101h13DqMFCn3CWZ"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776471419967@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "1BSn7bX7bVfL0DO8"
+        },
+        {
             "nome": "Edson QA",
             "email": "teste1776469040780@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "2MuVAFTwWV7wWH6L"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472163355@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "3U47SJeD5yOAb7Kj"
+        },
+        {
+            "nome": "Lucas",
+            "email": "lucas@email.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "3i7Pb33T7zMi0RZD"
         },
         {
             "nome": "Edson QA",
@@ -4110,6 +5489,13 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472584854@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "89mr5NundJMFpXmB"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469810880@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -4144,6 +5530,13 @@ Content-Length: 15081
             "_id": "BijsZgML3rj4yeI5"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472584072@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "CoTqwyWQejo6lcu6"
+        },
+        {
             "nome": "Edson QA",
             "email": "teste1776469816432@qa.com",
             "password": "123456",
@@ -4172,6 +5565,13 @@ Content-Length: 15081
             "_id": "ExlvzNCP1jKYrMCU"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472582005@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "FeworkQ571CXIRJX"
+        },
+        {
             "administrador": "true",
             "email": "levi.runte@hotmail.com",
             "nome": "Kassie Crist",
@@ -4194,17 +5594,17 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776471423325@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GYmThuHDplHKsv7A"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469069100@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "GdNpTymVbaTBurDz"
-        },
-        {
-            "nome": "Fulano da Silva",
-            "email": "rateste@qa.com.br",
-            "password": "teste",
-            "administrador": "true",
-            "_id": "HcuEkUe1bArMoFB3"
         },
         {
             "nome": "Usuário Válido",
@@ -4228,11 +5628,25 @@ Content-Length: 15081
             "_id": "IulwHYKsJVawr8kr"
         },
         {
+            "nome": "Edson QA",
+            "email": "teste1776471422644@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IupIcuJ2fM3SD9YL"
+        },
+        {
             "nome": "Usuário Válido",
             "email": "teste1776468441277@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "J98BoKgPtJYbEr6V"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472161989@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "JwsFjwypMZbFMZno"
         },
         {
             "nome": "Usuário Válido",
@@ -4261,6 +5675,13 @@ Content-Length: 15081
             "password": "123456",
             "administrador": "true",
             "_id": "OJmVcP1ZqEHXaE71"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472170490@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "OWsImsGrboOkfqGL"
         },
         {
             "nome": "Usuário Válido",
@@ -4299,10 +5720,45 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472157241@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UWp69M0yH697TO6y"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471418413@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UYWf8ZSlwhUTu1Nk"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472423150@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UbcK8dvSHkzAy6Zq"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776468347595@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "Vdlq6a2aIFEsnRge"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472412264@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "VrHkJV7R9Lc2FScE"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472417007@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "X3WeIBuVqi2uGwfi"
         },
         {
             "nome": "Usuário Válido",
@@ -4320,10 +5776,31 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776471422393@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Z59ujzAueClXf6SJ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472580035@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Z8b1zxFSD8lLdApe"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776468443888@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "Zgn9W3t7w6JyylFm"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472159755@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "anV109luOD4UZT9M"
         },
         {
             "nome": "Usuário Válido",
@@ -4345,6 +5822,13 @@ Content-Length: 15081
             "password": "123456",
             "administrador": "true",
             "_id": "dBSyy8tRWlbOqhdX"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472424025@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "dDV0ZLUXWiIxh21Y"
         },
         {
             "nome": "Earl Garcia",
@@ -4382,6 +5866,20 @@ Content-Length: 15081
             "_id": "gOmYDyB118Umjit8"
         },
         {
+            "nome": "Edson QA",
+            "email": "teste1776472418003@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "hnHTPHONcyiiEeKK"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472169027@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "i4FuxOfNsyxgZfQT"
+        },
+        {
             "nome": "Usuário Válido",
             "email": "teste1776470195323@qa.com",
             "password": "123456",
@@ -4401,6 +5899,13 @@ Content-Length: 15081
             "password": "123456",
             "administrador": "true",
             "_id": "jWhzhAQmaHAtjSyS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472416201@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "jnqgxYraOYs4acwK"
         },
         {
             "nome": "Usuário Válido",
@@ -4459,6 +5964,13 @@ Content-Length: 15081
             "_id": "pDOIU1Eaqz35OktU"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472168104@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "pR5cVnzkRlfP5fhT"
+        },
+        {
             "administrador": "true",
             "email": "carl.simonis@gmail.com",
             "nome": "Mrs. Donovan Robel",
@@ -4481,6 +5993,41 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472414151@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "rg0JIdoCxKv6NNiv"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776472164143@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "t1KkUKnloos6Bm9B"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471263253@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "thVX9JFQwxbqUC8H"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471262418@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "uA1fxYPbaNUlmVRN"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471422160@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "uITR5KWwNa8yRMKb"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469098841@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -4495,6 +6042,20 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472422194@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "vRV0sdTSj1Y0H6Ud"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471264663@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "xzARo8Vh168XAAPo"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469039977@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -4506,6 +6067,13 @@ Content-Length: 15081
             "nome": "full_name",
             "password": "password",
             "_id": "yRAhUTVhUshpQogo"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776472585760@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ygoIzkS22M7wch7C"
         },
         {
             "nome": "Usuário Válido",
@@ -4546,14 +6114,28 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 41b30c057ab438e534da689dc518f3cf
-date: Sat, 18 Apr 2026 00:14:22 GMT
+x-cloud-trace-context: 6f2e7c940362c7394ea07bfd0bde8248
+date: Sat, 18 Apr 2026 00:36:29 GMT
 server: Google Frontend
-Content-Length: 15081
+Content-Length: 22078
 
 {
-    "quantidade": 69,
+    "quantidade": 101,
     "usuarios": [
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471422780@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "0Q9DwOMlisfKGBg7"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471423040@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "0u4Wck6tPUErpbW7"
+        },
         {
             "nome": "Fulano da Silva",
             "email": "fulano@qa.com",
@@ -4569,11 +6151,32 @@ Content-Length: 15081
             "_id": "101h13DqMFCn3CWZ"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776471419967@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "1BSn7bX7bVfL0DO8"
+        },
+        {
             "nome": "Edson QA",
             "email": "teste1776469040780@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "2MuVAFTwWV7wWH6L"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472163355@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "3U47SJeD5yOAb7Kj"
+        },
+        {
+            "nome": "Lucas",
+            "email": "lucas@email.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "3i7Pb33T7zMi0RZD"
         },
         {
             "nome": "Edson QA",
@@ -4612,6 +6215,13 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472584854@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "89mr5NundJMFpXmB"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469810880@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -4646,6 +6256,13 @@ Content-Length: 15081
             "_id": "BijsZgML3rj4yeI5"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472584072@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "CoTqwyWQejo6lcu6"
+        },
+        {
             "nome": "Edson QA",
             "email": "teste1776469816432@qa.com",
             "password": "123456",
@@ -4674,6 +6291,13 @@ Content-Length: 15081
             "_id": "ExlvzNCP1jKYrMCU"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472582005@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "FeworkQ571CXIRJX"
+        },
+        {
             "administrador": "true",
             "email": "levi.runte@hotmail.com",
             "nome": "Kassie Crist",
@@ -4696,17 +6320,17 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776471423325@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GYmThuHDplHKsv7A"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469069100@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "GdNpTymVbaTBurDz"
-        },
-        {
-            "nome": "Fulano da Silva",
-            "email": "rateste@qa.com.br",
-            "password": "teste",
-            "administrador": "true",
-            "_id": "HcuEkUe1bArMoFB3"
         },
         {
             "nome": "Usuário Válido",
@@ -4730,11 +6354,25 @@ Content-Length: 15081
             "_id": "IulwHYKsJVawr8kr"
         },
         {
+            "nome": "Edson QA",
+            "email": "teste1776471422644@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IupIcuJ2fM3SD9YL"
+        },
+        {
             "nome": "Usuário Válido",
             "email": "teste1776468441277@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "J98BoKgPtJYbEr6V"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472161989@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "JwsFjwypMZbFMZno"
         },
         {
             "nome": "Usuário Válido",
@@ -4763,6 +6401,13 @@ Content-Length: 15081
             "password": "123456",
             "administrador": "true",
             "_id": "OJmVcP1ZqEHXaE71"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472170490@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "OWsImsGrboOkfqGL"
         },
         {
             "nome": "Usuário Válido",
@@ -4801,10 +6446,45 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472157241@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UWp69M0yH697TO6y"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471418413@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UYWf8ZSlwhUTu1Nk"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472423150@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UbcK8dvSHkzAy6Zq"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776468347595@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "Vdlq6a2aIFEsnRge"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472412264@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "VrHkJV7R9Lc2FScE"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472417007@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "X3WeIBuVqi2uGwfi"
         },
         {
             "nome": "Usuário Válido",
@@ -4822,10 +6502,31 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776471422393@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Z59ujzAueClXf6SJ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472580035@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Z8b1zxFSD8lLdApe"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776468443888@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "Zgn9W3t7w6JyylFm"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472159755@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "anV109luOD4UZT9M"
         },
         {
             "nome": "Usuário Válido",
@@ -4847,6 +6548,13 @@ Content-Length: 15081
             "password": "123456",
             "administrador": "true",
             "_id": "dBSyy8tRWlbOqhdX"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472424025@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "dDV0ZLUXWiIxh21Y"
         },
         {
             "nome": "Earl Garcia",
@@ -4884,6 +6592,20 @@ Content-Length: 15081
             "_id": "gOmYDyB118Umjit8"
         },
         {
+            "nome": "Edson QA",
+            "email": "teste1776472418003@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "hnHTPHONcyiiEeKK"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472169027@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "i4FuxOfNsyxgZfQT"
+        },
+        {
             "nome": "Usuário Válido",
             "email": "teste1776470195323@qa.com",
             "password": "123456",
@@ -4903,6 +6625,13 @@ Content-Length: 15081
             "password": "123456",
             "administrador": "true",
             "_id": "jWhzhAQmaHAtjSyS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472416201@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "jnqgxYraOYs4acwK"
         },
         {
             "nome": "Usuário Válido",
@@ -4961,6 +6690,13 @@ Content-Length: 15081
             "_id": "pDOIU1Eaqz35OktU"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472168104@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "pR5cVnzkRlfP5fhT"
+        },
+        {
             "administrador": "true",
             "email": "carl.simonis@gmail.com",
             "nome": "Mrs. Donovan Robel",
@@ -4983,6 +6719,41 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472414151@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "rg0JIdoCxKv6NNiv"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776472164143@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "t1KkUKnloos6Bm9B"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471263253@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "thVX9JFQwxbqUC8H"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471262418@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "uA1fxYPbaNUlmVRN"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471422160@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "uITR5KWwNa8yRMKb"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469098841@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -4997,6 +6768,20 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472422194@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "vRV0sdTSj1Y0H6Ud"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471264663@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "xzARo8Vh168XAAPo"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469039977@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -5008,6 +6793,13 @@ Content-Length: 15081
             "nome": "full_name",
             "password": "password",
             "_id": "yRAhUTVhUshpQogo"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776472585760@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ygoIzkS22M7wch7C"
         },
         {
             "nome": "Usuário Válido",
@@ -5048,14 +6840,28 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 41b30c057ab438e534da689dc518f3cf
-date: Sat, 18 Apr 2026 00:14:22 GMT
+x-cloud-trace-context: 6f2e7c940362c7394ea07bfd0bde8248
+date: Sat, 18 Apr 2026 00:36:29 GMT
 server: Google Frontend
-Content-Length: 15081
+Content-Length: 22078
 
 {
-    "quantidade": 69,
+    "quantidade": 101,
     "usuarios": [
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471422780@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "0Q9DwOMlisfKGBg7"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471423040@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "0u4Wck6tPUErpbW7"
+        },
         {
             "nome": "Fulano da Silva",
             "email": "fulano@qa.com",
@@ -5071,11 +6877,32 @@ Content-Length: 15081
             "_id": "101h13DqMFCn3CWZ"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776471419967@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "1BSn7bX7bVfL0DO8"
+        },
+        {
             "nome": "Edson QA",
             "email": "teste1776469040780@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "2MuVAFTwWV7wWH6L"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472163355@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "3U47SJeD5yOAb7Kj"
+        },
+        {
+            "nome": "Lucas",
+            "email": "lucas@email.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "3i7Pb33T7zMi0RZD"
         },
         {
             "nome": "Edson QA",
@@ -5114,6 +6941,13 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472584854@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "89mr5NundJMFpXmB"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469810880@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -5148,6 +6982,13 @@ Content-Length: 15081
             "_id": "BijsZgML3rj4yeI5"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472584072@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "CoTqwyWQejo6lcu6"
+        },
+        {
             "nome": "Edson QA",
             "email": "teste1776469816432@qa.com",
             "password": "123456",
@@ -5176,6 +7017,13 @@ Content-Length: 15081
             "_id": "ExlvzNCP1jKYrMCU"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472582005@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "FeworkQ571CXIRJX"
+        },
+        {
             "administrador": "true",
             "email": "levi.runte@hotmail.com",
             "nome": "Kassie Crist",
@@ -5198,17 +7046,17 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776471423325@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GYmThuHDplHKsv7A"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469069100@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "GdNpTymVbaTBurDz"
-        },
-        {
-            "nome": "Fulano da Silva",
-            "email": "rateste@qa.com.br",
-            "password": "teste",
-            "administrador": "true",
-            "_id": "HcuEkUe1bArMoFB3"
         },
         {
             "nome": "Usuário Válido",
@@ -5232,11 +7080,25 @@ Content-Length: 15081
             "_id": "IulwHYKsJVawr8kr"
         },
         {
+            "nome": "Edson QA",
+            "email": "teste1776471422644@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IupIcuJ2fM3SD9YL"
+        },
+        {
             "nome": "Usuário Válido",
             "email": "teste1776468441277@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "J98BoKgPtJYbEr6V"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472161989@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "JwsFjwypMZbFMZno"
         },
         {
             "nome": "Usuário Válido",
@@ -5265,6 +7127,13 @@ Content-Length: 15081
             "password": "123456",
             "administrador": "true",
             "_id": "OJmVcP1ZqEHXaE71"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472170490@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "OWsImsGrboOkfqGL"
         },
         {
             "nome": "Usuário Válido",
@@ -5303,10 +7172,45 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472157241@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UWp69M0yH697TO6y"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471418413@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UYWf8ZSlwhUTu1Nk"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472423150@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UbcK8dvSHkzAy6Zq"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776468347595@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "Vdlq6a2aIFEsnRge"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472412264@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "VrHkJV7R9Lc2FScE"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472417007@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "X3WeIBuVqi2uGwfi"
         },
         {
             "nome": "Usuário Válido",
@@ -5324,10 +7228,31 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776471422393@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Z59ujzAueClXf6SJ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472580035@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Z8b1zxFSD8lLdApe"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776468443888@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "Zgn9W3t7w6JyylFm"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472159755@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "anV109luOD4UZT9M"
         },
         {
             "nome": "Usuário Válido",
@@ -5349,6 +7274,13 @@ Content-Length: 15081
             "password": "123456",
             "administrador": "true",
             "_id": "dBSyy8tRWlbOqhdX"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472424025@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "dDV0ZLUXWiIxh21Y"
         },
         {
             "nome": "Earl Garcia",
@@ -5386,6 +7318,20 @@ Content-Length: 15081
             "_id": "gOmYDyB118Umjit8"
         },
         {
+            "nome": "Edson QA",
+            "email": "teste1776472418003@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "hnHTPHONcyiiEeKK"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472169027@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "i4FuxOfNsyxgZfQT"
+        },
+        {
             "nome": "Usuário Válido",
             "email": "teste1776470195323@qa.com",
             "password": "123456",
@@ -5405,6 +7351,13 @@ Content-Length: 15081
             "password": "123456",
             "administrador": "true",
             "_id": "jWhzhAQmaHAtjSyS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472416201@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "jnqgxYraOYs4acwK"
         },
         {
             "nome": "Usuário Válido",
@@ -5463,6 +7416,13 @@ Content-Length: 15081
             "_id": "pDOIU1Eaqz35OktU"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472168104@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "pR5cVnzkRlfP5fhT"
+        },
+        {
             "administrador": "true",
             "email": "carl.simonis@gmail.com",
             "nome": "Mrs. Donovan Robel",
@@ -5485,6 +7445,41 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472414151@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "rg0JIdoCxKv6NNiv"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776472164143@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "t1KkUKnloos6Bm9B"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471263253@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "thVX9JFQwxbqUC8H"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471262418@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "uA1fxYPbaNUlmVRN"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471422160@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "uITR5KWwNa8yRMKb"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469098841@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -5499,6 +7494,20 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472422194@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "vRV0sdTSj1Y0H6Ud"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471264663@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "xzARo8Vh168XAAPo"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469039977@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -5510,6 +7519,13 @@ Content-Length: 15081
             "nome": "full_name",
             "password": "password",
             "_id": "yRAhUTVhUshpQogo"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776472585760@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ygoIzkS22M7wch7C"
         },
         {
             "nome": "Usuário Válido",
@@ -5550,14 +7566,28 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 41b30c057ab438e534da689dc518f3cf
-date: Sat, 18 Apr 2026 00:14:22 GMT
+x-cloud-trace-context: 6f2e7c940362c7394ea07bfd0bde8248
+date: Sat, 18 Apr 2026 00:36:29 GMT
 server: Google Frontend
-Content-Length: 15081
+Content-Length: 22078
 
 {
-    "quantidade": 69,
+    "quantidade": 101,
     "usuarios": [
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471422780@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "0Q9DwOMlisfKGBg7"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471423040@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "0u4Wck6tPUErpbW7"
+        },
         {
             "nome": "Fulano da Silva",
             "email": "fulano@qa.com",
@@ -5573,11 +7603,32 @@ Content-Length: 15081
             "_id": "101h13DqMFCn3CWZ"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776471419967@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "1BSn7bX7bVfL0DO8"
+        },
+        {
             "nome": "Edson QA",
             "email": "teste1776469040780@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "2MuVAFTwWV7wWH6L"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472163355@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "3U47SJeD5yOAb7Kj"
+        },
+        {
+            "nome": "Lucas",
+            "email": "lucas@email.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "3i7Pb33T7zMi0RZD"
         },
         {
             "nome": "Edson QA",
@@ -5616,6 +7667,13 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472584854@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "89mr5NundJMFpXmB"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469810880@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -5650,6 +7708,13 @@ Content-Length: 15081
             "_id": "BijsZgML3rj4yeI5"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472584072@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "CoTqwyWQejo6lcu6"
+        },
+        {
             "nome": "Edson QA",
             "email": "teste1776469816432@qa.com",
             "password": "123456",
@@ -5678,6 +7743,13 @@ Content-Length: 15081
             "_id": "ExlvzNCP1jKYrMCU"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472582005@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "FeworkQ571CXIRJX"
+        },
+        {
             "administrador": "true",
             "email": "levi.runte@hotmail.com",
             "nome": "Kassie Crist",
@@ -5700,17 +7772,17 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776471423325@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GYmThuHDplHKsv7A"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469069100@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "GdNpTymVbaTBurDz"
-        },
-        {
-            "nome": "Fulano da Silva",
-            "email": "rateste@qa.com.br",
-            "password": "teste",
-            "administrador": "true",
-            "_id": "HcuEkUe1bArMoFB3"
         },
         {
             "nome": "Usuário Válido",
@@ -5734,11 +7806,25 @@ Content-Length: 15081
             "_id": "IulwHYKsJVawr8kr"
         },
         {
+            "nome": "Edson QA",
+            "email": "teste1776471422644@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IupIcuJ2fM3SD9YL"
+        },
+        {
             "nome": "Usuário Válido",
             "email": "teste1776468441277@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "J98BoKgPtJYbEr6V"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472161989@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "JwsFjwypMZbFMZno"
         },
         {
             "nome": "Usuário Válido",
@@ -5767,6 +7853,13 @@ Content-Length: 15081
             "password": "123456",
             "administrador": "true",
             "_id": "OJmVcP1ZqEHXaE71"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472170490@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "OWsImsGrboOkfqGL"
         },
         {
             "nome": "Usuário Válido",
@@ -5805,10 +7898,45 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472157241@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UWp69M0yH697TO6y"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471418413@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UYWf8ZSlwhUTu1Nk"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472423150@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UbcK8dvSHkzAy6Zq"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776468347595@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "Vdlq6a2aIFEsnRge"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472412264@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "VrHkJV7R9Lc2FScE"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472417007@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "X3WeIBuVqi2uGwfi"
         },
         {
             "nome": "Usuário Válido",
@@ -5826,10 +7954,31 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776471422393@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Z59ujzAueClXf6SJ"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472580035@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Z8b1zxFSD8lLdApe"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776468443888@qa.com",
             "password": "123456",
             "administrador": "true",
             "_id": "Zgn9W3t7w6JyylFm"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472159755@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "anV109luOD4UZT9M"
         },
         {
             "nome": "Usuário Válido",
@@ -5851,6 +8000,13 @@ Content-Length: 15081
             "password": "123456",
             "administrador": "true",
             "_id": "dBSyy8tRWlbOqhdX"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472424025@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "dDV0ZLUXWiIxh21Y"
         },
         {
             "nome": "Earl Garcia",
@@ -5888,6 +8044,20 @@ Content-Length: 15081
             "_id": "gOmYDyB118Umjit8"
         },
         {
+            "nome": "Edson QA",
+            "email": "teste1776472418003@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "hnHTPHONcyiiEeKK"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472169027@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "i4FuxOfNsyxgZfQT"
+        },
+        {
             "nome": "Usuário Válido",
             "email": "teste1776470195323@qa.com",
             "password": "123456",
@@ -5907,6 +8077,13 @@ Content-Length: 15081
             "password": "123456",
             "administrador": "true",
             "_id": "jWhzhAQmaHAtjSyS"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776472416201@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "jnqgxYraOYs4acwK"
         },
         {
             "nome": "Usuário Válido",
@@ -5965,6 +8142,13 @@ Content-Length: 15081
             "_id": "pDOIU1Eaqz35OktU"
         },
         {
+            "nome": "Usuário Válido",
+            "email": "teste1776472168104@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "pR5cVnzkRlfP5fhT"
+        },
+        {
             "administrador": "true",
             "email": "carl.simonis@gmail.com",
             "nome": "Mrs. Donovan Robel",
@@ -5987,6 +8171,41 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472414151@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "rg0JIdoCxKv6NNiv"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776472164143@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "t1KkUKnloos6Bm9B"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471263253@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "thVX9JFQwxbqUC8H"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471262418@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "uA1fxYPbaNUlmVRN"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471422160@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "uITR5KWwNa8yRMKb"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469098841@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -6001,6 +8220,20 @@ Content-Length: 15081
         },
         {
             "nome": "Usuário Válido",
+            "email": "teste1776472422194@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "vRV0sdTSj1Y0H6Ud"
+        },
+        {
+            "nome": "Usuário Válido",
+            "email": "teste1776471264663@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "xzARo8Vh168XAAPo"
+        },
+        {
+            "nome": "Usuário Válido",
             "email": "teste1776469039977@qa.com",
             "password": "123456",
             "administrador": "true",
@@ -6012,6 +8245,13 @@ Content-Length: 15081
             "nome": "full_name",
             "password": "password",
             "_id": "yRAhUTVhUshpQogo"
+        },
+        {
+            "nome": "Edson QA",
+            "email": "teste1776472585760@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ygoIzkS22M7wch7C"
         },
         {
             "nome": "Usuário Válido",

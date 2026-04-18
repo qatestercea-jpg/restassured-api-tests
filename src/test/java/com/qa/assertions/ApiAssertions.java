@@ -1,8 +1,10 @@
 package com.qa.assertions;
 
+import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.lessThan;
 
@@ -33,6 +35,10 @@ public final class ApiAssertions {
 
     public static ValidatableResponse validarTempoRespostaMaxima(Response response, long tempoMillis) {
         return response.then().time(lessThan(tempoMillis));
+    }
+
+    public static ValidatableResponse validarEsquema(Response response, String schemaPath) {
+        return response.then().assertThat().body(matchesJsonSchemaInClasspath(schemaPath));
     }
 
     public static ValidatableResponse validarErroCampo(Response response, String campo, String mensagem) {

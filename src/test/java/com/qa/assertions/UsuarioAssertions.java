@@ -36,6 +36,10 @@ public final class UsuarioAssertions {
         return ApiAssertions.validarStatus200(response);
     }
 
+    public static ValidatableResponse validarEsquemaUsuario(Response response) {
+        return ApiAssertions.validarEsquema(response, "schema/create-user-schema.json");
+    }
+
     public static ValidatableResponse validarUsuarioCriadoComSucesso(Response response) {
         return validarUsuarioCriado(response);
     }

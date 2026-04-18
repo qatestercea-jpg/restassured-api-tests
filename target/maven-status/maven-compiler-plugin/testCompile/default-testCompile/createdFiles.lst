@@ -8,6 +8,7 @@ com\qa\tests\usuario\UsuarioContractTest.class
 com\qa\assertions\ApiAssertions.class
 com\qa\factory\UsuarioFactory.class
 com\qa\tests\usuario\UsuarioListTest.class
+com\qa\utils\RetryUtils.class
 com\qa\dto\Usuario.class
 com\qa\dto\UsuarioLoginRequest.class
 com\qa\dto\UsuarioLoginResponse.class

@@ -1,0 +1,1 @@
+{"uuid":"a50f3d23-7903-4a39-8958-2b4d5d0e5538","name":"Deve serializar UsuarioLoginRequest corretamente para JSON","children":["05dcde93-9b09-4577-9b6d-675914577b30"],"befores":[],"afters":[],"start":1776472579716,"stop":1776472579837}

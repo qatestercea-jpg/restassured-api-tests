@@ -3,6 +3,7 @@ package com.qa.tests.usuario;
 import com.qa.assertions.UsuarioAssertions;
 import com.qa.dto.Usuario;
 import com.qa.factory.UsuarioFactory;
+import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
@@ -13,6 +14,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static org.hamcrest.Matchers.equalTo;
 
 @Epic("API Automation")
@@ -25,6 +27,7 @@ public class UsuarioCreateTest extends UsuarioTestBase {
 
     @Test
     @Story("Cadastro de usuário válido")
+    @Description("Valida criação de usuário e contrato de resposta JSON contra o schema de usuário")
     @DisplayName("Deve criar usuário válido com sucesso")
     public void deveCriarUsuarioComDadosValidos() {
         Usuario usuario = criarUsuarioValido();
@@ -32,7 +35,10 @@ public class UsuarioCreateTest extends UsuarioTestBase {
         Response createResponse = criarUsuarioComSucesso(usuario);
 
         UsuarioAssertions.validarUsuarioCriado(createResponse)
-                .body("message", equalTo("Cadastro realizado com sucesso"));
+                .body("message", equalTo("Cadastro realizado com sucesso"))
+                .body(matchesJsonSchemaInClasspath("schema/create-user-schema.json"));
+
+        UsuarioAssertions.validarEsquemaUsuario(createResponse);
     }
 
     @Test

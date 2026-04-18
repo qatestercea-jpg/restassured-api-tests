@@ -1,0 +1,1 @@
+{"uuid":"402230af-9ba4-448b-ab54-28cb32b36493","name":"Deve garantir que nome, email, password e administrador não são nulos no Usuario válido","children":["73b573ae-c005-4397-b49f-24f1c5da68af"],"befores":[],"afters":[],"start":1776472579909,"stop":1776472579914}

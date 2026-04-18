@@ -6,7 +6,10 @@ import com.qa.dto.Usuario;
 import com.qa.dto.UsuarioLoginRequest;
 import com.qa.dto.UsuarioLoginResponse;
 import com.qa.factory.UsuarioFactory;
+import com.qa.utils.RetryUtils;
 import io.restassured.response.Response;
+import java.util.function.Predicate;
+import java.util.function.Supplier;
 
 public class UsuarioService {
 
@@ -17,11 +20,17 @@ public class UsuarioService {
     }
 
     public Response criarUsuario(Usuario usuario) {
-        return usuarioClient.criarUsuario(usuario);
+        return RetryUtils.executeWithRetry(
+                () -> usuarioClient.criarUsuario(usuario),
+                response -> response == null || response.getStatusCode() >= 500,
+                "criarUsuario");
     }
 
     public UsuarioLoginResponse login(UsuarioLoginRequest loginRequest) {
-        return usuarioClient.login(loginRequest);
+        return RetryUtils.executeWithRetry(
+                () -> usuarioClient.login(loginRequest),
+                response -> false,
+                "login");
     }
 
     public String obterToken(UsuarioLoginRequest loginRequest) {
@@ -29,15 +38,26 @@ public class UsuarioService {
     }
 
     public Response listarUsuarios() {
-        return usuarioClient.listarUsuarios();
+        Response response = RetryUtils.executeWithRetry(
+                () -> usuarioClient.listarUsuarios(),
+                retryResponse -> retryResponse == null || retryResponse.getStatusCode() >= 500,
+                "listarUsuarios");
+        ApiAssertions.validarStatus200(response);
+        return response;
     }
 
     public Response deletarUsuario(String id) {
-        return usuarioClient.deletarUsuario(id);
+        return RetryUtils.executeWithRetry(
+                () -> usuarioClient.deletarUsuario(id),
+                response -> response == null || response.getStatusCode() >= 500,
+                "deletarUsuario");
     }
 
     public Response deletarUsuarioComToken(String id, String token) {
-        return usuarioClient.deletarUsuarioComToken(id, token);
+        return RetryUtils.executeWithRetry(
+                () -> usuarioClient.deletarUsuarioComToken(id, token),
+                response -> response == null || response.getStatusCode() >= 500,
+                "deletarUsuarioComToken");
     }
 
     public String criarUsuarioERetornarId(Usuario usuario) {

@@ -3,6 +3,9 @@ package com.qa.base;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.config.LogConfig;
+import io.restassured.config.RestAssuredConfig;
+import io.restassured.filter.log.LogDetail;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
@@ -32,7 +35,14 @@ public class BaseTest {
                 .build();
 
         RestAssured.requestSpecification = REQUEST_SPEC;
-        RestAssured.filters(new AllureRestAssured(), new RequestLoggingFilter(), new ResponseLoggingFilter());
+
+        AllureRestAssured allureFilter = new AllureRestAssured();
+
+        RestAssured.filters(allureFilter,
+                new RequestLoggingFilter(LogDetail.ALL),
+                new ResponseLoggingFilter(LogDetail.ALL));
+        RestAssured.config = RestAssuredConfig.config()
+                .logConfig(LogConfig.logConfig().enableLoggingOfRequestAndResponseIfValidationFails());
         RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
     }
 

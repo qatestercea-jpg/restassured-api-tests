@@ -1,0 +1,140 @@
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Usuário Válido",
+    "email": "teste1776472580035@qa.com",
+    "password": "123456",
+    "administrador": "true"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Usuário Válido",
+    "email": "teste1776472580035@qa.com",
+    "password": "123456",
+    "administrador": "true"
+}
+HTTP/1.1 201 Created
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: fd2a336f01d159fe00b1311d030e0a3d;o=1
+date: Sat, 18 Apr 2026 00:36:21 GMT
+server: Google Frontend
+Content-Length: 82
+
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "Z8b1zxFSD8lLdApe"
+}
+HTTP/1.1 201 Created
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: fd2a336f01d159fe00b1311d030e0a3d;o=1
+date: Sat, 18 Apr 2026 00:36:21 GMT
+server: Google Frontend
+Content-Length: 82
+
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "Z8b1zxFSD8lLdApe"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "teste1776472580035@qa.com",
+    "password": "123456"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "teste1776472580035@qa.com",
+    "password": "123456"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 2d618422f549577cb92e5ac334d3fba3
+date: Sat, 18 Apr 2026 00:36:22 GMT
+server: Google Frontend
+Content-Length: 283
+
+{
+    "message": "Login realizado com sucesso",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RlMTc3NjQ3MjU4MDAzNUBxYS5jb20iLCJwYXNzd29yZCI6IjEyMzQ1NiIsImlhdCI6MTc3NjQ3MjU4MiwiZXhwIjoxNzc2NDczMTgyfQ.5JDNKfnGmoUa6H-H-ybXJH0dfbInr7FoZKqTurdLgrw"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 2d618422f549577cb92e5ac334d3fba3
+date: Sat, 18 Apr 2026 00:36:22 GMT
+server: Google Frontend
+Content-Length: 283
+
+{
+    "message": "Login realizado com sucesso",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RlMTc3NjQ3MjU4MDAzNUBxYS5jb20iLCJwYXNzd29yZCI6IjEyMzQ1NiIsImlhdCI6MTc3NjQ3MjU4MiwiZXhwIjoxNzc2NDczMTgyfQ.5JDNKfnGmoUa6H-H-ybXJH0dfbInr7FoZKqTurdLgrw"
+}
