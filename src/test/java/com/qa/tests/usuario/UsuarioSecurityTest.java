@@ -14,6 +14,7 @@ import org.junit.jupiter.api.Test;
 @Feature("Segurança")
 @Tag("security")
 @Tag("usuario")
+@Tag("regression")
 @DisplayName("Segurança de usuário")
 public class UsuarioSecurityTest extends UsuarioTestBase {
 
@@ -24,10 +25,10 @@ public class UsuarioSecurityTest extends UsuarioTestBase {
         // Observação: o endpoint DELETE /usuarios/{id} devolve 200 mesmo sem
         // credenciais.
         // Isso representa uma possível vulnerabilidade de autorização do serviço.
-        Usuario usuario = criarUsuarioValido();
-        String userId = criarUsuarioERetornarId(usuario);
+        String userId = usuarioService.criarUsuarioValidoERetornarId();
 
-        UsuarioAssertions.validarDelecaoComSucesso(usuarioService.deletarUsuario(userId));
+        Response deleteResponse = usuarioService.deletarUsuarioComValidacao(userId);
+        UsuarioAssertions.validarUsuarioDeletado(deleteResponse);
     }
 
     @Test
@@ -40,6 +41,6 @@ public class UsuarioSecurityTest extends UsuarioTestBase {
         String userId = criarUsuarioERetornarId(usuario);
         String invalidToken = "token-invalido-" + System.currentTimeMillis();
 
-        UsuarioAssertions.validarDelecaoComSucesso(usuarioService.deletarUsuarioComToken(userId, invalidToken));
+        UsuarioAssertions.validarUsuarioDeletado(usuarioService.deletarUsuarioComToken(userId, invalidToken));
     }
 }

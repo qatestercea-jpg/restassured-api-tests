@@ -20,12 +20,13 @@ import static org.hamcrest.Matchers.notNullValue;
 @Epic("API Automation")
 @Feature("Contrato")
 @Tag("contract")
+@Tag("regression")
 @DisplayName("Contrato de API de usuário")
 public class UsuarioContractTest extends UsuarioTestBase {
 
     @Test
     @Story("Validação de contrato da criação de usuário")
-    @DisplayName("Deve validar contrato da resposta de criação de usuário")
+    @DisplayName("Deve validar campos obrigatórios da resposta de criação de usuário")
     public void deveValidarContratoRespostaCriacaoUsuario() {
         Usuario usuario = criarUsuarioValido();
 
@@ -35,6 +36,6 @@ public class UsuarioContractTest extends UsuarioTestBase {
         assertThat(responseDto.getId(), not(isEmptyString()));
         assertThat(responseDto.getMessage(), equalTo("Cadastro realizado com sucesso"));
         response.then().body("_id", notNullValue());
+        response.then().body("message", equalTo("Cadastro realizado com sucesso"));
     }
 }
-

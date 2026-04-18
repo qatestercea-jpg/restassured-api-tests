@@ -19,6 +19,7 @@ import static org.hamcrest.Matchers.equalTo;
 @Feature("Usuário")
 @Tag("usuario")
 @Tag("regression")
+@Tag("smoke")
 @DisplayName("Criação de usuário")
 public class UsuarioCreateTest extends UsuarioTestBase {
 
@@ -30,16 +31,14 @@ public class UsuarioCreateTest extends UsuarioTestBase {
 
         Response createResponse = criarUsuarioComSucesso(usuario);
 
-        UsuarioAssertions.validarUsuarioCriadoComSucesso(createResponse)
+        UsuarioAssertions.validarUsuarioCriado(createResponse)
                 .body("message", equalTo("Cadastro realizado com sucesso"));
     }
 
     @Test
     @DisplayName("Deve retornar erro ao criar usuário sem email")
     public void deveRetornarErroAoCriarUsuarioSemEmail() {
-        Usuario usuario = UsuarioFactory.usuarioSemEmail();
-
-        UsuarioAssertions.validarErroCampo(usuarioService.criarUsuario(usuario), "email", "deve ser uma string");
+        UsuarioAssertions.validarErroCampo(usuarioService.criarUsuarioInvalido(), "email", "deve ser uma string");
     }
 
     @ParameterizedTest
@@ -57,7 +56,7 @@ public class UsuarioCreateTest extends UsuarioTestBase {
         Usuario usuario = criarUsuarioValido();
         criarUsuarioComSucesso(usuario);
 
-        UsuarioAssertions.validarStatus400(usuarioService.criarUsuario(
+        UsuarioAssertions.validarErroDeCriacao(usuarioService.criarUsuario(
                 UsuarioFactory.usuarioComEmailDuplicado(usuario.getEmail())));
     }
 

@@ -1,5 +1,6 @@
 package com.qa.tests.usuario;
 
+import com.qa.assertions.ApiAssertions;
 import com.qa.assertions.UsuarioAssertions;
 import com.qa.dto.Usuario;
 import io.qameta.allure.Epic;
@@ -25,12 +26,30 @@ public class UsuarioDeleteTest extends UsuarioTestBase {
     @DisplayName("Deve excluir usuário criado com sucesso")
     public void deveExcluirUsuarioCriadoComSucesso() {
         Usuario usuario = criarUsuarioValido();
-        String userId = criarUsuarioERetornarId(usuario);
+        String userId = usuarioService.criarUsuarioERetornarId(usuario);
 
         UsuarioAssertions.validarListagemContemEmail(usuarioService.listarUsuarios(), usuario.getEmail());
 
-        UsuarioAssertions.validarDelecaoComSucesso(usuarioService.deletarUsuario(userId));
+        Response deleteResponse = usuarioService.deletarUsuarioComValidacao(userId);
+        UsuarioAssertions.validarUsuarioDeletado(deleteResponse);
 
         UsuarioAssertions.validarListagemNaoContemEmail(usuarioService.listarUsuarios(), usuario.getEmail());
+    }
+
+    @Test
+    @Story("Idempotência de exclusão")
+    @DisplayName("Deletar o mesmo usuário duas vezes deve ser idempotente")
+    public void devePermitirExcluirMesmoUsuarioDuasVezes() {
+        Usuario usuario = criarUsuarioValido();
+        String userId = usuarioService.criarUsuarioERetornarId(usuario);
+
+        UsuarioAssertions.validarUsuarioDeletado(usuarioService.deletarUsuarioComValidacao(userId));
+
+        Response secondDeletion = usuarioService.deletarUsuario(userId);
+        if (secondDeletion.getStatusCode() == 200) {
+            UsuarioAssertions.validarUsuarioDeletado(secondDeletion);
+        } else {
+            ApiAssertions.validarStatus(secondDeletion, 404);
+        }
     }
 }

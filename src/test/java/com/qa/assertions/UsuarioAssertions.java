@@ -15,13 +15,33 @@ public final class UsuarioAssertions {
     private UsuarioAssertions() {
     }
 
-    public static ValidatableResponse validarUsuarioCriadoComSucesso(Response response) {
+    public static ValidatableResponse validarUsuarioCriado(Response response) {
         return ApiAssertions.validarStatus201(response);
     }
 
-    public static ValidatableResponse validarListagemContemEmail(Response response, String email) {
+    public static ValidatableResponse validarListagemUsuarios(Response response) {
+        return ApiAssertions.validarStatus200(response);
+    }
+
+    public static ValidatableResponse validarListagemUsuarios(Response response, String email) {
         return ApiAssertions.validarStatus200(response)
                 .body("usuarios.email", hasItem(email));
+    }
+
+    public static ValidatableResponse validarErroDeCriacao(Response response) {
+        return ApiAssertions.validarStatus400(response);
+    }
+
+    public static ValidatableResponse validarUsuarioDeletado(Response response) {
+        return ApiAssertions.validarStatus200(response);
+    }
+
+    public static ValidatableResponse validarUsuarioCriadoComSucesso(Response response) {
+        return validarUsuarioCriado(response);
+    }
+
+    public static ValidatableResponse validarListagemContemEmail(Response response, String email) {
+        return validarListagemUsuarios(response, email);
     }
 
     public static ValidatableResponse validarListagemNaoContemEmail(Response response, String email) {
@@ -34,7 +54,7 @@ public final class UsuarioAssertions {
     }
 
     public static ValidatableResponse validarDelecaoComSucesso(Response response) {
-        return validarRequisicaoComSucesso(response);
+        return validarUsuarioDeletado(response);
     }
 
     public static ValidatableResponse validarStatus400(Response response) {

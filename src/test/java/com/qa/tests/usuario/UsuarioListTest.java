@@ -17,8 +17,20 @@ import static org.hamcrest.Matchers.hasItem;
 @Feature("Usuário")
 @Tag("usuario")
 @Tag("performance")
+@Tag("regression")
+@Tag("smoke")
 @DisplayName("Listagem de usuários")
 public class UsuarioListTest extends UsuarioTestBase {
+
+    @Test
+    @Story("Consistência de listagem após criação")
+    @DisplayName("Usuário criado deve aparecer na listagem")
+    public void deveExibirUsuarioCriadoNaListagem() {
+        Usuario usuario = criarUsuarioValido();
+        usuarioService.criarUsuarioERetornarId(usuario);
+
+        UsuarioAssertions.validarListagemUsuarios(usuarioService.listarUsuarios(), usuario.getEmail());
+    }
 
     @Test
     @Story("Consulta de usuários cadastrados")
@@ -27,7 +39,7 @@ public class UsuarioListTest extends UsuarioTestBase {
         Usuario usuario = criarUsuarioValido();
         criarUsuarioComSucesso(usuario);
 
-        UsuarioAssertions.validarListagemContemEmail(usuarioService.listarUsuarios(), usuario.getEmail());
+        UsuarioAssertions.validarListagemUsuarios(usuarioService.listarUsuarios(), usuario.getEmail());
     }
 
     @Test
@@ -39,7 +51,7 @@ public class UsuarioListTest extends UsuarioTestBase {
 
         Response response = usuarioService.listarUsuarios();
 
-        UsuarioAssertions.validarRequisicaoComSucesso(response);
+        UsuarioAssertions.validarListagemUsuarios(response);
         ApiAssertions.validarTempoRespostaMaxima(response, 2000L);
     }
 }

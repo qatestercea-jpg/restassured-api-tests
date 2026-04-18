@@ -16,6 +16,8 @@ import org.junit.jupiter.api.Test;
 @Epic("API Automation")
 @Feature("Autenticação")
 @Tag("login")
+@Tag("regression")
+@Tag("smoke")
 @DisplayName("Login de usuário")
 public class LoginTest extends UsuarioTestBase {
 

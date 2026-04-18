@@ -1,9 +1,11 @@
 package com.qa.service;
 
+import com.qa.assertions.ApiAssertions;
 import com.qa.client.UsuarioClient;
 import com.qa.dto.Usuario;
 import com.qa.dto.UsuarioLoginRequest;
 import com.qa.dto.UsuarioLoginResponse;
+import com.qa.factory.UsuarioFactory;
 import io.restassured.response.Response;
 
 public class UsuarioService {
@@ -48,11 +50,7 @@ public class UsuarioService {
         String responseBody = response.getBody().asString();
         System.out.println("DEBUG criarUsuarioERetornarId response body: " + responseBody);
 
-        if (response.getStatusCode() != 201) {
-            throw new IllegalStateException(
-                    "Falha ao criar usuário: status esperado 201, recebido " + response.getStatusCode() + ". Resposta: "
-                            + responseBody);
-        }
+        ApiAssertions.validarStatus201(response);
 
         String id = response.jsonPath().getString("_id");
         if (id == null || id.isBlank()) {
@@ -64,5 +62,26 @@ public class UsuarioService {
         }
 
         return id;
+    }
+
+    public String criarUsuarioValidoERetornarId() {
+        Usuario usuario = UsuarioFactory.usuarioValido();
+        return criarUsuarioERetornarId(usuario);
+    }
+
+    public Response criarUsuarioInvalido() {
+        Usuario usuario = UsuarioFactory.usuarioSemEmail();
+        Response response = criarUsuario(usuario);
+        ApiAssertions.validarStatus400(response);
+        return response;
+    }
+
+    public Response deletarUsuarioComValidacao(String id) {
+        if (id == null || id.isBlank()) {
+            throw new IllegalArgumentException("ID de usuário não pode ser nulo ou vazio");
+        }
+        Response response = deletarUsuario(id);
+        ApiAssertions.validarStatus200(response);
+        return response;
     }
 }

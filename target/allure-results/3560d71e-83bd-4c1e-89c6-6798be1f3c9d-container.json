@@ -1,1 +1,0 @@
-{"uuid":"3560d71e-83bd-4c1e-89c6-6798be1f3c9d","name":"Contrato de API de usuário","children":["d59f5742-58a8-4a25-9aed-7470797abc07"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1776469812850,"stop":1776469812854}],"afters":[],"start":1776469812849,"stop":1776469813677}
